@@ -1,0 +1,84 @@
+======= solidity_examples\TransferEther.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "TxOriginContract",
+		"id" : 75
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : "constructor",
+		"line" : 7,
+		"name" : "None",
+		"id" : 14
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 11,
+		"name" : "send",
+		"id" : 44
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 17,
+		"name" : "transfer",
+		"id" : 74
+	} ],
+	"functionCall" : [ {
+		"caller" : null,
+		"line" : 12,
+		"name" : "send",
+		"id" : 26
+	}, {
+		"caller" : "require",
+		"line" : 13,
+		"name" : "None",
+		"id" : 33
+	}, {
+		"caller" : null,
+		"line" : 14,
+		"name" : "send",
+		"id" : 41
+	}, {
+		"caller" : null,
+		"line" : 18,
+		"name" : "transfer",
+		"id" : 55
+	}, {
+		"caller" : "require",
+		"line" : 19,
+		"name" : "None",
+		"id" : 62
+	}, {
+		"caller" : null,
+		"line" : 20,
+		"name" : "send",
+		"id" : 71
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "owner",
+		"id" : 3,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 5,
+		"name" : "c",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 11,
+		"name" : "amount",
+		"id" : 16,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 17,
+		"name" : "amount",
+		"id" : 46,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

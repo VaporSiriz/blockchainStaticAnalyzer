@@ -1,0 +1,51 @@
+======= solidity_examples\MultipleInheritance.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "ownedContract",
+		"id" : 12
+	}, {
+		"kind" : "contract",
+		"line" : 10,
+		"name" : "BaseNo1",
+		"id" : 23
+	}, {
+		"kind" : "contract",
+		"line" : 16,
+		"name" : "BaseNo2",
+		"id" : 34
+	}, {
+		"kind" : "contract",
+		"line" : 22,
+		"name" : "Final",
+		"id" : 39
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 5,
+		"name" : "get",
+		"id" : 11
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 11,
+		"name" : "set",
+		"id" : 22
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 17,
+		"name" : "set",
+		"id" : 33
+	} ],
+	"functionCall" : [ ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "a",
+		"id" : 3,
+		"isStateVariable" : true,
+		"type" : "None"
+	} ]
+}

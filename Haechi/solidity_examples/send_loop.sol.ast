@@ -1,0 +1,769 @@
+JSON AST (compact format):
+
+
+======= send_loop.sol =======
+{
+	"absolutePath" : "send_loop.sol",
+	"exportedSymbols" : 
+	{
+		"Refunder" : 
+		[
+			54
+		]
+	},
+	"id" : 55,
+	"nodeType" : "SourceUnit",
+	"nodes" : 
+	[
+		{
+			"id" : 1,
+			"literals" : 
+			[
+				"solidity",
+				"0.4",
+				".25"
+			],
+			"nodeType" : "PragmaDirective",
+			"src" : "190:23:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : [],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 54,
+			"linearizedBaseContracts" : 
+			[
+				54
+			],
+			"name" : "Refunder",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 4,
+					"name" : "refundAddresses",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 54,
+					"src" : "244:33:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+						"typeString" : "address[]"
+					},
+					"typeName" : 
+					{
+						"baseType" : 
+						{
+							"id" : 2,
+							"name" : "address",
+							"nodeType" : "ElementaryTypeName",
+							"src" : "244:7:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_address",
+								"typeString" : "address"
+							}
+						},
+						"id" : 3,
+						"length" : null,
+						"nodeType" : "ArrayTypeName",
+						"src" : "244:9:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_array$_t_address_$dyn_storage_ptr",
+							"typeString" : "address[]"
+						}
+					},
+					"value" : null,
+					"visibility" : "private"
+				},
+				{
+					"constant" : false,
+					"id" : 8,
+					"name" : "refunds",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 54,
+					"src" : "280:40:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
+						"typeString" : "mapping(address => uint256)"
+					},
+					"typeName" : 
+					{
+						"id" : 7,
+						"keyType" : 
+						{
+							"id" : 5,
+							"name" : "address",
+							"nodeType" : "ElementaryTypeName",
+							"src" : "289:7:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_address",
+								"typeString" : "address"
+							}
+						},
+						"nodeType" : "Mapping",
+						"src" : "280:25:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
+							"typeString" : "mapping(address => uint256)"
+						},
+						"valueType" : 
+						{
+							"id" : 6,
+							"name" : "uint",
+							"nodeType" : "ElementaryTypeName",
+							"src" : "300:4:0",
+							"typeDescriptions" : 
+							{
+								"typeIdentifier" : "t_uint256",
+								"typeString" : "uint256"
+							}
+						}
+					},
+					"value" : null,
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 23,
+						"nodeType" : "Block",
+						"src" : "343:158:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : 
+									[
+										{
+											"argumentTypes" : null,
+											"hexValue" : "307837394234383333373145383764363634636433393439316235463036323530313635653462313834",
+											"id" : 14,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : true,
+											"kind" : "number",
+											"lValueRequested" : false,
+											"nodeType" : "Literal",
+											"src" : "375:42:0",
+											"subdenomination" : null,
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_address",
+												"typeString" : "address"
+											},
+											"value" : "0x79B483371E87d664cd39491b5F06250165e4b184"
+										}
+									],
+									"expression" : 
+									{
+										"argumentTypes" : 
+										[
+											{
+												"typeIdentifier" : "t_address",
+												"typeString" : "address"
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"id" : 11,
+											"name" : "refundAddresses",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 4,
+											"src" : "354:15:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+												"typeString" : "address[] storage ref"
+											}
+										},
+										"id" : 13,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "push",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "354:20:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+											"typeString" : "function (address) returns (uint256)"
+										}
+									},
+									"id" : 15,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "354:64:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"id" : 16,
+								"nodeType" : "ExpressionStatement",
+								"src" : "354:64:0"
+							},
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"arguments" : 
+									[
+										{
+											"argumentTypes" : null,
+											"hexValue" : "307837394234383333373145383764363634636433393439316235463036323530313635653462313835",
+											"id" : 20,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : true,
+											"kind" : "number",
+											"lValueRequested" : false,
+											"nodeType" : "Literal",
+											"src" : "450:42:0",
+											"subdenomination" : null,
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_rational_694813447870989484213047828542697217882537111941_by_1",
+												"typeString" : "int_const 6948...(40 digits omitted)...1941"
+											},
+											"value" : "0x79B483371E87d664cd39491b5F06250165e4b185"
+										}
+									],
+									"expression" : 
+									{
+										"argumentTypes" : 
+										[
+											{
+												"typeIdentifier" : "t_rational_694813447870989484213047828542697217882537111941_by_1",
+												"typeString" : "int_const 6948...(40 digits omitted)...1941"
+											}
+										],
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"id" : 17,
+											"name" : "refundAddresses",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 4,
+											"src" : "429:15:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+												"typeString" : "address[] storage ref"
+											}
+										},
+										"id" : 19,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "push",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "429:20:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+											"typeString" : "function (address) returns (uint256)"
+										}
+									},
+									"id" : 21,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"kind" : "functionCall",
+									"lValueRequested" : false,
+									"names" : [],
+									"nodeType" : "FunctionCall",
+									"src" : "429:64:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"id" : 22,
+								"nodeType" : "ExpressionStatement",
+								"src" : "429:64:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 24,
+					"implemented" : true,
+					"isConstructor" : true,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 9,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "340:2:0"
+					},
+					"payable" : false,
+					"returnParameters" : 
+					{
+						"id" : 10,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "343:0:0"
+					},
+					"scope" : 54,
+					"src" : "329:172:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : null,
+					"visibility" : "public"
+				},
+				{
+					"body" : 
+					{
+						"id" : 52,
+						"nodeType" : "Block",
+						"src" : "549:289:0",
+						"statements" : 
+						[
+							{
+								"body" : 
+								{
+									"id" : 50,
+									"nodeType" : "Block",
+									"src" : "605:226:0",
+									"statements" : 
+									[
+										{
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"arguments" : 
+												[
+													{
+														"argumentTypes" : null,
+														"arguments" : 
+														[
+															{
+																"argumentTypes" : null,
+																"baseExpression" : 
+																{
+																	"argumentTypes" : null,
+																	"id" : 42,
+																	"name" : "refunds",
+																	"nodeType" : "Identifier",
+																	"overloadedDeclarations" : [],
+																	"referencedDeclaration" : 8,
+																	"src" : "723:7:0",
+																	"typeDescriptions" : 
+																	{
+																		"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
+																		"typeString" : "mapping(address => uint256)"
+																	}
+																},
+																"id" : 46,
+																"indexExpression" : 
+																{
+																	"argumentTypes" : null,
+																	"baseExpression" : 
+																	{
+																		"argumentTypes" : null,
+																		"id" : 43,
+																		"name" : "refundAddresses",
+																		"nodeType" : "Identifier",
+																		"overloadedDeclarations" : [],
+																		"referencedDeclaration" : 4,
+																		"src" : "731:15:0",
+																		"typeDescriptions" : 
+																		{
+																			"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+																			"typeString" : "address[] storage ref"
+																		}
+																	},
+																	"id" : 45,
+																	"indexExpression" : 
+																	{
+																		"argumentTypes" : null,
+																		"id" : 44,
+																		"name" : "x",
+																		"nodeType" : "Identifier",
+																		"overloadedDeclarations" : [],
+																		"referencedDeclaration" : 28,
+																		"src" : "747:1:0",
+																		"typeDescriptions" : 
+																		{
+																			"typeIdentifier" : "t_uint256",
+																			"typeString" : "uint256"
+																		}
+																	},
+																	"isConstant" : false,
+																	"isLValue" : true,
+																	"isPure" : false,
+																	"lValueRequested" : false,
+																	"nodeType" : "IndexAccess",
+																	"src" : "731:18:0",
+																	"typeDescriptions" : 
+																	{
+																		"typeIdentifier" : "t_address",
+																		"typeString" : "address"
+																	}
+																},
+																"isConstant" : false,
+																"isLValue" : true,
+																"isPure" : false,
+																"lValueRequested" : false,
+																"nodeType" : "IndexAccess",
+																"src" : "723:27:0",
+																"typeDescriptions" : 
+																{
+																	"typeIdentifier" : "t_uint256",
+																	"typeString" : "uint256"
+																}
+															}
+														],
+														"expression" : 
+														{
+															"argumentTypes" : 
+															[
+																{
+																	"typeIdentifier" : "t_uint256",
+																	"typeString" : "uint256"
+																}
+															],
+															"expression" : 
+															{
+																"argumentTypes" : null,
+																"baseExpression" : 
+																{
+																	"argumentTypes" : null,
+																	"id" : 38,
+																	"name" : "refundAddresses",
+																	"nodeType" : "Identifier",
+																	"overloadedDeclarations" : [],
+																	"referencedDeclaration" : 4,
+																	"src" : "699:15:0",
+																	"typeDescriptions" : 
+																	{
+																		"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+																		"typeString" : "address[] storage ref"
+																	}
+																},
+																"id" : 40,
+																"indexExpression" : 
+																{
+																	"argumentTypes" : null,
+																	"id" : 39,
+																	"name" : "x",
+																	"nodeType" : "Identifier",
+																	"overloadedDeclarations" : [],
+																	"referencedDeclaration" : 28,
+																	"src" : "715:1:0",
+																	"typeDescriptions" : 
+																	{
+																		"typeIdentifier" : "t_uint256",
+																		"typeString" : "uint256"
+																	}
+																},
+																"isConstant" : false,
+																"isLValue" : true,
+																"isPure" : false,
+																"lValueRequested" : false,
+																"nodeType" : "IndexAccess",
+																"src" : "699:18:0",
+																"typeDescriptions" : 
+																{
+																	"typeIdentifier" : "t_address",
+																	"typeString" : "address"
+																}
+															},
+															"id" : 41,
+															"isConstant" : false,
+															"isLValue" : false,
+															"isPure" : false,
+															"lValueRequested" : false,
+															"memberName" : "send",
+															"nodeType" : "MemberAccess",
+															"referencedDeclaration" : null,
+															"src" : "699:23:0",
+															"typeDescriptions" : 
+															{
+																"typeIdentifier" : "t_function_send_nonpayable$_t_uint256_$returns$_t_bool_$",
+																"typeString" : "function (uint256) returns (bool)"
+															}
+														},
+														"id" : 47,
+														"isConstant" : false,
+														"isLValue" : false,
+														"isPure" : false,
+														"kind" : "functionCall",
+														"lValueRequested" : false,
+														"names" : [],
+														"nodeType" : "FunctionCall",
+														"src" : "699:52:0",
+														"typeDescriptions" : 
+														{
+															"typeIdentifier" : "t_bool",
+															"typeString" : "bool"
+														}
+													}
+												],
+												"expression" : 
+												{
+													"argumentTypes" : 
+													[
+														{
+															"typeIdentifier" : "t_bool",
+															"typeString" : "bool"
+														}
+													],
+													"id" : 37,
+													"name" : "require",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : 
+													[
+														72,
+														73
+													],
+													"referencedDeclaration" : 72,
+													"src" : "691:7:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
+														"typeString" : "function (bool) pure"
+													}
+												},
+												"id" : 48,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"kind" : "functionCall",
+												"lValueRequested" : false,
+												"names" : [],
+												"nodeType" : "FunctionCall",
+												"src" : "691:61:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_tuple$__$",
+													"typeString" : "tuple()"
+												}
+											},
+											"id" : 49,
+											"nodeType" : "ExpressionStatement",
+											"src" : "691:61:0"
+										}
+									]
+								},
+								"condition" : 
+								{
+									"argumentTypes" : null,
+									"commonType" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									},
+									"id" : 33,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftExpression" : 
+									{
+										"argumentTypes" : null,
+										"id" : 30,
+										"name" : "x",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 28,
+										"src" : "572:1:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "BinaryOperation",
+									"operator" : "<",
+									"rightExpression" : 
+									{
+										"argumentTypes" : null,
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"id" : 31,
+											"name" : "refundAddresses",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 4,
+											"src" : "576:15:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_array$_t_address_$dyn_storage",
+												"typeString" : "address[] storage ref"
+											}
+										},
+										"id" : 32,
+										"isConstant" : false,
+										"isLValue" : true,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "length",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "576:22:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"src" : "572:26:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_bool",
+										"typeString" : "bool"
+									}
+								},
+								"id" : 51,
+								"initializationExpression" : 
+								{
+									"assignments" : [],
+									"declarations" : 
+									[
+										{
+											"constant" : false,
+											"id" : 28,
+											"name" : "x",
+											"nodeType" : "VariableDeclaration",
+											"scope" : 53,
+											"src" : "564:6:0",
+											"stateVariable" : false,
+											"storageLocation" : "default",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											},
+											"typeName" : 
+											{
+												"id" : 27,
+												"name" : "uint",
+												"nodeType" : "ElementaryTypeName",
+												"src" : "564:4:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												}
+											},
+											"value" : null,
+											"visibility" : "internal"
+										}
+									],
+									"id" : 29,
+									"initialValue" : null,
+									"nodeType" : "VariableDeclarationStatement",
+									"src" : "564:6:0"
+								},
+								"loopExpression" : 
+								{
+									"expression" : 
+									{
+										"argumentTypes" : null,
+										"id" : 35,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"nodeType" : "UnaryOperation",
+										"operator" : "++",
+										"prefix" : false,
+										"src" : "600:3:0",
+										"subExpression" : 
+										{
+											"argumentTypes" : null,
+											"id" : 34,
+											"name" : "x",
+											"nodeType" : "Identifier",
+											"overloadedDeclarations" : [],
+											"referencedDeclaration" : 28,
+											"src" : "600:1:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										},
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"id" : 36,
+									"nodeType" : "ExpressionStatement",
+									"src" : "600:3:0"
+								},
+								"nodeType" : "ForStatement",
+								"src" : "560:271:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 53,
+					"implemented" : true,
+					"isConstructor" : false,
+					"isDeclaredConst" : false,
+					"modifiers" : [],
+					"name" : "refundAll",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 25,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "539:2:0"
+					},
+					"payable" : false,
+					"returnParameters" : 
+					{
+						"id" : 26,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "549:0:0"
+					},
+					"scope" : 54,
+					"src" : "521:317:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 55,
+			"src" : "217:626:0"
+		}
+	],
+	"src" : "190:653:0"
+}

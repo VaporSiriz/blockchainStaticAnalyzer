@@ -1,0 +1,99 @@
+======= Haechi/solidity_examples/DoSAttack.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 2,
+		"name" : "TestLoop",
+		"id" : 142
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 8,
+		"name" : "testWhile",
+		"id" : 46
+	}, {
+		"visibility" : "public",
+		"line" : 15,
+		"name" : "testForStatement",
+		"id" : 121
+	}, {
+		"visibility" : "public",
+		"line" : 30,
+		"name" : "testDoWhile",
+		"id" : 141
+	} ],
+	"functionCall" : [ {
+		"caller" : "require",
+		"line" : 12,
+		"name" : "None",
+		"id" : 30
+	}, {
+		"caller" : null,
+		"line" : 13,
+		"name" : "transfer",
+		"id" : 38
+	}, {
+		"caller" : "require",
+		"line" : 18,
+		"name" : "None",
+		"id" : 56
+	}, {
+		"caller" : null,
+		"line" : 23,
+		"name" : "send",
+		"id" : 90
+	}, {
+		"caller" : null,
+		"line" : 24,
+		"name" : "transfer",
+		"id" : 98
+	}, {
+		"caller" : "require",
+		"line" : 25,
+		"name" : "None",
+		"id" : 105
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "owner",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "address"
+	}, {
+		"line" : 5,
+		"name" : "i",
+		"id" : 8,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 5,
+		"name" : "a",
+		"id" : 11,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 6,
+		"name" : "b",
+		"id" : 14,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 7,
+		"name" : "c",
+		"id" : 17,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 10,
+		"name" : "amount",
+		"id" : 19,
+		"isStateVariable" : false,
+		"type" : "uint"
+	}, {
+		"line" : 18,
+		"name" : "amount",
+		"id" : 48,
+		"isStateVariable" : false,
+		"type" : "uint"
+	} ]
+}

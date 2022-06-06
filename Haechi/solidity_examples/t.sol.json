@@ -1,0 +1,253 @@
+======= t.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "Ballot",
+		"id" : 380
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : "constructor",
+		"line" : 24,
+		"name" : "None",
+		"id" : 62
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 32,
+		"name" : "createProposal",
+		"id" : 84
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 41,
+		"name" : "getProposalsCount",
+		"id" : 93
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 45,
+		"name" : "getVoterWeight",
+		"id" : 106
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 49,
+		"name" : "giveRightToVote",
+		"id" : 143
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 57,
+		"name" : "delegate",
+		"id" : 232
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 80,
+		"name" : "vote",
+		"id" : 271
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 89,
+		"name" : "winningProposal",
+		"id" : 313
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 99,
+		"name" : "winnerName",
+		"id" : 327
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 103,
+		"name" : "getProposalName",
+		"id" : 353
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 109,
+		"name" : "getProposalVoteCount",
+		"id" : 379
+	} ],
+	"functionCall" : [ {
+		"caller" : "createProposal",
+		"line" : 28,
+		"name" : "None",
+		"id" : 57
+	}, {
+		"caller" : "require",
+		"line" : 33,
+		"name" : "None",
+		"id" : 72
+	}, {
+		"caller" : "proposals",
+		"line" : 34,
+		"name" : "push",
+		"id" : 81
+	}, {
+		"caller" : "Proposal",
+		"line" : 34,
+		"name" : "None",
+		"id" : 80
+	}, {
+		"caller" : "require",
+		"line" : 50,
+		"name" : "None",
+		"id" : 116
+	}, {
+		"caller" : "require",
+		"line" : 51,
+		"name" : "None",
+		"id" : 124
+	}, {
+		"caller" : "require",
+		"line" : 52,
+		"name" : "None",
+		"id" : 133
+	}, {
+		"caller" : "require",
+		"line" : 59,
+		"name" : "None",
+		"id" : 159
+	}, {
+		"caller" : "require",
+		"line" : 61,
+		"name" : "None",
+		"id" : 166
+	}, {
+		"caller" : null,
+		"line" : 64,
+		"name" : "None",
+		"id" : 174
+	}, {
+		"caller" : "require",
+		"line" : 66,
+		"name" : "None",
+		"id" : 188
+	}, {
+		"caller" : "require",
+		"line" : 82,
+		"name" : "None",
+		"id" : 248
+	}, {
+		"caller" : "winningProposal",
+		"line" : 100,
+		"name" : "None",
+		"id" : 321
+	}, {
+		"caller" : "require",
+		"line" : 104,
+		"name" : "None",
+		"id" : 339
+	}, {
+		"caller" : "require",
+		"line" : 105,
+		"name" : "None",
+		"id" : 345
+	}, {
+		"caller" : "require",
+		"line" : 110,
+		"name" : "None",
+		"id" : 365
+	}, {
+		"caller" : "require",
+		"line" : 111,
+		"name" : "None",
+		"id" : 371
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 16,
+		"name" : "chairperson",
+		"id" : 17,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 20,
+		"name" : "voters",
+		"id" : 21,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 22,
+		"name" : "proposals",
+		"id" : 24,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 24,
+		"name" : "proposalNames",
+		"id" : 27,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 32,
+		"name" : "proposalName",
+		"id" : 64,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 45,
+		"name" : "voter",
+		"id" : 95,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 49,
+		"name" : "voter",
+		"id" : 108,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 58,
+		"name" : "sender",
+		"id" : 149,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 72,
+		"name" : "delegate_to",
+		"id" : 205,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 57,
+		"name" : "to",
+		"id" : 145,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 81,
+		"name" : "sender",
+		"id" : 238,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 80,
+		"name" : "proposal",
+		"id" : 234,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 90,
+		"name" : "winningVoteCount",
+		"id" : 277,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 103,
+		"name" : "index",
+		"id" : 329,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 109,
+		"name" : "index",
+		"id" : 355,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

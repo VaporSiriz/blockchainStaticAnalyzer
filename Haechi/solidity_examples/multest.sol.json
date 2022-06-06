@@ -1,0 +1,176 @@
+======= solidity_examples\multest.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "ownedContract",
+		"id" : 12
+	}, {
+		"kind" : "contract",
+		"line" : 10,
+		"name" : "BaseNo1",
+		"id" : 33
+	}, {
+		"kind" : "contract",
+		"line" : 19,
+		"name" : "BaseNo2",
+		"id" : 52
+	}, {
+		"kind" : "contract",
+		"line" : 29,
+		"name" : "Final",
+		"id" : 81
+	}, {
+		"kind" : "contract",
+		"line" : 40,
+		"name" : "Contract1",
+		"id" : 102
+	}, {
+		"kind" : "contract",
+		"line" : 52,
+		"name" : "Contract2",
+		"id" : 123
+	}, {
+		"kind" : "contract",
+		"line" : 61,
+		"name" : "Test",
+		"id" : 137
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 5,
+		"name" : "get",
+		"id" : 11
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 11,
+		"name" : "set",
+		"id" : 22
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 14,
+		"name" : "set",
+		"id" : 32
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 20,
+		"name" : "set",
+		"id" : 43
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 24,
+		"name" : "set2",
+		"id" : 51
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 30,
+		"name" : "set",
+		"id" : 64
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 33,
+		"name" : "func",
+		"id" : 80
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 43,
+		"name" : "set",
+		"id" : 91
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 47,
+		"name" : "set",
+		"id" : 101
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 55,
+		"name" : "set",
+		"id" : 122
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 62,
+		"name" : "test",
+		"id" : 136
+	} ],
+	"functionCall" : [ {
+		"caller" : "set",
+		"line" : 34,
+		"name" : "None",
+		"id" : 68
+	}, {
+		"caller" : "set",
+		"line" : 35,
+		"name" : "None",
+		"id" : 72
+	}, {
+		"caller" : "super",
+		"line" : 36,
+		"name" : "set",
+		"id" : 77
+	}, {
+		"caller" : "set",
+		"line" : 63,
+		"name" : "None",
+		"id" : 133
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "a",
+		"id" : 3,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 14,
+		"name" : "num",
+		"id" : 24,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 41,
+		"name" : "a",
+		"id" : 83,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 47,
+		"name" : "num",
+		"id" : 93,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 53,
+		"name" : "a",
+		"id" : 104,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 54,
+		"name" : "b",
+		"id" : 106,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 55,
+		"name" : "num",
+		"id" : 108,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 55,
+		"name" : "num2",
+		"id" : 110,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

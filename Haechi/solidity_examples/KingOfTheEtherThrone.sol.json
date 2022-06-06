@@ -1,0 +1,1406 @@
+======= solidity_examples\KingOfTheEtherThrone.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 23,
+		"name" : "ReentryProtectorMixin",
+		"id" : 23
+	}, {
+		"kind" : "contract",
+		"line" : 53,
+		"name" : "CarefulSenderMixin",
+		"id" : 49
+	}, {
+		"kind" : "contract",
+		"line" : 126,
+		"name" : "FundsHolderMixin",
+		"id" : 193
+	}, {
+		"kind" : "contract",
+		"line" : 206,
+		"name" : "MoneyRounderMixin",
+		"id" : 313
+	}, {
+		"kind" : "contract",
+		"line" : 252,
+		"name" : "NameableMixin",
+		"id" : 664
+	}, {
+		"kind" : "contract",
+		"line" : 418,
+		"name" : "ThroneRulesMixin",
+		"id" : 676
+	}, {
+		"kind" : "contract",
+		"line" : 433,
+		"name" : "Kingdom",
+		"id" : 1320
+	}, {
+		"kind" : "contract",
+		"line" : 804,
+		"name" : "KingdomFactory",
+		"id" : 1487
+	}, {
+		"kind" : "contract",
+		"line" : 908,
+		"name" : "World",
+		"id" : 2011
+	}, {
+		"kind" : "contract",
+		"line" : 1241,
+		"name" : "ExposedInternalsForTesting",
+		"id" : 2076
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 36,
+		"name" : "externalEnter",
+		"id" : 14
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 45,
+		"name" : "externalLeave",
+		"id" : 22
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 114,
+		"name" : "carefulSendWithFixedGas",
+		"id" : 48
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 140,
+		"name" : "fundsOf",
+		"id" : 77
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 145,
+		"name" : "withdrawFunds",
+		"id" : 90
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 154,
+		"name" : "withdrawFundsAdvanced",
+		"id" : 112
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 165,
+		"name" : "withdrawFundsRP",
+		"id" : 137
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 178,
+		"name" : "withdrawFundsAdvancedRP",
+		"id" : 192
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 216,
+		"name" : "roundMoneyDownNicely",
+		"id" : 295
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 243,
+		"name" : "roundMoneyUpToWholeFinney",
+		"id" : 312
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 274,
+		"name" : "validateNameInternal",
+		"id" : 441
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 490,
+		"name" : "Kingdom",
+		"id" : 800
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 525,
+		"name" : "numberOfMonarchs",
+		"id" : 811
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 532,
+		"name" : "isLivingMonarch",
+		"id" : 855
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 552,
+		"name" : "currentClaimPriceWei",
+		"id" : 919
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 572,
+		"name" : "currentClaimPriceInFinney",
+		"id" : 934
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 586,
+		"name" : "validateProposedMonarchName",
+		"id" : 946
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 598,
+		"name" : "latestMonarchInternal",
+		"id" : 959
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 620,
+		"name" : "None",
+		"id" : 972
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 640,
+		"name" : "claimThrone",
+		"id" : 988
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 652,
+		"name" : "replaceWizard",
+		"id" : 1004
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 658,
+		"name" : "fallbackRP",
+		"id" : 1031
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 667,
+		"name" : "claimThroneRP",
+		"id" : 1162
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 806,
+		"name" : "KingdomFactory",
+		"id" : 1324
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 809,
+		"name" : "None",
+		"id" : 1329
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 815,
+		"name" : "validateProposedThroneRules",
+		"id" : 1411
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 860,
+		"name" : "createKingdom",
+		"id" : 1486
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 958,
+		"name" : "World",
+		"id" : 1596
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 979,
+		"name" : "numberOfKingdoms",
+		"id" : 1607
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 984,
+		"name" : "findKingdomCalled",
+		"id" : 1625
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1001,
+		"name" : "validateProposedKingdomName",
+		"id" : 1637
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1008,
+		"name" : "validateProposedThroneRules",
+		"id" : 1660
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1025,
+		"name" : "kingdomCreationFeeInFinney",
+		"id" : 1670
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1032,
+		"name" : "None",
+		"id" : 1675
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1068,
+		"name" : "createKingdom",
+		"id" : 1703
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1092,
+		"name" : "replaceWizard",
+		"id" : 1719
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1099,
+		"name" : "setKingdomCreationFeeWei",
+		"id" : 1735
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1106,
+		"name" : "setMaximumClaimPriceWei",
+		"id" : 1751
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1114,
+		"name" : "setKingdomFactory",
+		"id" : 1767
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1120,
+		"name" : "createKingdomRP",
+		"id" : 1863
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1175,
+		"name" : "replaceWizardRP",
+		"id" : 1896
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1187,
+		"name" : "setKingdomCreationFeeWeiRP",
+		"id" : 1924
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1198,
+		"name" : "setMaximumClaimPriceWeiRP",
+		"id" : 1954
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1211,
+		"name" : "setKingdomFactoryRP",
+		"id" : 1982
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1226,
+		"name" : "checkUniqueAndRegisterNewKingdomName",
+		"id" : 2010
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1244,
+		"name" : "roundMoneyDownNicelyET",
+		"id" : 2027
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1249,
+		"name" : "roundMoneyUpToWholeFinneyET",
+		"id" : 2039
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1254,
+		"name" : "validateNameInternalET",
+		"id" : 2051
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1259,
+		"name" : "extractNameFromDataET",
+		"id" : 2063
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1264,
+		"name" : "computeNameFuzzyHashET",
+		"id" : 2075
+	} ],
+	"functionCall" : [ {
+		"caller" : null,
+		"line" : 119,
+		"name" : "value",
+		"id" : 41
+	}, {
+		"caller" : null,
+		"line" : 119,
+		"name" : "gas",
+		"id" : 44
+	}, {
+		"caller" : null,
+		"line" : 119,
+		"name" : "None",
+		"id" : 45
+	}, {
+		"caller" : "externalEnter",
+		"line" : 146,
+		"name" : "None",
+		"id" : 81
+	}, {
+		"caller" : "withdrawFundsRP",
+		"line" : 147,
+		"name" : "None",
+		"id" : 84
+	}, {
+		"caller" : "externalLeave",
+		"line" : 148,
+		"name" : "None",
+		"id" : 87
+	}, {
+		"caller" : "externalEnter",
+		"line" : 159,
+		"name" : "None",
+		"id" : 100
+	}, {
+		"caller" : "withdrawFundsAdvancedRP",
+		"line" : 160,
+		"name" : "None",
+		"id" : 106
+	}, {
+		"caller" : "externalLeave",
+		"line" : 161,
+		"name" : "None",
+		"id" : 109
+	}, {
+		"caller" : "withdrawFundsAdvancedRP",
+		"line" : 169,
+		"name" : "None",
+		"id" : 134
+	}, {
+		"caller" : "FundsWithdrawnEvent",
+		"line" : 199,
+		"name" : "None",
+		"id" : 189
+	}, {
+		"caller" : "ThroneRules",
+		"line" : 505,
+		"name" : "None",
+		"id" : 784
+	}, {
+		"caller" : "monarchsByNumber",
+		"line" : 514,
+		"name" : "push",
+		"id" : 797
+	}, {
+		"caller" : "Monarch",
+		"line" : 515,
+		"name" : "None",
+		"id" : 796
+	}, {
+		"caller" : "numberOfMonarchs",
+		"line" : 533,
+		"name" : "None",
+		"id" : 817
+	}, {
+		"caller" : "isLivingMonarch",
+		"line" : 553,
+		"name" : "None",
+		"id" : 861
+	}, {
+		"caller" : "roundMoneyDownNicely",
+		"line" : 560,
+		"name" : "None",
+		"id" : 889
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 575,
+		"name" : "None",
+		"id" : 931
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 588,
+		"name" : "None",
+		"id" : 943
+	}, {
+		"caller" : "externalEnter",
+		"line" : 621,
+		"name" : "None",
+		"id" : 963
+	}, {
+		"caller" : "fallbackRP",
+		"line" : 622,
+		"name" : "None",
+		"id" : 966
+	}, {
+		"caller" : "externalLeave",
+		"line" : 623,
+		"name" : "None",
+		"id" : 969
+	}, {
+		"caller" : "externalEnter",
+		"line" : 641,
+		"name" : "None",
+		"id" : 978
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 642,
+		"name" : "None",
+		"id" : 982
+	}, {
+		"caller" : "externalLeave",
+		"line" : 643,
+		"name" : "None",
+		"id" : 985
+	}, {
+		"caller" : "externalEnter",
+		"line" : 653,
+		"name" : "None",
+		"id" : 994
+	}, {
+		"caller" : "replaceWizardRP",
+		"line" : 654,
+		"name" : "None",
+		"id" : 998
+	}, {
+		"caller" : "externalLeave",
+		"line" : 655,
+		"name" : "None",
+		"id" : 1001
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 660,
+		"name" : "None",
+		"id" : 1014
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 663,
+		"name" : "None",
+		"id" : 1026
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 673,
+		"name" : "None",
+		"id" : 1043
+	}, {
+		"caller" : null,
+		"line" : 678,
+		"name" : "None",
+		"id" : 1054
+	}, {
+		"caller" : "isLivingMonarch",
+		"line" : 696,
+		"name" : "None",
+		"id" : 1095
+	}, {
+		"caller" : "validateProposedThroneRules",
+		"line" : 882,
+		"name" : "None",
+		"id" : 1467
+	}, {
+		"caller" : null,
+		"line" : 891,
+		"name" : "None",
+		"id" : 1483
+	}, {
+		"caller" : "kingdomsByNumber",
+		"line" : 976,
+		"name" : "push",
+		"id" : 1593
+	}, {
+		"caller" : "KingdomListing",
+		"line" : 976,
+		"name" : "None",
+		"id" : 1592
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1003,
+		"name" : "None",
+		"id" : 1634
+	}, {
+		"caller" : "kingdomFactory",
+		"line" : 1014,
+		"name" : "validateProposedThroneRules",
+		"id" : 1657
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 1027,
+		"name" : "None",
+		"id" : 1667
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1075,
+		"name" : "None",
+		"id" : 1689
+	}, {
+		"caller" : "createKingdomRP",
+		"line" : 1076,
+		"name" : "None",
+		"id" : 1697
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1083,
+		"name" : "None",
+		"id" : 1700
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1093,
+		"name" : "None",
+		"id" : 1709
+	}, {
+		"caller" : "replaceWizardRP",
+		"line" : 1094,
+		"name" : "None",
+		"id" : 1713
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1095,
+		"name" : "None",
+		"id" : 1716
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1100,
+		"name" : "None",
+		"id" : 1725
+	}, {
+		"caller" : "setKingdomCreationFeeWeiRP",
+		"line" : 1101,
+		"name" : "None",
+		"id" : 1729
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1102,
+		"name" : "None",
+		"id" : 1732
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1107,
+		"name" : "None",
+		"id" : 1741
+	}, {
+		"caller" : "setMaximumClaimPriceWeiRP",
+		"line" : 1108,
+		"name" : "None",
+		"id" : 1745
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1109,
+		"name" : "None",
+		"id" : 1748
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1115,
+		"name" : "None",
+		"id" : 1757
+	}, {
+		"caller" : "setKingdomFactoryRP",
+		"line" : 1116,
+		"name" : "None",
+		"id" : 1761
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1117,
+		"name" : "None",
+		"id" : 1764
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1130,
+		"name" : "None",
+		"id" : 1787
+	}, {
+		"caller" : "checkUniqueAndRegisterNewKingdomName",
+		"line" : 1135,
+		"name" : "None",
+		"id" : 1800
+	}, {
+		"caller" : "kingdomsByNumber",
+		"line" : 1165,
+		"name" : "push",
+		"id" : 1860
+	}, {
+		"caller" : "KingdomListing",
+		"line" : 1165,
+		"name" : "None",
+		"id" : 1859
+	}, {
+		"caller" : "WizardReplacedEvent",
+		"line" : 1184,
+		"name" : "None",
+		"id" : 1893
+	}, {
+		"caller" : "CreationFeeChangedEvent",
+		"line" : 1195,
+		"name" : "None",
+		"id" : 1921
+	}, {
+		"caller" : "FactoryChangedEvent",
+		"line" : 1219,
+		"name" : "None",
+		"id" : 1979
+	}, {
+		"caller" : "roundMoneyDownNicely",
+		"line" : 1246,
+		"name" : "None",
+		"id" : 2024
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 1251,
+		"name" : "None",
+		"id" : 2036
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1256,
+		"name" : "None",
+		"id" : 2048
+	}, {
+		"caller" : "extractNameFromData",
+		"line" : 1261,
+		"name" : "None",
+		"id" : 2060
+	}, {
+		"caller" : "computeNameFuzzyHash",
+		"line" : 1266,
+		"name" : "None",
+		"id" : 2072
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 26,
+		"name" : "reentryProtector",
+		"id" : 2,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 56,
+		"name" : "suggestedExtraGasToIncludeWithSends",
+		"id" : 26,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 115,
+		"name" : "_toAddress",
+		"id" : 28,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 116,
+		"name" : "_valueWei",
+		"id" : 30,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 117,
+		"name" : "_extraGasIncluded",
+		"id" : 32,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 131,
+		"name" : "funds",
+		"id" : 57,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 140,
+		"name" : "_address",
+		"id" : 67,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 155,
+		"name" : "_toAddress",
+		"id" : 92,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 156,
+		"name" : "_valueWei",
+		"id" : 94,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 157,
+		"name" : "_extraGas",
+		"id" : 96,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 166,
+		"name" : "fromAddress",
+		"id" : 116,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 167,
+		"name" : "toAddress",
+		"id" : 121,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 168,
+		"name" : "allAvailableWei",
+		"id" : 125,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 186,
+		"name" : "fromAddress",
+		"id" : 154,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 191,
+		"name" : "sentOk",
+		"id" : 173,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 179,
+		"name" : "_toAddress",
+		"id" : 139,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 180,
+		"name" : "_valueWei",
+		"id" : 141,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 181,
+		"name" : "_extraGasIncluded",
+		"id" : 143,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 216,
+		"name" : "_rawValueWei",
+		"id" : 195,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 256,
+		"name" : "minimumNameLength",
+		"id" : 316,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 257,
+		"name" : "maximumNameLength",
+		"id" : 319,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 258,
+		"name" : "nameDataPrefix",
+		"id" : 322,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 276,
+		"name" : "nameBytes",
+		"id" : 330,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 277,
+		"name" : "lengthBytes",
+		"id" : 336,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 282,
+		"name" : "foundNonPunctuation",
+		"id" : 352,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 284,
+		"name" : "b",
+		"id" : 366,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 442,
+		"name" : "kingdomName",
+		"id" : 690,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 445,
+		"name" : "world",
+		"id" : 692,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 448,
+		"name" : "rules",
+		"id" : 694,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 465,
+		"name" : "monarchsByNumber",
+		"id" : 708,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 469,
+		"name" : "topWizard",
+		"id" : 710,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 474,
+		"name" : "subWizard",
+		"id" : 712,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 491,
+		"name" : "_kingdomName",
+		"id" : 742,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 492,
+		"name" : "_world",
+		"id" : 744,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 493,
+		"name" : "_topWizard",
+		"id" : 746,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 494,
+		"name" : "_subWizard",
+		"id" : 748,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 495,
+		"name" : "_startingClaimPriceWei",
+		"id" : 750,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 496,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 752,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 497,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 754,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 498,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 756,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 499,
+		"name" : "_commissionPerThousand",
+		"id" : 758,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 536,
+		"name" : "reignStartedTimestamp",
+		"id" : 825,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 543,
+		"name" : "elapsedReignDurationSeconds",
+		"id" : 838,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 556,
+		"name" : "lastClaimPriceWei",
+		"id" : 868,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 558,
+		"name" : "newClaimPrice",
+		"id" : 874,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 574,
+		"name" : "valueWei",
+		"id" : 925,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 586,
+		"name" : "_monarchName",
+		"id" : 936,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 640,
+		"name" : "_monarchName",
+		"id" : 974,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 652,
+		"name" : "_replacement",
+		"id" : 990,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 662,
+		"name" : "_monarchName",
+		"id" : 1018,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 671,
+		"name" : "_compensationAddress",
+		"id" : 1037,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 682,
+		"name" : "paidWei",
+		"id" : 1061,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 683,
+		"name" : "priceWei",
+		"id" : 1066,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 689,
+		"name" : "excessWei",
+		"id" : 1077,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 694,
+		"name" : "compensationWei",
+		"id" : 1089,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 695,
+		"name" : "commissionWei",
+		"id" : 1092,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 816,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1331,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 817,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1333,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 818,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1335,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 819,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1337,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 820,
+		"name" : "_commissionPerThousand",
+		"id" : 1339,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 861,
+		"name" : "_kingdomName",
+		"id" : 1413,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 862,
+		"name" : "_world",
+		"id" : 1415,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 863,
+		"name" : "_topWizard",
+		"id" : 1417,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 864,
+		"name" : "_subWizard",
+		"id" : 1419,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 865,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1421,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 866,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1423,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 867,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1425,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 868,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1427,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 869,
+		"name" : "_commissionPerThousand",
+		"id" : 1429,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 917,
+		"name" : "topWizard",
+		"id" : 1499,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 921,
+		"name" : "kingdomCreationFeeWei",
+		"id" : 1501,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 933,
+		"name" : "kingdomsByNumber",
+		"id" : 1517,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 938,
+		"name" : "maximumClaimPriceWei",
+		"id" : 1519,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 942,
+		"name" : "kingdomFactory",
+		"id" : 1521,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 945,
+		"name" : "kingdomNumbersByfuzzyHash",
+		"id" : 1525,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 959,
+		"name" : "_topWizard",
+		"id" : 1545,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 960,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 1547,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 961,
+		"name" : "_kingdomFactory",
+		"id" : 1549,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 962,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1551,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 986,
+		"name" : "fuzzyHash",
+		"id" : 1615,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 984,
+		"name" : "_kingdomName",
+		"id" : 1609,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1001,
+		"name" : "_kingdomName",
+		"id" : 1627,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1009,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1639,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1010,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1641,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1011,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1643,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1012,
+		"name" : "_commissionPerThousand",
+		"id" : 1645,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1069,
+		"name" : "_kingdomName",
+		"id" : 1677,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1070,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1679,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1071,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1681,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1072,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1683,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1073,
+		"name" : "_commissionPerThousand",
+		"id" : 1685,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1092,
+		"name" : "_replacement",
+		"id" : 1705,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1099,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 1721,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1106,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1737,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1114,
+		"name" : "_kingdomFactory",
+		"id" : 1753,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1128,
+		"name" : "subWizard",
+		"id" : 1781,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1134,
+		"name" : "newKingdomNumber",
+		"id" : 1793,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1140,
+		"name" : "paidWei",
+		"id" : 1803,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1146,
+		"name" : "excessWei",
+		"id" : 1814,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1153,
+		"name" : "kingdomContract",
+		"id" : 1832,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1121,
+		"name" : "_kingdomName",
+		"id" : 1769,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1122,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1771,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1123,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1773,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1124,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1775,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1125,
+		"name" : "_commissionPerThousand",
+		"id" : 1777,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1182,
+		"name" : "oldWizard",
+		"id" : 1883,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1175,
+		"name" : "replacement",
+		"id" : 1865,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1187,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 1898,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1198,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1926,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1211,
+		"name" : "_kingdomFactory",
+		"id" : 1956,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1230,
+		"name" : "fuzzyHash",
+		"id" : 1990,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1227,
+		"name" : "_kingdomName",
+		"id" : 1984,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1228,
+		"name" : "_newKingdomNumber",
+		"id" : 1986,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1244,
+		"name" : "_rawValueWei",
+		"id" : 2017,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1249,
+		"name" : "_valueWei",
+		"id" : 2029,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1254,
+		"name" : "_name",
+		"id" : 2041,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1259,
+		"name" : "_data",
+		"id" : 2053,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1264,
+		"name" : "_name",
+		"id" : 2065,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

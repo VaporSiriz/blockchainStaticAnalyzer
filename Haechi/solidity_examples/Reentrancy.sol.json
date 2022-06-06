@@ -1,0 +1,199 @@
+======= solidity_examples\Reentrancy.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "library",
+		"line" : 3,
+		"name" : "SafeMath",
+		"id" : 59
+	}, {
+		"kind" : "contract",
+		"line" : 20,
+		"name" : "Mallory",
+		"id" : 111
+	}, {
+		"kind" : "contract",
+		"line" : 44,
+		"name" : "SimpleDAO",
+		"id" : 143
+	}, {
+		"kind" : "contract",
+		"line" : 57,
+		"name" : "testContract",
+		"id" : 155
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 4,
+		"name" : "add",
+		"id" : 25
+	}, {
+		"visibility" : "internal",
+		"kind" : "function",
+		"line" : 10,
+		"name" : "mul",
+		"id" : 58
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 25,
+		"name" : "func",
+		"id" : 76
+	}, {
+		"visibility" : "external",
+		"kind" : "fallback",
+		"line" : 28,
+		"name" : "None",
+		"id" : 80
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 31,
+		"name" : "testFunc",
+		"id" : 89
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 36,
+		"name" : "notitle",
+		"id" : 98
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 39,
+		"name" : "getBalance",
+		"id" : 110
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 48,
+		"name" : "withdraw",
+		"id" : 142
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 59,
+		"name" : "testFunc2",
+		"id" : 154
+	} ],
+	"functionCall" : [ {
+		"caller" : "assert",
+		"line" : 6,
+		"name" : "None",
+		"id" : 20
+	}, {
+		"caller" : "assert",
+		"line" : 15,
+		"name" : "None",
+		"id" : 53
+	}, {
+		"caller" : "dao",
+		"line" : 26,
+		"name" : "withdraw",
+		"id" : 73
+	}, {
+		"caller" : "test",
+		"line" : 34,
+		"name" : "testFunc2",
+		"id" : 86
+	}, {
+		"caller" : "dao",
+		"line" : 37,
+		"name" : "withdraw",
+		"id" : 95
+	}, {
+		"caller" : "mallory",
+		"line" : 51,
+		"name" : "testFunc",
+		"id" : 129
+	}, {
+		"caller" : "mal",
+		"line" : 52,
+		"name" : "func",
+		"id" : 134
+	}, {
+		"caller" : "simple",
+		"line" : 60,
+		"name" : "withdraw",
+		"id" : 151
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "a",
+		"id" : 3,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4,
+		"name" : "b",
+		"id" : 5,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 10,
+		"name" : "a",
+		"id" : 27,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 10,
+		"name" : "b",
+		"id" : 29,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 21,
+		"name" : "dao",
+		"id" : 61,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 22,
+		"name" : "test",
+		"id" : 63,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 23,
+		"name" : "userBalance",
+		"id" : 67,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 39,
+		"name" : "u",
+		"id" : 100,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 45,
+		"name" : "mallory",
+		"id" : 113,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 46,
+		"name" : "credit",
+		"id" : 117,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 49,
+		"name" : "mal",
+		"id" : 121,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 50,
+		"name" : "adrr",
+		"id" : 124,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 58,
+		"name" : "simple",
+		"id" : 145,
+		"isStateVariable" : true,
+		"type" : "None"
+	} ]
+}

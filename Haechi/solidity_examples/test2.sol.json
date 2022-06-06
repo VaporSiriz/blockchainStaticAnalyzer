@@ -1,0 +1,414 @@
+======= solidity_examples\test2.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "Mallory",
+		"id" : 53
+	}, {
+		"kind" : "contract",
+		"line" : 27,
+		"name" : "SimpleDAO",
+		"id" : 85
+	}, {
+		"kind" : "contract",
+		"line" : 40,
+		"name" : "testContract",
+		"id" : 97
+	}, {
+		"kind" : "contract",
+		"line" : 47,
+		"name" : "TxOriginContract",
+		"id" : 171
+	}, {
+		"kind" : "contract",
+		"line" : 68,
+		"name" : "ownedContract",
+		"id" : 182
+	}, {
+		"kind" : "contract",
+		"line" : 75,
+		"name" : "BaseNo1",
+		"id" : 203
+	}, {
+		"kind" : "contract",
+		"line" : 84,
+		"name" : "BaseNo2",
+		"id" : 214
+	}, {
+		"kind" : "contract",
+		"line" : 90,
+		"name" : "Final",
+		"id" : 243
+	}, {
+		"kind" : "contract",
+		"line" : 102,
+		"name" : "Test",
+		"id" : 256
+	}, {
+		"kind" : "contract",
+		"line" : 110,
+		"name" : "TestLoop",
+		"id" : 387
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 8,
+		"name" : "func",
+		"id" : 18
+	}, {
+		"visibility" : "external",
+		"kind" : "fallback",
+		"line" : 11,
+		"name" : "None",
+		"id" : 22
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 14,
+		"name" : "testFunc",
+		"id" : 31
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 19,
+		"name" : "notitle",
+		"id" : 40
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 22,
+		"name" : "getBalance",
+		"id" : 52
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 31,
+		"name" : "withdraw",
+		"id" : 84
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 42,
+		"name" : "testFunc2",
+		"id" : 96
+	}, {
+		"visibility" : "public",
+		"kind" : "constructor",
+		"line" : 51,
+		"name" : "None",
+		"id" : 110
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 55,
+		"name" : "send",
+		"id" : 140
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 61,
+		"name" : "transfer",
+		"id" : 170
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 70,
+		"name" : "get",
+		"id" : 181
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 76,
+		"name" : "set",
+		"id" : 192
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 79,
+		"name" : "set",
+		"id" : 202
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 85,
+		"name" : "set",
+		"id" : 213
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 92,
+		"name" : "set",
+		"id" : 226
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 95,
+		"name" : "func",
+		"id" : 242
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 104,
+		"name" : "test",
+		"id" : 255
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 117,
+		"name" : "testWhile",
+		"id" : 291
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 124,
+		"name" : "testForStatement",
+		"id" : 366
+	}, {
+		"visibility" : "public",
+		"kind" : "function",
+		"line" : 139,
+		"name" : "testDoWhile",
+		"id" : 386
+	} ],
+	"functionCall" : [ {
+		"caller" : "dao",
+		"line" : 9,
+		"name" : "withdraw",
+		"id" : 15
+	}, {
+		"caller" : "test",
+		"line" : 17,
+		"name" : "testFunc2",
+		"id" : 28
+	}, {
+		"caller" : "dao",
+		"line" : 20,
+		"name" : "withdraw",
+		"id" : 37
+	}, {
+		"caller" : "mallory",
+		"line" : 34,
+		"name" : "testFunc",
+		"id" : 71
+	}, {
+		"caller" : "mal",
+		"line" : 35,
+		"name" : "func",
+		"id" : 76
+	}, {
+		"caller" : "simple",
+		"line" : 43,
+		"name" : "withdraw",
+		"id" : 93
+	}, {
+		"caller" : null,
+		"line" : 56,
+		"name" : "send",
+		"id" : 122
+	}, {
+		"caller" : "require",
+		"line" : 57,
+		"name" : "None",
+		"id" : 129
+	}, {
+		"caller" : null,
+		"line" : 58,
+		"name" : "send",
+		"id" : 137
+	}, {
+		"caller" : null,
+		"line" : 62,
+		"name" : "transfer",
+		"id" : 151
+	}, {
+		"caller" : "require",
+		"line" : 63,
+		"name" : "None",
+		"id" : 158
+	}, {
+		"caller" : null,
+		"line" : 64,
+		"name" : "send",
+		"id" : 167
+	}, {
+		"caller" : "set",
+		"line" : 96,
+		"name" : "None",
+		"id" : 230
+	}, {
+		"caller" : "set",
+		"line" : 97,
+		"name" : "None",
+		"id" : 234
+	}, {
+		"caller" : "super",
+		"line" : 98,
+		"name" : "set",
+		"id" : 239
+	}, {
+		"caller" : "objfinal",
+		"line" : 106,
+		"name" : "set",
+		"id" : 252
+	}, {
+		"caller" : "require",
+		"line" : 119,
+		"name" : "None",
+		"id" : 283
+	}, {
+		"caller" : "require",
+		"line" : 125,
+		"name" : "None",
+		"id" : 301
+	}, {
+		"caller" : null,
+		"line" : 130,
+		"name" : "send",
+		"id" : 335
+	}, {
+		"caller" : null,
+		"line" : 131,
+		"name" : "transfer",
+		"id" : 343
+	}, {
+		"caller" : "require",
+		"line" : 132,
+		"name" : "None",
+		"id" : 350
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "dao",
+		"id" : 3,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 5,
+		"name" : "test",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 6,
+		"name" : "userBalance",
+		"id" : 9,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 22,
+		"name" : "u",
+		"id" : 42,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 28,
+		"name" : "mallory",
+		"id" : 55,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 29,
+		"name" : "credit",
+		"id" : 59,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 32,
+		"name" : "mal",
+		"id" : 63,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 33,
+		"name" : "adrr",
+		"id" : 66,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 41,
+		"name" : "simple",
+		"id" : 87,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 48,
+		"name" : "owner",
+		"id" : 99,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 49,
+		"name" : "c",
+		"id" : 101,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 55,
+		"name" : "amount",
+		"id" : 112,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 61,
+		"name" : "amount",
+		"id" : 142,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 69,
+		"name" : "a",
+		"id" : 173,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 79,
+		"name" : "num",
+		"id" : 194,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 105,
+		"name" : "objfinal",
+		"id" : 247,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 111,
+		"name" : "owner",
+		"id" : 260,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 112,
+		"name" : "i",
+		"id" : 263,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 113,
+		"name" : "a",
+		"id" : 266,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 114,
+		"name" : "b",
+		"id" : 269,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 115,
+		"name" : "c",
+		"id" : 272,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 124,
+		"name" : "amount",
+		"id" : 293,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

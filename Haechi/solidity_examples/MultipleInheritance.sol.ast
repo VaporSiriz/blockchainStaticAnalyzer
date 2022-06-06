@@ -1,0 +1,526 @@
+JSON AST (compact format):
+
+
+======= solidity_examples/MultipleInheritance.sol =======
+{
+	"absolutePath" : "solidity_examples/MultipleInheritance.sol",
+	"exportedSymbols" : 
+	{
+		"BaseNo1" : 
+		[
+			23
+		],
+		"BaseNo2" : 
+		[
+			34
+		],
+		"Final" : 
+		[
+			39
+		],
+		"ownedContract" : 
+		[
+			12
+		]
+	},
+	"id" : 40,
+	"nodeType" : "SourceUnit",
+	"nodes" : 
+	[
+		{
+			"id" : 1,
+			"literals" : 
+			[
+				"solidity",
+				"^",
+				"0.5",
+				".1"
+			],
+			"nodeType" : "PragmaDirective",
+			"src" : "0:22:0"
+		},
+		{
+			"baseContracts" : [],
+			"contractDependencies" : [],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 12,
+			"linearizedBaseContracts" : 
+			[
+				12
+			],
+			"name" : "ownedContract",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"constant" : false,
+					"id" : 3,
+					"name" : "a",
+					"nodeType" : "VariableDeclaration",
+					"scope" : 12,
+					"src" : "56:6:0",
+					"stateVariable" : true,
+					"storageLocation" : "default",
+					"typeDescriptions" : 
+					{
+						"typeIdentifier" : "t_uint256",
+						"typeString" : "uint256"
+					},
+					"typeName" : 
+					{
+						"id" : 2,
+						"name" : "uint",
+						"nodeType" : "ElementaryTypeName",
+						"src" : "56:4:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_uint256",
+							"typeString" : "uint256"
+						}
+					},
+					"value" : null,
+					"visibility" : "internal"
+				},
+				{
+					"body" : 
+					{
+						"id" : 10,
+						"nodeType" : "Block",
+						"src" : "110:27:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"id" : 8,
+									"name" : "a",
+									"nodeType" : "Identifier",
+									"overloadedDeclarations" : [],
+									"referencedDeclaration" : 3,
+									"src" : "128:1:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"functionReturnParameters" : 7,
+								"id" : 9,
+								"nodeType" : "Return",
+								"src" : "121:8:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 11,
+					"implemented" : true,
+					"kind" : "function",
+					"modifiers" : [],
+					"name" : "get",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 4,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "81:2:0"
+					},
+					"returnParameters" : 
+					{
+						"id" : 7,
+						"nodeType" : "ParameterList",
+						"parameters" : 
+						[
+							{
+								"constant" : false,
+								"id" : 6,
+								"name" : "",
+								"nodeType" : "VariableDeclaration",
+								"scope" : 11,
+								"src" : "104:4:0",
+								"stateVariable" : false,
+								"storageLocation" : "default",
+								"typeDescriptions" : 
+								{
+									"typeIdentifier" : "t_uint256",
+									"typeString" : "uint256"
+								},
+								"typeName" : 
+								{
+									"id" : 5,
+									"name" : "uint",
+									"nodeType" : "ElementaryTypeName",
+									"src" : "104:4:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"value" : null,
+								"visibility" : "internal"
+							}
+						],
+						"src" : "103:6:0"
+					},
+					"scope" : 12,
+					"src" : "69:68:0",
+					"stateMutability" : "view",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 40,
+			"src" : "26:114:0"
+		},
+		{
+			"baseContracts" : 
+			[
+				{
+					"arguments" : null,
+					"baseName" : 
+					{
+						"contractScope" : null,
+						"id" : 13,
+						"name" : "ownedContract",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 12,
+						"src" : "164:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_ownedContract_$12",
+							"typeString" : "contract ownedContract"
+						}
+					},
+					"id" : 14,
+					"nodeType" : "InheritanceSpecifier",
+					"src" : "164:13:0"
+				}
+			],
+			"contractDependencies" : 
+			[
+				12
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 23,
+			"linearizedBaseContracts" : 
+			[
+				23,
+				12
+			],
+			"name" : "BaseNo1",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"body" : 
+					{
+						"id" : 21,
+						"nodeType" : "Block",
+						"src" : "207:24:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"id" : 19,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftHandSide" : 
+									{
+										"argumentTypes" : null,
+										"id" : 17,
+										"name" : "a",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 3,
+										"src" : "218:1:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "Assignment",
+									"operator" : "=",
+									"rightHandSide" : 
+									{
+										"argumentTypes" : null,
+										"hexValue" : "31",
+										"id" : 18,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : true,
+										"kind" : "number",
+										"lValueRequested" : false,
+										"nodeType" : "Literal",
+										"src" : "222:1:0",
+										"subdenomination" : null,
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_rational_1_by_1",
+											"typeString" : "int_const 1"
+										},
+										"value" : "1"
+									},
+									"src" : "218:5:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"id" : 20,
+								"nodeType" : "ExpressionStatement",
+								"src" : "218:5:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 22,
+					"implemented" : true,
+					"kind" : "function",
+					"modifiers" : [],
+					"name" : "set",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 15,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "197:2:0"
+					},
+					"returnParameters" : 
+					{
+						"id" : 16,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "207:0:0"
+					},
+					"scope" : 23,
+					"src" : "185:46:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : null,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 40,
+			"src" : "144:90:0"
+		},
+		{
+			"baseContracts" : 
+			[
+				{
+					"arguments" : null,
+					"baseName" : 
+					{
+						"contractScope" : null,
+						"id" : 24,
+						"name" : "ownedContract",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 12,
+						"src" : "258:13:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_ownedContract_$12",
+							"typeString" : "contract ownedContract"
+						}
+					},
+					"id" : 25,
+					"nodeType" : "InheritanceSpecifier",
+					"src" : "258:13:0"
+				}
+			],
+			"contractDependencies" : 
+			[
+				12
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 34,
+			"linearizedBaseContracts" : 
+			[
+				34,
+				12
+			],
+			"name" : "BaseNo2",
+			"nodeType" : "ContractDefinition",
+			"nodes" : 
+			[
+				{
+					"body" : 
+					{
+						"id" : 32,
+						"nodeType" : "Block",
+						"src" : "301:24:0",
+						"statements" : 
+						[
+							{
+								"expression" : 
+								{
+									"argumentTypes" : null,
+									"id" : 30,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftHandSide" : 
+									{
+										"argumentTypes" : null,
+										"id" : 28,
+										"name" : "a",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 3,
+										"src" : "312:1:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "Assignment",
+									"operator" : "=",
+									"rightHandSide" : 
+									{
+										"argumentTypes" : null,
+										"hexValue" : "32",
+										"id" : 29,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : true,
+										"kind" : "number",
+										"lValueRequested" : false,
+										"nodeType" : "Literal",
+										"src" : "316:1:0",
+										"subdenomination" : null,
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_rational_2_by_1",
+											"typeString" : "int_const 2"
+										},
+										"value" : "2"
+									},
+									"src" : "312:5:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"id" : 31,
+								"nodeType" : "ExpressionStatement",
+								"src" : "312:5:0"
+							}
+						]
+					},
+					"documentation" : null,
+					"id" : 33,
+					"implemented" : true,
+					"kind" : "function",
+					"modifiers" : [],
+					"name" : "set",
+					"nodeType" : "FunctionDefinition",
+					"parameters" : 
+					{
+						"id" : 26,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "291:2:0"
+					},
+					"returnParameters" : 
+					{
+						"id" : 27,
+						"nodeType" : "ParameterList",
+						"parameters" : [],
+						"src" : "301:0:0"
+					},
+					"scope" : 34,
+					"src" : "279:46:0",
+					"stateMutability" : "nonpayable",
+					"superFunction" : 22,
+					"visibility" : "public"
+				}
+			],
+			"scope" : 40,
+			"src" : "238:90:0"
+		},
+		{
+			"baseContracts" : 
+			[
+				{
+					"arguments" : null,
+					"baseName" : 
+					{
+						"contractScope" : null,
+						"id" : 35,
+						"name" : "BaseNo1",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 23,
+						"src" : "350:7:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_BaseNo1_$23",
+							"typeString" : "contract BaseNo1"
+						}
+					},
+					"id" : 36,
+					"nodeType" : "InheritanceSpecifier",
+					"src" : "350:7:0"
+				},
+				{
+					"arguments" : null,
+					"baseName" : 
+					{
+						"contractScope" : null,
+						"id" : 37,
+						"name" : "BaseNo2",
+						"nodeType" : "UserDefinedTypeName",
+						"referencedDeclaration" : 34,
+						"src" : "359:7:0",
+						"typeDescriptions" : 
+						{
+							"typeIdentifier" : "t_contract$_BaseNo2_$34",
+							"typeString" : "contract BaseNo2"
+						}
+					},
+					"id" : 38,
+					"nodeType" : "InheritanceSpecifier",
+					"src" : "359:7:0"
+				}
+			],
+			"contractDependencies" : 
+			[
+				12,
+				23,
+				34
+			],
+			"contractKind" : "contract",
+			"documentation" : null,
+			"fullyImplemented" : true,
+			"id" : 39,
+			"linearizedBaseContracts" : 
+			[
+				39,
+				34,
+				23,
+				12
+			],
+			"name" : "Final",
+			"nodeType" : "ContractDefinition",
+			"nodes" : [],
+			"scope" : 40,
+			"src" : "332:38:0"
+		}
+	],
+	"src" : "0:370:0"
+}

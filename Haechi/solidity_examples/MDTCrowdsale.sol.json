@@ -1,0 +1,1148 @@
+======= MDTCrowdsale.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "library",
+		"line" : 13,
+		"name" : "SafeMath",
+		"id" : 127
+	}, {
+		"kind" : "interface",
+		"line" : 79,
+		"name" : "IERC20",
+		"id" : 194
+	}, {
+		"kind" : "contract",
+		"line" : 108,
+		"name" : "ERC20",
+		"id" : 622
+	}, {
+		"kind" : "library",
+		"line" : 283,
+		"name" : "Roles",
+		"id" : 714
+	}, {
+		"kind" : "contract",
+		"line" : 318,
+		"name" : "MinterRole",
+		"id" : 814
+	}, {
+		"kind" : "contract",
+		"line" : 362,
+		"name" : "ERC20Mintable",
+		"id" : 838
+	}, {
+		"kind" : "contract",
+		"line" : 382,
+		"name" : "Crowdsale",
+		"id" : 1049
+	}, {
+		"kind" : "contract",
+		"line" : 478,
+		"name" : "CappedCrowdsale",
+		"id" : 1113
+	}, {
+		"kind" : "contract",
+		"line" : 507,
+		"name" : "WhitelistedCrowdsale",
+		"id" : 1164
+	}, {
+		"kind" : "contract",
+		"line" : 525,
+		"name" : "MDTCrowdsale",
+		"id" : 1200
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 17,
+		"name" : "mul",
+		"id" : 34
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 34,
+		"name" : "div",
+		"id" : 58
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 46,
+		"name" : "sub",
+		"id" : 82
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 56,
+		"name" : "add",
+		"id" : 106
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 67,
+		"name" : "mod",
+		"id" : 126
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 80,
+		"name" : "totalSupply",
+		"id" : 132
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 82,
+		"name" : "balanceOf",
+		"id" : 139
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 84,
+		"name" : "allowance",
+		"id" : 148
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 86,
+		"name" : "transfer",
+		"id" : 157
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 88,
+		"name" : "approve",
+		"id" : 166
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 90,
+		"name" : "transferFrom",
+		"id" : 177
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 120,
+		"name" : "totalSupply",
+		"id" : 219
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 129,
+		"name" : "balanceOf",
+		"id" : 231
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 139,
+		"name" : "allowance",
+		"id" : 247
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 148,
+		"name" : "transfer",
+		"id" : 266
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 162,
+		"name" : "approve",
+		"id" : 302
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 178,
+		"name" : "transferFrom",
+		"id" : 351
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 195,
+		"name" : "increaseAllowance",
+		"id" : 400
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 213,
+		"name" : "decreaseAllowance",
+		"id" : 449
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 227,
+		"name" : "_transfer",
+		"id" : 495
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 242,
+		"name" : "_mint",
+		"id" : 537
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 256,
+		"name" : "_burn",
+		"id" : 579
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 272,
+		"name" : "_burnFrom",
+		"id" : 621
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 291,
+		"name" : "add",
+		"id" : 659
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 301,
+		"name" : "remove",
+		"id" : 690
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 312,
+		"name" : "has",
+		"id" : 713
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 326,
+		"name" : "None",
+		"id" : 736
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 335,
+		"name" : "isMinter",
+		"id" : 760
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 339,
+		"name" : "addMinter",
+		"id" : 772
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 343,
+		"name" : "renounceMinter",
+		"id" : 781
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 347,
+		"name" : "_addMinter",
+		"id" : 797
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 352,
+		"name" : "_removeMinter",
+		"id" : 813
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 369,
+		"name" : "mint",
+		"id" : 837
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 410,
+		"name" : "Crowdsale",
+		"id" : 921
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 425,
+		"name" : "createTokenContract",
+		"id" : 931
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 431,
+		"name" : "None",
+		"id" : 940
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 436,
+		"name" : "buyTokens",
+		"id" : 994
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 456,
+		"name" : "forwardFunds",
+		"id" : 1005
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 461,
+		"name" : "validPurchase",
+		"id" : 1037
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 469,
+		"name" : "hasEnded",
+		"id" : 1048
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 482,
+		"name" : "CappedCrowdsale",
+		"id" : 1072
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 489,
+		"name" : "validPurchase",
+		"id" : 1094
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 496,
+		"name" : "hasEnded",
+		"id" : 1112
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 512,
+		"name" : "addToWhitelist",
+		"id" : 1143
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 519,
+		"name" : "validPurchase",
+		"id" : 1163
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 527,
+		"name" : "MDTCrowdsale",
+		"id" : 1199
+	} ],
+	"functionCall" : [ {
+		"caller" : "require",
+		"line" : 26,
+		"name" : "None",
+		"id" : 29
+	}, {
+		"caller" : "require",
+		"line" : 36,
+		"name" : "None",
+		"id" : 47
+	}, {
+		"caller" : "require",
+		"line" : 47,
+		"name" : "None",
+		"id" : 71
+	}, {
+		"caller" : "require",
+		"line" : 58,
+		"name" : "None",
+		"id" : 101
+	}, {
+		"caller" : "require",
+		"line" : 68,
+		"name" : "None",
+		"id" : 119
+	}, {
+		"caller" : "_transfer",
+		"line" : 149,
+		"name" : "None",
+		"id" : 261
+	}, {
+		"caller" : "require",
+		"line" : 163,
+		"name" : "None",
+		"id" : 281
+	}, {
+		"caller" : null,
+		"line" : 163,
+		"name" : "None",
+		"id" : 279
+	}, {
+		"caller" : null,
+		"line" : 179,
+		"name" : "sub",
+		"id" : 327
+	}, {
+		"caller" : "_transfer",
+		"line" : 180,
+		"name" : "None",
+		"id" : 334
+	}, {
+		"caller" : "require",
+		"line" : 196,
+		"name" : "None",
+		"id" : 366
+	}, {
+		"caller" : null,
+		"line" : 196,
+		"name" : "None",
+		"id" : 364
+	}, {
+		"caller" : null,
+		"line" : 198,
+		"name" : "add",
+		"id" : 382
+	}, {
+		"caller" : "require",
+		"line" : 214,
+		"name" : "None",
+		"id" : 415
+	}, {
+		"caller" : null,
+		"line" : 214,
+		"name" : "None",
+		"id" : 413
+	}, {
+		"caller" : null,
+		"line" : 216,
+		"name" : "sub",
+		"id" : 431
+	}, {
+		"caller" : "require",
+		"line" : 228,
+		"name" : "None",
+		"id" : 464
+	}, {
+		"caller" : null,
+		"line" : 228,
+		"name" : "None",
+		"id" : 462
+	}, {
+		"caller" : null,
+		"line" : 230,
+		"name" : "sub",
+		"id" : 474
+	}, {
+		"caller" : null,
+		"line" : 231,
+		"name" : "add",
+		"id" : 485
+	}, {
+		"caller" : "require",
+		"line" : 243,
+		"name" : "None",
+		"id" : 508
+	}, {
+		"caller" : null,
+		"line" : 243,
+		"name" : "None",
+		"id" : 506
+	}, {
+		"caller" : "_totalSupply",
+		"line" : 245,
+		"name" : "add",
+		"id" : 514
+	}, {
+		"caller" : null,
+		"line" : 246,
+		"name" : "add",
+		"id" : 525
+	}, {
+		"caller" : "require",
+		"line" : 257,
+		"name" : "None",
+		"id" : 550
+	}, {
+		"caller" : null,
+		"line" : 257,
+		"name" : "None",
+		"id" : 548
+	}, {
+		"caller" : "_totalSupply",
+		"line" : 259,
+		"name" : "sub",
+		"id" : 556
+	}, {
+		"caller" : null,
+		"line" : 260,
+		"name" : "sub",
+		"id" : 567
+	}, {
+		"caller" : null,
+		"line" : 273,
+		"name" : "sub",
+		"id" : 600
+	}, {
+		"caller" : "_burn",
+		"line" : 274,
+		"name" : "None",
+		"id" : 606
+	}, {
+		"caller" : "require",
+		"line" : 292,
+		"name" : "None",
+		"id" : 640
+	}, {
+		"caller" : null,
+		"line" : 292,
+		"name" : "None",
+		"id" : 638
+	}, {
+		"caller" : "require",
+		"line" : 293,
+		"name" : "None",
+		"id" : 648
+	}, {
+		"caller" : "has",
+		"line" : 293,
+		"name" : "None",
+		"id" : 646
+	}, {
+		"caller" : "require",
+		"line" : 302,
+		"name" : "None",
+		"id" : 672
+	}, {
+		"caller" : null,
+		"line" : 302,
+		"name" : "None",
+		"id" : 670
+	}, {
+		"caller" : "require",
+		"line" : 303,
+		"name" : "None",
+		"id" : 679
+	}, {
+		"caller" : "has",
+		"line" : 303,
+		"name" : "None",
+		"id" : 678
+	}, {
+		"caller" : "require",
+		"line" : 313,
+		"name" : "None",
+		"id" : 705
+	}, {
+		"caller" : null,
+		"line" : 313,
+		"name" : "None",
+		"id" : 703
+	}, {
+		"caller" : "_addMinter",
+		"line" : 327,
+		"name" : "None",
+		"id" : 733
+	}, {
+		"caller" : "require",
+		"line" : 331,
+		"name" : "None",
+		"id" : 743
+	}, {
+		"caller" : "isMinter",
+		"line" : 331,
+		"name" : "None",
+		"id" : 742
+	}, {
+		"caller" : "_minters",
+		"line" : 336,
+		"name" : "has",
+		"id" : 757
+	}, {
+		"caller" : "_addMinter",
+		"line" : 340,
+		"name" : "None",
+		"id" : 769
+	}, {
+		"caller" : "_removeMinter",
+		"line" : 344,
+		"name" : "None",
+		"id" : 778
+	}, {
+		"caller" : "_minters",
+		"line" : 348,
+		"name" : "add",
+		"id" : 790
+	}, {
+		"caller" : "_minters",
+		"line" : 353,
+		"name" : "remove",
+		"id" : 806
+	}, {
+		"caller" : "_mint",
+		"line" : 370,
+		"name" : "None",
+		"id" : 832
+	}, {
+		"caller" : "require",
+		"line" : 411,
+		"name" : "None",
+		"id" : 879
+	}, {
+		"caller" : "require",
+		"line" : 412,
+		"name" : "None",
+		"id" : 885
+	}, {
+		"caller" : "require",
+		"line" : 413,
+		"name" : "None",
+		"id" : 891
+	}, {
+		"caller" : "require",
+		"line" : 414,
+		"name" : "None",
+		"id" : 897
+	}, {
+		"caller" : "createTokenContract",
+		"line" : 416,
+		"name" : "None",
+		"id" : 901
+	}, {
+		"caller" : null,
+		"line" : 426,
+		"name" : "None",
+		"id" : 928
+	}, {
+		"caller" : "buyTokens",
+		"line" : 432,
+		"name" : "None",
+		"id" : 937
+	}, {
+		"caller" : "require",
+		"line" : 437,
+		"name" : "None",
+		"id" : 949
+	}, {
+		"caller" : "require",
+		"line" : 438,
+		"name" : "None",
+		"id" : 954
+	}, {
+		"caller" : "validPurchase",
+		"line" : 438,
+		"name" : "None",
+		"id" : 953
+	}, {
+		"caller" : "weiRaised",
+		"line" : 446,
+		"name" : "add",
+		"id" : 972
+	}, {
+		"caller" : "token",
+		"line" : 448,
+		"name" : "mint",
+		"id" : 980
+	}, {
+		"caller" : "TokenPurchase",
+		"line" : 449,
+		"name" : "None",
+		"id" : 988
+	}, {
+		"caller" : "forwardFunds",
+		"line" : 451,
+		"name" : "None",
+		"id" : 991
+	}, {
+		"caller" : "wallet",
+		"line" : 457,
+		"name" : "transfer",
+		"id" : 1002
+	}, {
+		"caller" : "require",
+		"line" : 483,
+		"name" : "None",
+		"id" : 1065
+	}, {
+		"caller" : "super",
+		"line" : 491,
+		"name" : "validPurchase",
+		"id" : 1089
+	}, {
+		"caller" : "super",
+		"line" : 498,
+		"name" : "hasEnded",
+		"id" : 1107
+	}, {
+		"caller" : "require",
+		"line" : 513,
+		"name" : "None",
+		"id" : 1134
+	}, {
+		"caller" : null,
+		"line" : 513,
+		"name" : "None",
+		"id" : 1132
+	}, {
+		"caller" : "super",
+		"line" : 520,
+		"name" : "validPurchase",
+		"id" : 1150
+	}, {
+		"caller" : "addToWhitelist",
+		"line" : 530,
+		"name" : "None",
+		"id" : 1188
+	}, {
+		"caller" : "addToWhitelist",
+		"line" : 531,
+		"name" : "None",
+		"id" : 1192
+	}, {
+		"caller" : "addToWhitelist",
+		"line" : 532,
+		"name" : "None",
+		"id" : 1196
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 25,
+		"name" : "c",
+		"id" : 18,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 17,
+		"name" : "a",
+		"id" : 3,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 17,
+		"name" : "b",
+		"id" : 5,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 37,
+		"name" : "c",
+		"id" : 50,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 34,
+		"name" : "a",
+		"id" : 36,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 34,
+		"name" : "b",
+		"id" : 38,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 48,
+		"name" : "c",
+		"id" : 74,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 46,
+		"name" : "a",
+		"id" : 60,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 46,
+		"name" : "b",
+		"id" : 62,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 57,
+		"name" : "c",
+		"id" : 92,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 56,
+		"name" : "a",
+		"id" : 84,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 56,
+		"name" : "b",
+		"id" : 86,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 67,
+		"name" : "a",
+		"id" : 108,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 67,
+		"name" : "b",
+		"id" : 110,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 111,
+		"name" : "_balances",
+		"id" : 203,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 113,
+		"name" : "_allowed",
+		"id" : 209,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 115,
+		"name" : "_totalSupply",
+		"id" : 211,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 129,
+		"name" : "owner",
+		"id" : 221,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 139,
+		"name" : "owner",
+		"id" : 233,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 139,
+		"name" : "spender",
+		"id" : 235,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 148,
+		"name" : "to",
+		"id" : 249,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 148,
+		"name" : "value",
+		"id" : 251,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 162,
+		"name" : "spender",
+		"id" : 268,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 162,
+		"name" : "value",
+		"id" : 270,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 178,
+		"name" : "from",
+		"id" : 304,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 178,
+		"name" : "to",
+		"id" : 306,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 178,
+		"name" : "value",
+		"id" : 308,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 195,
+		"name" : "spender",
+		"id" : 353,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 195,
+		"name" : "addedValue",
+		"id" : 355,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 213,
+		"name" : "spender",
+		"id" : 402,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 213,
+		"name" : "subtractedValue",
+		"id" : 404,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 227,
+		"name" : "from",
+		"id" : 451,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 227,
+		"name" : "to",
+		"id" : 453,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 227,
+		"name" : "value",
+		"id" : 455,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 242,
+		"name" : "account",
+		"id" : 497,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 242,
+		"name" : "value",
+		"id" : 499,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 256,
+		"name" : "account",
+		"id" : 539,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 256,
+		"name" : "value",
+		"id" : 541,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 272,
+		"name" : "account",
+		"id" : 581,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 272,
+		"name" : "value",
+		"id" : 583,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 291,
+		"name" : "role",
+		"id" : 629,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 291,
+		"name" : "account",
+		"id" : 631,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 301,
+		"name" : "role",
+		"id" : 661,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 301,
+		"name" : "account",
+		"id" : 663,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 312,
+		"name" : "role",
+		"id" : 692,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 312,
+		"name" : "account",
+		"id" : 694,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 324,
+		"name" : "_minters",
+		"id" : 727,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 335,
+		"name" : "account",
+		"id" : 749,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 339,
+		"name" : "account",
+		"id" : 762,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 347,
+		"name" : "account",
+		"id" : 783,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 352,
+		"name" : "account",
+		"id" : 799,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 369,
+		"name" : "to",
+		"id" : 820,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 369,
+		"name" : "value",
+		"id" : 822,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 386,
+		"name" : "token",
+		"id" : 843,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 389,
+		"name" : "startBlock",
+		"id" : 845,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 390,
+		"name" : "endBlock",
+		"id" : 847,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 393,
+		"name" : "wallet",
+		"id" : 849,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 396,
+		"name" : "rate",
+		"id" : 851,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 399,
+		"name" : "weiRaised",
+		"id" : 853,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 410,
+		"name" : "_startBlock",
+		"id" : 865,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 410,
+		"name" : "_endBlock",
+		"id" : 867,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 410,
+		"name" : "_rate",
+		"id" : 869,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 410,
+		"name" : "_wallet",
+		"id" : 871,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 440,
+		"name" : "weiAmount",
+		"id" : 957,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 443,
+		"name" : "tokens",
+		"id" : 962,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 436,
+		"name" : "beneficiary",
+		"id" : 942,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 462,
+		"name" : "current",
+		"id" : 1011,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 463,
+		"name" : "withinPeriod",
+		"id" : 1016,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 464,
+		"name" : "nonZeroPurchase",
+		"id" : 1026,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 480,
+		"name" : "cap",
+		"id" : 1056,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 482,
+		"name" : "_cap",
+		"id" : 1058,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 490,
+		"name" : "withinCap",
+		"id" : 1078,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 497,
+		"name" : "capReached",
+		"id" : 1100,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 510,
+		"name" : "whitelist",
+		"id" : 1122,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 512,
+		"name" : "addr",
+		"id" : 1124,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="haechi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Haechi/dist/haechi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

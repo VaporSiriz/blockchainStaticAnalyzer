@@ -1,0 +1,56 @@
+======= send_loop.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 9,
+		"name" : "Refunder",
+		"id" : 54
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 14,
+		"name" : "None",
+		"id" : 24
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 20,
+		"name" : "refundAll",
+		"id" : 53
+	} ],
+	"functionCall" : [ {
+		"caller" : "refundAddresses",
+		"line" : 15,
+		"name" : "push",
+		"id" : 15
+	}, {
+		"caller" : "refundAddresses",
+		"line" : 16,
+		"name" : "push",
+		"id" : 21
+	}, {
+		"caller" : "require",
+		"line" : 22,
+		"name" : "None",
+		"id" : 48
+	}, {
+		"caller" : null,
+		"line" : 22,
+		"name" : "send",
+		"id" : 47
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 11,
+		"name" : "refundAddresses",
+		"id" : 4,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 12,
+		"name" : "refunds",
+		"id" : 8,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	} ]
+}
