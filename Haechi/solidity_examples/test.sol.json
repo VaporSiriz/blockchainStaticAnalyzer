@@ -1,4 +1,4 @@
-======= .\solidity_examples\test.sol =======
+======= Haechi/solidity_examples/test.sol =======
 {
 	"ContractDefinition" : [ {
 		"kind" : "contract",
@@ -192,222 +192,222 @@
 		"id" : 3764
 	}, {
 		"kind" : "library",
-		"line" : 1883,
+		"line" : 1893,
 		"name" : "SafeMath",
 		"id" : 3860
 	}, {
 		"kind" : "contract",
-		"line" : 1916,
+		"line" : 1932,
 		"name" : "Visibility",
 		"id" : 3957
 	}, {
 		"kind" : "contract",
-		"line" : 1941,
+		"line" : 1950,
 		"name" : "childOfAddOne",
 		"id" : 3960
 	}, {
 		"kind" : "contract",
-		"line" : 1941,
+		"line" : 1953,
 		"name" : "anotherOne",
 		"id" : 3961
 	}, {
 		"kind" : "contract",
-		"line" : 1944,
+		"line" : 1958,
 		"name" : "Migrations",
 		"id" : 4016
 	}, {
 		"kind" : "contract",
-		"line" : 1965,
+		"line" : 1974,
 		"name" : "GetAndSet",
 		"id" : 4047
 	}, {
 		"kind" : "contract",
-		"line" : 1971,
+		"line" : 1978,
 		"name" : "GetAndSet2",
 		"id" : 4117
 	}, {
 		"kind" : "contract",
-		"line" : 1985,
+		"line" : 2002,
 		"name" : "SimpleSocialNetwork",
 		"id" : 4258
 	}, {
 		"kind" : "contract",
-		"line" : 2043,
+		"line" : 2063,
 		"name" : "tokenRecipient",
 		"id" : 4270
 	}, {
 		"kind" : "contract",
-		"line" : 2053,
+		"line" : 2068,
 		"name" : "MyToken",
 		"id" : 4513
 	}, {
 		"kind" : "contract",
-		"line" : 2139,
+		"line" : 2146,
 		"name" : "Account",
 		"id" : 4564
 	}, {
 		"kind" : "contract",
-		"line" : 2146,
+		"line" : 2153,
 		"name" : "Factory",
 		"id" : 4588
 	}, {
 		"kind" : "contract",
-		"line" : 2190,
+		"line" : 2208,
 		"name" : "OraclizeI",
 		"id" : 4680
 	}, {
 		"kind" : "contract",
-		"line" : 2221,
+		"line" : 2229,
 		"name" : "OraclizeAddrResolverI",
 		"id" : 4686
 	}, {
 		"kind" : "contract",
-		"line" : 2222,
+		"line" : 2230,
 		"name" : "usingOraclize",
 		"id" : 6127
 	}, {
 		"kind" : "contract",
-		"line" : 2454,
+		"line" : 2463,
 		"name" : "DieselPrice",
 		"id" : 6186
 	}, {
 		"kind" : "contract",
-		"line" : 2477,
+		"line" : 2487,
 		"name" : "KrakenPriceTicker",
 		"id" : 6268
 	}, {
 		"kind" : "contract",
-		"line" : 2509,
+		"line" : 2528,
 		"name" : "swarmExample",
 		"id" : 6324
 	}, {
 		"kind" : "contract",
-		"line" : 2536,
+		"line" : 2550,
 		"name" : "WolframAlpha",
 		"id" : 6380
 	}, {
 		"kind" : "contract",
-		"line" : 2559,
+		"line" : 2567,
 		"name" : "YoutubeViews",
 		"id" : 6436
 	}, {
 		"kind" : "contract",
-		"line" : 2585,
+		"line" : 2593,
 		"name" : "DSAuthority",
 		"id" : 6448
 	}, {
 		"kind" : "contract",
-		"line" : 2588,
+		"line" : 2601,
 		"name" : "DSAuthEvents",
 		"id" : 6457
 	}, {
 		"kind" : "contract",
-		"line" : 2592,
+		"line" : 2605,
 		"name" : "DSAuth",
 		"id" : 6571
 	}, {
 		"kind" : "contract",
-		"line" : 2627,
+		"line" : 2638,
 		"name" : "VisitCounter",
 		"id" : 6675
 	}, {
 		"kind" : "contract",
-		"line" : 2676,
+		"line" : 2690,
 		"name" : "Auction",
 		"id" : 7100
 	}, {
 		"kind" : "contract",
-		"line" : 2871,
+		"line" : 2880,
 		"name" : "AuctionFactory",
 		"id" : 7167
 	}, {
 		"kind" : "contract",
-		"line" : 2885,
+		"line" : 2892,
 		"name" : "SampleContract",
 		"id" : 10487
 	}, {
 		"kind" : "contract",
-		"line" : 3840,
+		"line" : 3850,
 		"name" : "ERC20Basic",
 		"id" : 10517
 	}, {
 		"kind" : "contract",
-		"line" : 3846,
+		"line" : 3856,
 		"name" : "ERC20",
 		"id" : 10557
 	}, {
 		"kind" : "contract",
-		"line" : 3856,
+		"line" : 3866,
 		"name" : "MultiSender",
 		"id" : 10925
 	}, {
 		"kind" : "contract",
-		"line" : 3948,
+		"line" : 3958,
 		"name" : "EternalStorage",
 		"id" : 10950
 	}, {
 		"kind" : "contract",
-		"line" : 3957,
+		"line" : 3969,
 		"name" : "Proxy",
 		"id" : 10979
 	}, {
 		"kind" : "contract",
-		"line" : 3988,
+		"line" : 4001,
 		"name" : "UpgradeabilityOwnerStorage",
 		"id" : 11000
 	}, {
 		"kind" : "contract",
-		"line" : 4006,
+		"line" : 4015,
 		"name" : "Token",
 		"id" : 11064
 	}, {
 		"kind" : "contract",
-		"line" : 4059,
+		"line" : 4070,
 		"name" : "Owned",
 		"id" : 11138
 	}, {
 		"kind" : "contract",
-		"line" : 4084,
+		"line" : 4098,
 		"name" : "Controlled",
 		"id" : 11279
 	}, {
 		"kind" : "contract",
-		"line" : 4124,
+		"line" : 4130,
 		"name" : "StandardToken",
 		"id" : 11480
 	}, {
 		"kind" : "contract",
-		"line" : 4169,
+		"line" : 4185,
 		"name" : "SMT",
 		"id" : 11903
 	}, {
 		"kind" : "contract",
-		"line" : 4310,
+		"line" : 4319,
 		"name" : "SimpleAuction",
 		"id" : 12071
 	}, {
 		"kind" : "contract",
-		"line" : 4420,
+		"line" : 4429,
 		"name" : "BlindAuction",
 		"id" : 12416
 	}, {
 		"kind" : "contract",
-		"line" : 4550,
+		"line" : 4564,
 		"name" : "ReceiverPays",
 		"id" : 12568
 	}, {
 		"kind" : "contract",
-		"line" : 4602,
+		"line" : 4609,
 		"name" : "SimplePaymentChannel",
 		"id" : 12764
 	}, {
 		"kind" : "contract",
-		"line" : 4683,
+		"line" : 4698,
 		"name" : "StateHolder",
 		"id" : 12820
 	}, {
 		"kind" : "contract",
-		"line" : 4700,
+		"line" : 4712,
 		"name" : "Insecure",
 		"id" : 13020
 	} ],
@@ -1033,872 +1033,872 @@
 		"id" : 3575
 	}, {
 		"visibility" : "public",
-		"line" : 1818,
+		"line" : 1820,
 		"name" : "delegate",
 		"id" : 3667
 	}, {
 		"visibility" : "public",
-		"line" : 1856,
+		"line" : 1863,
 		"name" : "vote",
 		"id" : 3707
 	}, {
 		"visibility" : "public",
-		"line" : 1868,
+		"line" : 1874,
 		"name" : "winningProposal",
 		"id" : 3749
 	}, {
 		"visibility" : "public",
-		"line" : 1879,
+		"line" : 1886,
 		"name" : "winnerName",
 		"id" : 3763
 	}, {
 		"visibility" : "internal",
-		"line" : 1884,
+		"line" : 1894,
 		"name" : "mul",
 		"id" : 3797
 	}, {
 		"visibility" : "internal",
-		"line" : 1893,
+		"line" : 1904,
 		"name" : "div",
 		"id" : 3815
 	}, {
 		"visibility" : "internal",
-		"line" : 1906,
+		"line" : 1916,
 		"name" : "sub",
 		"id" : 3835
 	}, {
 		"visibility" : "internal",
-		"line" : 1909,
+		"line" : 1926,
 		"name" : "add",
 		"id" : 3859
 	}, {
 		"visibility" : "public",
-		"line" : 1919,
+		"line" : 1938,
 		"name" : "getData",
 		"id" : 3878
 	}, {
 		"visibility" : "public",
-		"line" : 1926,
+		"line" : 1940,
 		"name" : "doIt",
 		"id" : 3890
 	}, {
 		"visibility" : "public",
-		"line" : 1928,
+		"line" : 1941,
 		"name" : "keepIt",
 		"id" : 3904
 	}, {
 		"visibility" : "public",
-		"line" : 1929,
+		"line" : 1942,
 		"name" : "assignv",
 		"id" : 3918
 	}, {
 		"visibility" : "public",
-		"line" : 1933,
+		"line" : 1943,
 		"name" : "readv",
 		"id" : 3930
 	}, {
 		"visibility" : "public",
-		"line" : 1938,
+		"line" : 1948,
 		"name" : "assign",
 		"id" : 3944
 	}, {
 		"visibility" : "public",
-		"line" : 1940,
+		"line" : 1949,
 		"name" : "read",
 		"id" : 3956
 	}, {
 		"visibility" : "public",
-		"line" : 1948,
+		"line" : 1961,
 		"name" : "None",
 		"id" : 3974
 	}, {
 		"visibility" : "public",
-		"line" : 1950,
+		"line" : 1968,
 		"name" : "setCompleted",
 		"id" : 3995
 	}, {
 		"visibility" : "public",
-		"line" : 1956,
+		"line" : 1971,
 		"name" : "upgrade",
 		"id" : 4015
 	}, {
 		"visibility" : "public",
-		"line" : 1967,
+		"line" : 1975,
 		"name" : "setStoredData",
 		"id" : 4034
 	}, {
 		"visibility" : "public",
-		"line" : 1970,
+		"line" : 1977,
 		"name" : "getStoredData",
 		"id" : 4046
 	}, {
 		"visibility" : "public",
-		"line" : 1972,
+		"line" : 1984,
 		"name" : "setStoredData",
 		"id" : 4073
 	}, {
 		"visibility" : "public",
-		"line" : 1975,
+		"line" : 1986,
 		"name" : "getStoredData",
 		"id" : 4091
 	}, {
 		"visibility" : "public",
-		"line" : 1977,
+		"line" : 1993,
 		"name" : "getOwner",
 		"id" : 4099
 	}, {
 		"visibility" : "public",
-		"line" : 1978,
+		"line" : 1998,
 		"name" : "None",
 		"id" : 4108
 	}, {
 		"visibility" : "public",
-		"line" : 1981,
+		"line" : 2001,
 		"name" : "goodbye",
 		"id" : 4116
 	}, {
 		"visibility" : "public",
-		"line" : 2005,
+		"line" : 2019,
 		"name" : "None",
 		"id" : 4164
 	}, {
 		"visibility" : "public",
-		"line" : 2011,
+		"line" : 2029,
 		"name" : "hasPosts",
 		"id" : 4177
 	}, {
 		"visibility" : "public",
-		"line" : 2015,
+		"line" : 2033,
 		"name" : "newPost",
 		"id" : 4213
 	}, {
 		"visibility" : "public",
-		"line" : 2028,
+		"line" : 2047,
 		"name" : "newComment",
 		"id" : 4257
 	}, {
 		"visibility" : "public",
-		"line" : 2046,
+		"line" : 2065,
 		"name" : "receiveApproval",
 		"id" : 4269
 	}, {
 		"visibility" : "public",
-		"line" : 2081,
+		"line" : 2090,
 		"name" : "MyToken",
 		"id" : 4345
 	}, {
 		"visibility" : "public",
-		"line" : 2103,
+		"line" : 2112,
 		"name" : "transfer",
 		"id" : 4392
 	}, {
 		"visibility" : "public",
-		"line" : 2117,
+		"line" : 2126,
 		"name" : "approveAndCall",
 		"id" : 4431
 	}, {
 		"visibility" : "public",
-		"line" : 2126,
+		"line" : 2130,
 		"name" : "transferFrom",
 		"id" : 4507
 	}, {
 		"visibility" : "public",
-		"line" : 2138,
+		"line" : 2144,
 		"name" : "None",
 		"id" : 4512
 	}, {
 		"visibility" : "public",
-		"line" : 2139,
+		"line" : 2147,
 		"name" : "None",
 		"id" : 4525
 	}, {
 		"visibility" : "public",
-		"line" : 2142,
+		"line" : 2148,
 		"name" : "setOwner",
 		"id" : 4542
 	}, {
 		"visibility" : "public",
-		"line" : 2143,
+		"line" : 2152,
 		"name" : "destroy",
 		"id" : 4559
 	}, {
 		"visibility" : "external",
-		"line" : 2145,
+		"line" : 2153,
 		"name" : "None",
 		"id" : 4563
 	}, {
 		"visibility" : "public",
-		"line" : 2147,
+		"line" : 2154,
 		"name" : "deploy",
 		"id" : 4587
 	}, {
 		"visibility" : "public",
-		"line" : 2192,
+		"line" : 2212,
 		"name" : "query",
 		"id" : 4602
 	}, {
 		"visibility" : "public",
-		"line" : 2195,
+		"line" : 2213,
 		"name" : "query_withGasLimit",
 		"id" : 4615
 	}, {
 		"visibility" : "public",
-		"line" : 2204,
+		"line" : 2215,
 		"name" : "query2",
 		"id" : 4628
 	}, {
 		"visibility" : "public",
-		"line" : 2212,
+		"line" : 2217,
 		"name" : "query2_withGasLimit",
 		"id" : 4643
 	}, {
 		"visibility" : "public",
-		"line" : 2214,
+		"line" : 2222,
 		"name" : "getPrice",
 		"id" : 4650
 	}, {
 		"visibility" : "public",
-		"line" : 2214,
+		"line" : 2226,
 		"name" : "getPrice",
 		"id" : 4659
 	}, {
 		"visibility" : "public",
-		"line" : 2215,
+		"line" : 2227,
 		"name" : "useCoupon",
 		"id" : 4664
 	}, {
 		"visibility" : "public",
-		"line" : 2216,
+		"line" : 2227,
 		"name" : "setProofType",
 		"id" : 4669
 	}, {
 		"visibility" : "public",
-		"line" : 2217,
+		"line" : 2228,
 		"name" : "setConfig",
 		"id" : 4674
 	}, {
 		"visibility" : "public",
-		"line" : 2217,
+		"line" : 2228,
 		"name" : "setCustomGasPrice",
 		"id" : 4679
 	}, {
 		"visibility" : "public",
-		"line" : 2221,
+		"line" : 2230,
 		"name" : "getAddress",
 		"id" : 4685
 	}, {
 		"visibility" : "public",
-		"line" : 2459,
+		"line" : 2468,
 		"name" : "DieselPrice",
 		"id" : 6146
 	}, {
 		"visibility" : "public",
-		"line" : 2460,
+		"line" : 2472,
 		"name" : "__callback",
 		"id" : 6172
 	}, {
 		"visibility" : "public",
-		"line" : 2468,
+		"line" : 2481,
 		"name" : "update",
 		"id" : 6185
 	}, {
 		"visibility" : "public",
-		"line" : 2482,
+		"line" : 2492,
 		"name" : "KrakenPriceTicker",
 		"id" : 6211
 	}, {
 		"visibility" : "public",
-		"line" : 2485,
+		"line" : 2497,
 		"name" : "__callback",
 		"id" : 6239
 	}, {
 		"visibility" : "public",
-		"line" : 2491,
+		"line" : 2506,
 		"name" : "update",
 		"id" : 6267
 	}, {
 		"visibility" : "public",
-		"line" : 2521,
+		"line" : 2531,
 		"name" : "swarmExample",
 		"id" : 6287
 	}, {
 		"visibility" : "public",
-		"line" : 2522,
+		"line" : 2533,
 		"name" : "__callback",
 		"id" : 6310
 	}, {
 		"visibility" : "public",
-		"line" : 2530,
+		"line" : 2538,
 		"name" : "update",
 		"id" : 6323
 	}, {
 		"visibility" : "public",
-		"line" : 2542,
+		"line" : 2556,
 		"name" : "WolframAlpha",
 		"id" : 6343
 	}, {
 		"visibility" : "public",
-		"line" : 2546,
+		"line" : 2557,
 		"name" : "__callback",
 		"id" : 6366
 	}, {
 		"visibility" : "public",
-		"line" : 2555,
+		"line" : 2564,
 		"name" : "update",
 		"id" : 6379
 	}, {
 		"visibility" : "public",
-		"line" : 2564,
+		"line" : 2576,
 		"name" : "YoutubeViews",
 		"id" : 6399
 	}, {
 		"visibility" : "public",
-		"line" : 2566,
+		"line" : 2578,
 		"name" : "__callback",
 		"id" : 6422
 	}, {
 		"visibility" : "public",
-		"line" : 2574,
+		"line" : 2587,
 		"name" : "update",
 		"id" : 6435
 	}, {
 		"visibility" : "public",
-		"line" : 2585,
+		"line" : 2594,
 		"name" : "canCall",
 		"id" : 6447
 	}, {
 		"visibility" : "public",
-		"line" : 2593,
+		"line" : 2610,
 		"name" : "None",
 		"id" : 6477
 	}, {
 		"visibility" : "public",
-		"line" : 2599,
+		"line" : 2612,
 		"name" : "setOwner",
 		"id" : 6493
 	}, {
 		"visibility" : "public",
-		"line" : 2603,
+		"line" : 2617,
 		"name" : "setAuthority",
 		"id" : 6511
 	}, {
 		"visibility" : "internal",
-		"line" : 2613,
+		"line" : 2627,
 		"name" : "isAuthorized",
 		"id" : 6570
 	}, {
 		"visibility" : "public",
-		"line" : 2635,
+		"line" : 2643,
 		"name" : "VisitCounter",
 		"id" : 6593
 	}, {
 		"visibility" : "public",
-		"line" : 2637,
+		"line" : 2643,
 		"name" : "visit",
 		"id" : 6657
 	}, {
 		"visibility" : "public",
-		"line" : 2697,
+		"line" : 2719,
 		"name" : "Auction",
 		"id" : 6769
 	}, {
 		"visibility" : "public",
-		"line" : 2719,
+		"line" : 2733,
 		"name" : "getHighestBid",
 		"id" : 6779
 	}, {
 		"visibility" : "public",
-		"line" : 2724,
+		"line" : 2735,
 		"name" : "placeBid",
 		"id" : 6877
 	}, {
 		"visibility" : "private",
-		"line" : 2792,
+		"line" : 2804,
 		"name" : "min",
 		"id" : 6895
 	}, {
 		"visibility" : "public",
-		"line" : 2798,
+		"line" : 2807,
 		"name" : "cancelAuction",
 		"id" : 6916
 	}, {
 		"visibility" : "public",
-		"line" : 2804,
+		"line" : 2811,
 		"name" : "withdraw",
 		"id" : 7039
 	}, {
 		"visibility" : "public",
-		"line" : 2876,
+		"line" : 2885,
 		"name" : "AuctionFactory",
 		"id" : 7118
 	}, {
 		"visibility" : "public",
-		"line" : 2878,
+		"line" : 2885,
 		"name" : "createAuction",
 		"id" : 7157
 	}, {
 		"visibility" : "public",
-		"line" : 2884,
+		"line" : 2891,
 		"name" : "allAuctions",
 		"id" : 7166
 	}, {
 		"visibility" : "public",
-		"line" : 2890,
+		"line" : 2898,
 		"name" : "SampleContract",
 		"id" : 7197
 	}, {
 		"visibility" : "public",
-		"line" : 2891,
+		"line" : 2898,
 		"name" : "boolFunctionReturnsBool",
 		"id" : 7210
 	}, {
 		"visibility" : "public",
-		"line" : 2895,
+		"line" : 2906,
 		"name" : "boolFunctionReturnsInt",
 		"id" : 7227
 	}, {
 		"visibility" : "public",
-		"line" : 2898,
+		"line" : 2910,
 		"name" : "boolFunctionReturnsInt8",
 		"id" : 7244
 	}, {
 		"visibility" : "public",
-		"line" : 2904,
+		"line" : 2920,
 		"name" : "boolFunctionReturnsInt256",
 		"id" : 7261
 	}, {
 		"visibility" : "public",
-		"line" : 2910,
+		"line" : 2930,
 		"name" : "boolFunctionReturnsUint",
 		"id" : 7278
 	}, {
 		"visibility" : "public",
-		"line" : 2919,
+		"line" : 2940,
 		"name" : "boolFunctionReturnsUint8",
 		"id" : 7295
 	}, {
 		"visibility" : "public",
-		"line" : 2927,
+		"line" : 2949,
 		"name" : "boolFunctionReturnsUint256",
 		"id" : 7312
 	}, {
 		"visibility" : "public",
-		"line" : 2940,
+		"line" : 2954,
 		"name" : "boolFunctionReturnsAddress",
 		"id" : 7329
 	}, {
 		"visibility" : "public",
-		"line" : 2949,
+		"line" : 2958,
 		"name" : "boolFunctionReturnsByte",
 		"id" : 7346
 	}, {
 		"visibility" : "public",
-		"line" : 2954,
+		"line" : 2964,
 		"name" : "boolFunctionReturnsBytes1",
 		"id" : 7363
 	}, {
 		"visibility" : "public",
-		"line" : 2956,
+		"line" : 2980,
 		"name" : "boolFunctionReturnsBytes32",
 		"id" : 7380
 	}, {
 		"visibility" : "public",
-		"line" : 2970,
+		"line" : 2986,
 		"name" : "boolFunctionReturnsBytes",
 		"id" : 7397
 	}, {
 		"visibility" : "public",
-		"line" : 2980,
+		"line" : 2992,
 		"name" : "boolFunctionReturnsString",
 		"id" : 7414
 	}, {
 		"visibility" : "public",
-		"line" : 2986,
+		"line" : 2998,
 		"name" : "boolUint256FunctionReturnsBoolUint256",
 		"id" : 7440
 	}, {
 		"visibility" : "public",
-		"line" : 3841,
+		"line" : 3850,
 		"name" : "totalSupply",
 		"id" : 10492
 	}, {
 		"visibility" : "public",
-		"line" : 3841,
+		"line" : 3851,
 		"name" : "balanceOf",
 		"id" : 10499
 	}, {
 		"visibility" : "public",
-		"line" : 3843,
+		"line" : 3853,
 		"name" : "transfer",
 		"id" : 10508
 	}, {
 		"visibility" : "public",
-		"line" : 3848,
+		"line" : 3857,
 		"name" : "allowance",
 		"id" : 10528
 	}, {
 		"visibility" : "public",
-		"line" : 3851,
+		"line" : 3860,
 		"name" : "transferFrom",
 		"id" : 10539
 	}, {
 		"visibility" : "public",
-		"line" : 3852,
+		"line" : 3861,
 		"name" : "approve",
 		"id" : 10548
 	}, {
 		"visibility" : "public",
-		"line" : 3871,
+		"line" : 3881,
 		"name" : "MultiSender",
 		"id" : 10631
 	}, {
 		"visibility" : "public",
-		"line" : 3875,
+		"line" : 3885,
 		"name" : "None",
 		"id" : 10635
 	}, {
 		"visibility" : "public",
-		"line" : 3876,
+		"line" : 3886,
 		"name" : "discountRate",
 		"id" : 10653
 	}, {
 		"visibility" : "public",
-		"line" : 3880,
+		"line" : 3890,
 		"name" : "currentFee",
 		"id" : 10667
 	}, {
 		"visibility" : "public",
-		"line" : 3883,
+		"line" : 3891,
 		"name" : "claimOwner",
 		"id" : 10688
 	}, {
 		"visibility" : "public",
-		"line" : 3887,
+		"line" : 3899,
 		"name" : "changeTreshold",
 		"id" : 10700
 	}, {
 		"visibility" : "public",
-		"line" : 3891,
+		"line" : 3903,
 		"name" : "changeFee",
 		"id" : 10712
 	}, {
 		"visibility" : "public",
-		"line" : 3891,
+		"line" : 3906,
 		"name" : "changeDiscountStep",
 		"id" : 10724
 	}, {
 		"visibility" : "public",
-		"line" : 3896,
+		"line" : 3911,
 		"name" : "multisendToken",
 		"id" : 10811
 	}, {
 		"visibility" : "public",
-		"line" : 3918,
+		"line" : 3932,
 		"name" : "multisendEther",
 		"id" : 10877
 	}, {
 		"visibility" : "public",
-		"line" : 3940,
+		"line" : 3948,
 		"name" : "claimTokens",
 		"id" : 10924
 	}, {
 		"visibility" : "public",
-		"line" : 3962,
+		"line" : 3976,
 		"name" : "None",
 		"id" : 10973
 	}, {
 		"visibility" : "public",
-		"line" : 3987,
+		"line" : 3998,
 		"name" : "implementation",
 		"id" : 10978
 	}, {
 		"visibility" : "public",
-		"line" : 3994,
+		"line" : 4009,
 		"name" : "upgradeabilityOwner",
 		"id" : 10989
 	}, {
 		"visibility" : "internal",
-		"line" : 4001,
+		"line" : 4011,
 		"name" : "setUpgradeabilityOwner",
 		"id" : 10999
 	}, {
 		"visibility" : "public",
-		"line" : 4012,
+		"line" : 4022,
 		"name" : "balanceOf",
 		"id" : 11009
 	}, {
 		"visibility" : "public",
-		"line" : 4019,
+		"line" : 4028,
 		"name" : "transfer",
 		"id" : 11018
 	}, {
 		"visibility" : "public",
-		"line" : 4028,
+		"line" : 4041,
 		"name" : "transferFrom",
 		"id" : 11029
 	}, {
 		"visibility" : "public",
-		"line" : 4041,
+		"line" : 4052,
 		"name" : "approve",
 		"id" : 11038
 	}, {
 		"visibility" : "public",
-		"line" : 4051,
+		"line" : 4062,
 		"name" : "allowance",
 		"id" : 11047
 	}, {
 		"visibility" : "public",
-		"line" : 4067,
+		"line" : 4079,
 		"name" : "Owned",
 		"id" : 11086
 	}, {
 		"visibility" : "public",
-		"line" : 4072,
+		"line" : 4085,
 		"name" : "changeOwner",
 		"id" : 11113
 	}, {
 		"visibility" : "public",
-		"line" : 4078,
+		"line" : 4091,
 		"name" : "acceptOwnership",
 		"id" : 11137
 	}, {
 		"visibility" : "public",
-		"line" : 4085,
+		"line" : 4098,
 		"name" : "Controlled",
 		"id" : 11149
 	}, {
 		"visibility" : "public",
-		"line" : 4097,
+		"line" : 4112,
 		"name" : "enableTransfer",
 		"id" : 11175
 	}, {
 		"visibility" : "public",
-		"line" : 4099,
+		"line" : 4115,
 		"name" : "disableLock",
 		"id" : 11191
 	}, {
 		"visibility" : "public",
-		"line" : 4105,
+		"line" : 4118,
 		"name" : "addLock",
 		"id" : 11216
 	}, {
 		"visibility" : "public",
-		"line" : 4112,
+		"line" : 4121,
 		"name" : "setExclude",
 		"id" : 11234
 	}, {
 		"visibility" : "public",
-		"line" : 4116,
+		"line" : 4124,
 		"name" : "removeLock",
 		"id" : 11252
 	}, {
 		"visibility" : "public",
-		"line" : 4124,
+		"line" : 4131,
 		"name" : "transfer",
 		"id" : 11340
 	}, {
 		"visibility" : "public",
-		"line" : 4135,
+		"line" : 4141,
 		"name" : "transferFrom",
 		"id" : 11413
 	}, {
 		"visibility" : "public",
-		"line" : 4145,
+		"line" : 4159,
 		"name" : "balanceOf",
 		"id" : 11425
 	}, {
 		"visibility" : "public",
-		"line" : 4150,
+		"line" : 4166,
 		"name" : "approve",
 		"id" : 11453
 	}, {
 		"visibility" : "public",
-		"line" : 4159,
+		"line" : 4172,
 		"name" : "allowance",
 		"id" : 11469
 	}, {
 		"visibility" : "public",
-		"line" : 4169,
+		"line" : 4186,
 		"name" : "None",
 		"id" : 11489
 	}, {
 		"visibility" : "public",
-		"line" : 4194,
+		"line" : 4207,
 		"name" : "SMT",
 		"id" : 11517
 	}, {
 		"visibility" : "public",
-		"line" : 4208,
+		"line" : 4222,
 		"name" : "transferProxy",
 		"id" : 11648
 	}, {
 		"visibility" : "public",
-		"line" : 4244,
+		"line" : 4251,
 		"name" : "approveProxy",
 		"id" : 11717
 	}, {
 		"visibility" : "public",
-		"line" : 4253,
+		"line" : 4264,
 		"name" : "getNonce",
 		"id" : 11729
 	}, {
 		"visibility" : "public",
-		"line" : 4257,
+		"line" : 4270,
 		"name" : "approveAndCall",
 		"id" : 11780
 	}, {
 		"visibility" : "public",
-		"line" : 4285,
+		"line" : 4291,
 		"name" : "approveAndCallcode",
 		"id" : 11820
 	}, {
 		"visibility" : "public",
-		"line" : 4295,
+		"line" : 4306,
 		"name" : "allocateTokens",
 		"id" : 11902
 	}, {
 		"visibility" : "public",
-		"line" : 4336,
+		"line" : 4346,
 		"name" : "None",
 		"id" : 11947
 	}, {
 		"visibility" : "public",
-		"line" : 4345,
+		"line" : 4359,
 		"name" : "bid",
 		"id" : 11994
 	}, {
 		"visibility" : "public",
-		"line" : 4370,
+		"line" : 4377,
 		"name" : "withdraw",
 		"id" : 12038
 	}, {
 		"visibility" : "public",
-		"line" : 4387,
+		"line" : 4395,
 		"name" : "auctionEnd",
 		"id" : 12070
 	}, {
 		"visibility" : "public",
-		"line" : 4444,
+		"line" : 4455,
 		"name" : "None",
 		"id" : 12153
 	}, {
 		"visibility" : "public",
-		"line" : 4467,
+		"line" : 4476,
 		"name" : "bid",
 		"id" : 12174
 	}, {
 		"visibility" : "public",
-		"line" : 4478,
+		"line" : 4485,
 		"name" : "reveal",
 		"id" : 12317
 	}, {
 		"visibility" : "internal",
-		"line" : 4508,
+		"line" : 4518,
 		"name" : "placeBid",
 		"id" : 12357
 	}, {
 		"visibility" : "public",
-		"line" : 4524,
+		"line" : 4541,
 		"name" : "withdraw",
 		"id" : 12388
 	}, {
 		"visibility" : "public",
-		"line" : 4547,
+		"line" : 4556,
 		"name" : "auctionEnd",
 		"id" : 12415
 	}, {
 		"visibility" : "public",
-		"line" : 4554,
+		"line" : 4565,
 		"name" : "None",
 		"id" : 12428
 	}, {
 		"visibility" : "public",
-		"line" : 4555,
+		"line" : 4566,
 		"name" : "claimPayment",
 		"id" : 12483
 	}, {
 		"visibility" : "public",
-		"line" : 4568,
+		"line" : 4578,
 		"name" : "kill",
 		"id" : 12499
 	}, {
 		"visibility" : "internal",
-		"line" : 4570,
+		"line" : 4583,
 		"name" : "splitSignature",
 		"id" : 12524
 	}, {
 		"visibility" : "public",
-		"line" : 4606,
+		"line" : 4615,
 		"name" : "None",
 		"id" : 12597
 	}, {
 		"visibility" : "internal",
-		"line" : 4611,
+		"line" : 4622,
 		"name" : "isValidSignature",
 		"id" : 12626
 	}, {
 		"visibility" : "public",
-		"line" : 4626,
+		"line" : 4639,
 		"name" : "close",
 		"id" : 12658
 	}, {
 		"visibility" : "public",
-		"line" : 4635,
+		"line" : 4645,
 		"name" : "extend",
 		"id" : 12681
 	}, {
 		"visibility" : "public",
-		"line" : 4645,
+		"line" : 4655,
 		"name" : "claimTimeout",
 		"id" : 12695
 	}, {
 		"visibility" : "internal",
-		"line" : 4648,
+		"line" : 4663,
 		"name" : "splitSignature",
 		"id" : 12720
 	}, {
 		"visibility" : "public",
-		"line" : 4686,
+		"line" : 4701,
 		"name" : "getLock",
 		"id" : 12785
 	}, {
 		"visibility" : "public",
-		"line" : 4689,
+		"line" : 4704,
 		"name" : "releaseLock",
 		"id" : 12802
 	}, {
 		"visibility" : "public",
-		"line" : 4695,
+		"line" : 4706,
 		"name" : "set",
 		"id" : 12819
 	}, {
 		"visibility" : "public",
-		"line" : 4701,
+		"line" : 4712,
 		"name" : "withdrawBalance",
 		"id" : 12848
 	}, {
 		"visibility" : "public",
-		"line" : 4715,
+		"line" : 4725,
 		"name" : "withdrawReward",
 		"id" : 12887
 	}, {
 		"visibility" : "public",
-		"line" : 4723,
+		"line" : 4731,
 		"name" : "getFirstWithdrawalBonus",
 		"id" : 12916
 	}, {
 		"visibility" : "public",
-		"line" : 4731,
+		"line" : 4745,
 		"name" : "untrustedWithdrawReward",
 		"id" : 12943
 	}, {
 		"visibility" : "public",
-		"line" : 4739,
+		"line" : 4751,
 		"name" : "untrustedGetFirstWithdrawalBonus",
 		"id" : 12972
 	}, {
 		"visibility" : "public",
-		"line" : 4754,
+		"line" : 4764,
 		"name" : "payOut",
 		"id" : 13019
 	} ],
@@ -2659,887 +2659,887 @@
 		"id" : 3547
 	}, {
 		"caller" : "require",
-		"line" : 1806,
+		"line" : 1807,
 		"name" : "None",
 		"id" : 3556
 	}, {
 		"caller" : "require",
-		"line" : 1809,
+		"line" : 1810,
 		"name" : "None",
 		"id" : 3565
 	}, {
 		"caller" : "require",
-		"line" : 1824,
+		"line" : 1826,
 		"name" : "None",
 		"id" : 3592
 	}, {
 		"caller" : "require",
-		"line" : 1826,
+		"line" : 1827,
 		"name" : "None",
 		"id" : 3600
 	}, {
 		"caller" : null,
-		"line" : 1833,
+		"line" : 1836,
 		"name" : "None",
 		"id" : 3608
 	}, {
 		"caller" : "require",
-		"line" : 1837,
+		"line" : 1843,
 		"name" : "None",
 		"id" : 3623
 	}, {
 		"caller" : "require",
-		"line" : 1861,
+		"line" : 1866,
 		"name" : "None",
 		"id" : 3684
 	}, {
 		"caller" : "winningProposal",
-		"line" : 1882,
+		"line" : 1892,
 		"name" : "None",
 		"id" : 3757
 	}, {
 		"caller" : "assert",
-		"line" : 1888,
+		"line" : 1899,
 		"name" : "None",
 		"id" : 3792
 	}, {
 		"caller" : "assert",
-		"line" : 1908,
+		"line" : 1919,
 		"name" : "None",
 		"id" : 3828
 	}, {
 		"caller" : "assert",
-		"line" : 1915,
+		"line" : 1929,
 		"name" : "None",
 		"id" : 3854
 	}, {
 		"caller" : "doIt",
-		"line" : 1928,
+		"line" : 1942,
 		"name" : "None",
 		"id" : 3899
 	}, {
 		"caller" : "upgraded",
-		"line" : 1959,
+		"line" : 1972,
 		"name" : "setCompleted",
 		"id" : 4012
 	}, {
 		"caller" : "require",
-		"line" : 1974,
+		"line" : 1985,
 		"name" : "None",
 		"id" : 4064
 	}, {
 		"caller" : "require",
-		"line" : 1977,
+		"line" : 1991,
 		"name" : "None",
 		"id" : 4084
 	}, {
 		"caller" : "selfdestruct",
-		"line" : 1984,
+		"line" : 2001,
 		"name" : "None",
 		"id" : 4113
 	}, {
 		"caller" : "newPost",
-		"line" : 2007,
+		"line" : 2028,
 		"name" : "None",
 		"id" : 4156
 	}, {
 		"caller" : "newComment",
-		"line" : 2007,
+		"line" : 2028,
 		"name" : "None",
 		"id" : 4161
 	}, {
 		"caller" : null,
-		"line" : 2024,
+		"line" : 2039,
 		"name" : "push",
 		"id" : 4203
 	}, {
 		"caller" : null,
-		"line" : 2034,
+		"line" : 2059,
 		"name" : "push",
 		"id" : 4240
 	}, {
 		"caller" : "Transfer",
-		"line" : 2114,
+		"line" : 2123,
 		"name" : "None",
 		"id" : 4389
 	}, {
 		"caller" : "spender",
-		"line" : 2125,
+		"line" : 2128,
 		"name" : "receiveApproval",
 		"id" : 4426
 	}, {
 		"caller" : "Transfer",
-		"line" : 2136,
+		"line" : 2142,
 		"name" : "None",
 		"id" : 4502
 	}, {
 		"caller" : "require",
-		"line" : 2142,
+		"line" : 2151,
 		"name" : "None",
 		"id" : 4535
 	}, {
 		"caller" : "require",
-		"line" : 2144,
+		"line" : 2152,
 		"name" : "None",
 		"id" : 4552
 	}, {
 		"caller" : "selfdestruct",
-		"line" : 2145,
+		"line" : 2153,
 		"name" : "None",
 		"id" : 4556
 	}, {
 		"caller" : "update",
-		"line" : 2459,
+		"line" : 2470,
 		"name" : "None",
 		"id" : 6143
 	}, {
 		"caller" : "oraclize_cbAddress",
-		"line" : 2463,
+		"line" : 2476,
 		"name" : "None",
 		"id" : 6156
 	}, {
 		"caller" : "newDieselPrice",
-		"line" : 2463,
+		"line" : 2477,
 		"name" : "None",
 		"id" : 6162
 	}, {
 		"caller" : "parseInt",
-		"line" : 2464,
+		"line" : 2477,
 		"name" : "None",
 		"id" : 6168
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2469,
+		"line" : 2481,
 		"name" : "None",
 		"id" : 6177
 	}, {
 		"caller" : "oraclize_query",
-		"line" : 2473,
+		"line" : 2483,
 		"name" : "None",
 		"id" : 6182
 	}, {
 		"caller" : "oraclize_setProof",
-		"line" : 2482,
+		"line" : 2495,
 		"name" : "None",
 		"id" : 6205
 	}, {
 		"caller" : "update",
-		"line" : 2484,
+		"line" : 2496,
 		"name" : "None",
 		"id" : 6208
 	}, {
 		"caller" : "oraclize_cbAddress",
-		"line" : 2488,
+		"line" : 2501,
 		"name" : "None",
 		"id" : 6223
 	}, {
 		"caller" : "newKrakenPriceTicker",
-		"line" : 2489,
+		"line" : 2504,
 		"name" : "None",
 		"id" : 6233
 	}, {
 		"caller" : "update",
-		"line" : 2490,
+		"line" : 2505,
 		"name" : "None",
 		"id" : 6236
 	}, {
 		"caller" : "oraclize",
-		"line" : 2493,
+		"line" : 2507,
 		"name" : "getPrice",
 		"id" : 6245
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2495,
+		"line" : 2510,
 		"name" : "None",
 		"id" : 6251
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2500,
+		"line" : 2521,
 		"name" : "None",
 		"id" : 6256
 	}, {
 		"caller" : "oraclize_query",
-		"line" : 2504,
+		"line" : 2522,
 		"name" : "None",
 		"id" : 6262
 	}, {
 		"caller" : "update",
-		"line" : 2522,
+		"line" : 2532,
 		"name" : "None",
 		"id" : 6284
 	}, {
 		"caller" : "oraclize_cbAddress",
-		"line" : 2525,
+		"line" : 2536,
 		"name" : "None",
 		"id" : 6297
 	}, {
 		"caller" : "newSwarmContent",
-		"line" : 2528,
+		"line" : 2537,
 		"name" : "None",
 		"id" : 6307
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2531,
+		"line" : 2542,
 		"name" : "None",
 		"id" : 6315
 	}, {
 		"caller" : "oraclize_query",
-		"line" : 2532,
+		"line" : 2546,
 		"name" : "None",
 		"id" : 6320
 	}, {
 		"caller" : "update",
-		"line" : 2544,
+		"line" : 2556,
 		"name" : "None",
 		"id" : 6340
 	}, {
 		"caller" : "oraclize_cbAddress",
-		"line" : 2547,
+		"line" : 2560,
 		"name" : "None",
 		"id" : 6353
 	}, {
 		"caller" : "newTemperatureMeasure",
-		"line" : 2551,
+		"line" : 2563,
 		"name" : "None",
 		"id" : 6363
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2555,
+		"line" : 2565,
 		"name" : "None",
 		"id" : 6371
 	}, {
 		"caller" : "oraclize_query",
-		"line" : 2557,
+		"line" : 2566,
 		"name" : "None",
 		"id" : 6376
 	}, {
 		"caller" : "update",
-		"line" : 2564,
+		"line" : 2577,
 		"name" : "None",
 		"id" : 6396
 	}, {
 		"caller" : "oraclize_cbAddress",
-		"line" : 2566,
+		"line" : 2581,
 		"name" : "None",
 		"id" : 6409
 	}, {
 		"caller" : "newYoutubeViewsCount",
-		"line" : 2567,
+		"line" : 2584,
 		"name" : "None",
 		"id" : 6419
 	}, {
 		"caller" : "newOraclizeQuery",
-		"line" : 2575,
+		"line" : 2588,
 		"name" : "None",
 		"id" : 6427
 	}, {
 		"caller" : "oraclize_query",
-		"line" : 2578,
+		"line" : 2592,
 		"name" : "None",
 		"id" : 6432
 	}, {
 		"caller" : "require",
-		"line" : 2611,
+		"line" : 2623,
 		"name" : "None",
 		"id" : 6521
 	}, {
 		"caller" : "isAuthorized",
-		"line" : 2611,
+		"line" : 2625,
 		"name" : "None",
 		"id" : 6519
 	}, {
 		"caller" : null,
-		"line" : 2617,
+		"line" : 2631,
 		"name" : "None",
 		"id" : 6537
 	}, {
 		"caller" : "min",
-		"line" : 2769,
+		"line" : 2775,
 		"name" : "None",
 		"id" : 6835
 	}, {
 		"caller" : "min",
-		"line" : 2780,
+		"line" : 2798,
 		"name" : "None",
 		"id" : 6854
 	}, {
 		"caller" : "LogBid",
-		"line" : 2786,
+		"line" : 2803,
 		"name" : "None",
 		"id" : 6872
 	}, {
 		"caller" : "LogCanceled",
-		"line" : 2803,
+		"line" : 2811,
 		"name" : "None",
 		"id" : 6911
 	}, {
 		"caller" : null,
-		"line" : 2839,
+		"line" : 2858,
 		"name" : "send",
 		"id" : 7019
 	}, {
 		"caller" : null,
-		"line" : 2840,
+		"line" : 2860,
 		"name" : "send",
 		"id" : 7025
 	}, {
 		"caller" : "LogWithdrawal",
-		"line" : 2843,
+		"line" : 2864,
 		"name" : "None",
 		"id" : 7034
 	}, {
 		"caller" : "auctions",
-		"line" : 2881,
+		"line" : 2888,
 		"name" : "push",
 		"id" : 7145
 	}, {
 		"caller" : "AuctionCreated",
-		"line" : 2882,
+		"line" : 2889,
 		"name" : "None",
 		"id" : 7154
 	}, {
 		"caller" : "assert",
-		"line" : 3866,
+		"line" : 3876,
 		"name" : "None",
 		"id" : 10595
 	}, {
 		"caller" : "require",
-		"line" : 3870,
+		"line" : 3879,
 		"name" : "None",
 		"id" : 10611
 	}, {
 		"caller" : "discountRate",
-		"line" : 3871,
+		"line" : 3880,
 		"name" : "None",
 		"id" : 10608
 	}, {
 		"caller" : "discountRate",
-		"line" : 3881,
+		"line" : 3891,
 		"name" : "None",
 		"id" : 10663
 	}, {
 		"caller" : "require",
-		"line" : 3885,
+		"line" : 3893,
 		"name" : "None",
 		"id" : 10677
 	}, {
 		"caller" : "require",
-		"line" : 3902,
+		"line" : 3917,
 		"name" : "None",
 		"id" : 10746
 	}, {
 		"caller" : "require",
-		"line" : 3906,
+		"line" : 3920,
 		"name" : "None",
 		"id" : 10767
 	}, {
 		"caller" : "erc20token",
-		"line" : 3906,
+		"line" : 3921,
 		"name" : "allowance",
 		"id" : 10764
 	}, {
 		"caller" : "erc20token",
-		"line" : 3911,
+		"line" : 3926,
 		"name" : "transferFrom",
 		"id" : 10789
 	}, {
 		"caller" : "Multisended",
-		"line" : 3917,
+		"line" : 3930,
 		"name" : "None",
 		"id" : 10808
 	}, {
 		"caller" : "require",
-		"line" : 3926,
+		"line" : 3941,
 		"name" : "None",
 		"id" : 10831
 	}, {
 		"caller" : null,
-		"line" : 3932,
+		"line" : 3942,
 		"name" : "transfer",
 		"id" : 10853
 	}, {
 		"caller" : "Multisended",
-		"line" : 3939,
+		"line" : 3947,
 		"name" : "None",
 		"id" : 10874
 	}, {
 		"caller" : null,
-		"line" : 3939,
+		"line" : 3948,
 		"name" : "None",
 		"id" : 10873
 	}, {
 		"caller" : "owner",
-		"line" : 3941,
+		"line" : 3949,
 		"name" : "transfer",
 		"id" : 10892
 	}, {
 		"caller" : "require",
-		"line" : 3963,
+		"line" : 3980,
 		"name" : "None",
 		"id" : 10964
 	}, {
 		"caller" : null,
-		"line" : 3965,
+		"line" : 3982,
 		"name" : "None",
 		"id" : 10962
 	}, {
 		"caller" : "require",
-		"line" : 4063,
+		"line" : 4074,
 		"name" : "None",
 		"id" : 11071
 	}, {
 		"caller" : "require",
-		"line" : 4074,
+		"line" : 4087,
 		"name" : "None",
 		"id" : 11106
 	}, {
 		"caller" : "require",
-		"line" : 4079,
+		"line" : 4092,
 		"name" : "None",
 		"id" : 11121
 	}, {
 		"caller" : "OwnerUpdate",
-		"line" : 4083,
+		"line" : 4095,
 		"name" : "None",
 		"id" : 11126
 	}, {
 		"caller" : "setExclude",
-		"line" : 4085,
+		"line" : 4099,
 		"name" : "None",
 		"id" : 11146
 	}, {
 		"caller" : "require",
-		"line" : 4107,
+		"line" : 4120,
 		"name" : "None",
 		"id" : 11205
 	}, {
 		"caller" : "assert",
-		"line" : 4121,
+		"line" : 4128,
 		"name" : "None",
 		"id" : 11262
 	}, {
 		"caller" : "assert",
-		"line" : 4122,
+		"line" : 4129,
 		"name" : "None",
 		"id" : 11270
 	}, {
 		"caller" : "Transfer",
-		"line" : 4134,
+		"line" : 4140,
 		"name" : "None",
 		"id" : 11330
 	}, {
 		"caller" : "Transfer",
-		"line" : 4142,
+		"line" : 4155,
 		"name" : "None",
 		"id" : 11403
 	}, {
 		"caller" : "Approval",
-		"line" : 4154,
+		"line" : 4169,
 		"name" : "None",
 		"id" : 11448
 	}, {
 		"caller" : "revert",
-		"line" : 4170,
+		"line" : 4186,
 		"name" : "None",
 		"id" : 11486
 	}, {
 		"caller" : "revert",
-		"line" : 4217,
+		"line" : 4235,
 		"name" : "None",
 		"id" : 11547
 	}, {
 		"caller" : "ecrecover",
-		"line" : 4222,
+		"line" : 4237,
 		"name" : "None",
 		"id" : 11572
 	}, {
 		"caller" : "revert",
-		"line" : 4222,
+		"line" : 4238,
 		"name" : "None",
 		"id" : 11575
 	}, {
 		"caller" : "revert",
-		"line" : 4226,
+		"line" : 4239,
 		"name" : "None",
 		"id" : 11600
 	}, {
 		"caller" : "Transfer",
-		"line" : 4230,
+		"line" : 4239,
 		"name" : "None",
 		"id" : 11613
 	}, {
 		"caller" : "Transfer",
-		"line" : 4237,
+		"line" : 4241,
 		"name" : "None",
 		"id" : 11627
 	}, {
 		"caller" : "ecrecover",
-		"line" : 4250,
+		"line" : 4256,
 		"name" : "None",
 		"id" : 11686
 	}, {
 		"caller" : "revert",
-		"line" : 4250,
+		"line" : 4257,
 		"name" : "None",
 		"id" : 11689
 	}, {
 		"caller" : "Approval",
-		"line" : 4251,
+		"line" : 4260,
 		"name" : "None",
 		"id" : 11704
 	}, {
 		"caller" : "Approval",
-		"line" : 4264,
+		"line" : 4274,
 		"name" : "None",
 		"id" : 11754
 	}, {
 		"caller" : "_spender",
-		"line" : 4278,
+		"line" : 4286,
 		"name" : "call",
 		"id" : 11770
 	}, {
 		"caller" : null,
-		"line" : 4278,
+		"line" : 4286,
 		"name" : "None",
 		"id" : 11764
 	}, {
 		"caller" : null,
-		"line" : 4278,
+		"line" : 4286,
 		"name" : "None",
 		"id" : 11763
 	}, {
 		"caller" : "keccak256",
-		"line" : 4280,
+		"line" : 4286,
 		"name" : "None",
 		"id" : 11762
 	}, {
 		"caller" : "revert",
-		"line" : 4284,
+		"line" : 4287,
 		"name" : "None",
 		"id" : 11773
 	}, {
 		"caller" : "Approval",
-		"line" : 4286,
+		"line" : 4299,
 		"name" : "None",
 		"id" : 11805
 	}, {
 		"caller" : "_spender",
-		"line" : 4287,
+		"line" : 4300,
 		"name" : "call",
 		"id" : 11810
 	}, {
 		"caller" : "revert",
-		"line" : 4287,
+		"line" : 4300,
 		"name" : "None",
 		"id" : 11813
 	}, {
 		"caller" : "revert",
-		"line" : 4299,
+		"line" : 4309,
 		"name" : "None",
 		"id" : 11835
 	}, {
 		"caller" : "revert",
-		"line" : 4300,
+		"line" : 4310,
 		"name" : "None",
 		"id" : 11844
 	}, {
 		"caller" : "revert",
-		"line" : 4309,
+		"line" : 4316,
 		"name" : "None",
 		"id" : 11886
 	}, {
 		"caller" : "require",
-		"line" : 4358,
+		"line" : 4367,
 		"name" : "None",
 		"id" : 11955
 	}, {
 		"caller" : "require",
-		"line" : 4363,
+		"line" : 4367,
 		"name" : "None",
 		"id" : 11963
 	}, {
 		"caller" : null,
-		"line" : 4377,
+		"line" : 4387,
 		"name" : "send",
 		"id" : 12020
 	}, {
 		"caller" : "require",
-		"line" : 4410,
+		"line" : 4421,
 		"name" : "None",
 		"id" : 12046
 	}, {
 		"caller" : "require",
-		"line" : 4413,
+		"line" : 4424,
 		"name" : "None",
 		"id" : 12052
 	}, {
 		"caller" : "beneficiary",
-		"line" : 4418,
+		"line" : 4429,
 		"name" : "transfer",
 		"id" : 12067
 	}, {
 		"caller" : "require",
-		"line" : 4441,
+		"line" : 4451,
 		"name" : "None",
 		"id" : 12111
 	}, {
 		"caller" : "require",
-		"line" : 4443,
+		"line" : 4454,
 		"name" : "None",
 		"id" : 12123
 	}, {
 		"caller" : null,
-		"line" : 4469,
+		"line" : 4480,
 		"name" : "push",
 		"id" : 12171
 	}, {
 		"caller" : "Bid",
-		"line" : 4470,
+		"line" : 4480,
 		"name" : "None",
 		"id" : 12170
 	}, {
 		"caller" : "require",
-		"line" : 4483,
+		"line" : 4493,
 		"name" : "None",
 		"id" : 12205
 	}, {
 		"caller" : "require",
-		"line" : 4483,
+		"line" : 4496,
 		"name" : "None",
 		"id" : 12212
 	}, {
 		"caller" : "require",
-		"line" : 4484,
+		"line" : 4497,
 		"name" : "None",
 		"id" : 12219
 	}, {
 		"caller" : "keccak256",
-		"line" : 4494,
+		"line" : 4503,
 		"name" : "None",
 		"id" : 12269
 	}, {
 		"caller" : "abi",
-		"line" : 4496,
+		"line" : 4503,
 		"name" : "encodePacked",
 		"id" : 12268
 	}, {
 		"caller" : "placeBid",
-		"line" : 4502,
+		"line" : 4508,
 		"name" : "None",
 		"id" : 12290
 	}, {
 		"caller" : null,
-		"line" : 4505,
+		"line" : 4513,
 		"name" : "None",
 		"id" : 12303
 	}, {
 		"caller" : null,
-		"line" : 4506,
+		"line" : 4513,
 		"name" : "transfer",
 		"id" : 12314
 	}, {
 		"caller" : null,
-		"line" : 4513,
+		"line" : 4531,
 		"name" : "None",
 		"id" : 12336
 	}, {
 		"caller" : null,
-		"line" : 4544,
+		"line" : 4551,
 		"name" : "transfer",
 		"id" : 12383
 	}, {
 		"caller" : "require",
-		"line" : 4548,
+		"line" : 4559,
 		"name" : "None",
 		"id" : 12397
 	}, {
 		"caller" : "beneficiary",
-		"line" : 4550,
+		"line" : 4563,
 		"name" : "transfer",
 		"id" : 12412
 	}, {
 		"caller" : "require",
-		"line" : 4559,
+		"line" : 4567,
 		"name" : "None",
 		"id" : 12442
 	}, {
 		"caller" : "require",
-		"line" : 4565,
+		"line" : 4571,
 		"name" : "None",
 		"id" : 12472
 	}, {
 		"caller" : "recoverSigner",
-		"line" : 4565,
+		"line" : 4572,
 		"name" : "None",
 		"id" : 12469
 	}, {
 		"caller" : null,
-		"line" : 4566,
+		"line" : 4574,
 		"name" : "transfer",
 		"id" : 12480
 	}, {
 		"caller" : "require",
-		"line" : 4568,
+		"line" : 4579,
 		"name" : "None",
 		"id" : 12491
 	}, {
 		"caller" : "selfdestruct",
-		"line" : 4569,
+		"line" : 4580,
 		"name" : "None",
 		"id" : 12496
 	}, {
 		"caller" : "require",
-		"line" : 4574,
+		"line" : 4587,
 		"name" : "None",
 		"id" : 12515
 	}, {
 		"caller" : "recoverSigner",
-		"line" : 4618,
+		"line" : 4630,
 		"name" : "None",
 		"id" : 12621
 	}, {
 		"caller" : "require",
-		"line" : 4628,
+		"line" : 4641,
 		"name" : "None",
 		"id" : 12638
 	}, {
 		"caller" : "require",
-		"line" : 4630,
+		"line" : 4642,
 		"name" : "None",
 		"id" : 12645
 	}, {
 		"caller" : "isValidSignature",
-		"line" : 4631,
+		"line" : 4642,
 		"name" : "None",
 		"id" : 12644
 	}, {
 		"caller" : "recipient",
-		"line" : 4632,
+		"line" : 4644,
 		"name" : "transfer",
 		"id" : 12651
 	}, {
 		"caller" : "selfdestruct",
-		"line" : 4632,
+		"line" : 4644,
 		"name" : "None",
 		"id" : 12655
 	}, {
 		"caller" : "require",
-		"line" : 4637,
+		"line" : 4646,
 		"name" : "None",
 		"id" : 12668
 	}, {
 		"caller" : "require",
-		"line" : 4640,
+		"line" : 4647,
 		"name" : "None",
 		"id" : 12674
 	}, {
 		"caller" : "require",
-		"line" : 4645,
+		"line" : 4657,
 		"name" : "None",
 		"id" : 12688
 	}, {
 		"caller" : "selfdestruct",
-		"line" : 4646,
+		"line" : 4658,
 		"name" : "None",
 		"id" : 12692
 	}, {
 		"caller" : "require",
-		"line" : 4655,
+		"line" : 4672,
 		"name" : "None",
 		"id" : 12711
 	}, {
 		"caller" : "require",
-		"line" : 4687,
+		"line" : 4702,
 		"name" : "None",
 		"id" : 12777
 	}, {
 		"caller" : null,
-		"line" : 4688,
+		"line" : 4702,
 		"name" : "None",
 		"id" : 12775
 	}, {
 		"caller" : "require",
-		"line" : 4692,
+		"line" : 4705,
 		"name" : "None",
 		"id" : 12793
 	}, {
 		"caller" : null,
-		"line" : 4694,
+		"line" : 4706,
 		"name" : "None",
 		"id" : 12798
 	}, {
 		"caller" : "require",
-		"line" : 4696,
+		"line" : 4709,
 		"name" : "None",
 		"id" : 12812
 	}, {
 		"caller" : "require",
-		"line" : 4704,
+		"line" : 4719,
 		"name" : "None",
 		"id" : 12845
 	}, {
 		"caller" : null,
-		"line" : 4704,
+		"line" : 4719,
 		"name" : "value",
 		"id" : 12843
 	}, {
 		"caller" : null,
-		"line" : 4704,
+		"line" : 4719,
 		"name" : "None",
 		"id" : 12844
 	}, {
 		"caller" : "require",
-		"line" : 4722,
+		"line" : 4730,
 		"name" : "None",
 		"id" : 12884
 	}, {
 		"caller" : null,
-		"line" : 4722,
+		"line" : 4730,
 		"name" : "value",
 		"id" : 12882
 	}, {
 		"caller" : null,
-		"line" : 4722,
+		"line" : 4730,
 		"name" : "None",
 		"id" : 12883
 	}, {
 		"caller" : "require",
-		"line" : 4723,
+		"line" : 4733,
 		"name" : "None",
 		"id" : 12897
 	}, {
 		"caller" : "withdrawReward",
-		"line" : 4729,
+		"line" : 4739,
 		"name" : "None",
 		"id" : 12907
 	}, {
 		"caller" : "require",
-		"line" : 4737,
+		"line" : 4750,
 		"name" : "None",
 		"id" : 12940
 	}, {
 		"caller" : null,
-		"line" : 4737,
+		"line" : 4750,
 		"name" : "value",
 		"id" : 12938
 	}, {
 		"caller" : null,
-		"line" : 4737,
+		"line" : 4750,
 		"name" : "None",
 		"id" : 12939
 	}, {
 		"caller" : "require",
-		"line" : 4742,
+		"line" : 4753,
 		"name" : "None",
 		"id" : 12953
 	}, {
 		"caller" : "untrustedWithdrawReward",
-		"line" : 4749,
+		"line" : 4756,
 		"name" : "None",
 		"id" : 12969
 	}, {
 		"caller" : null,
-		"line" : 4756,
+		"line" : 4767,
 		"name" : "send",
 		"id" : 13007
 	} ],
@@ -3548,13 +3548,13 @@
 		"name" : "dao",
 		"id" : 3,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "SimpleDAO"
 	}, {
 		"line" : 4,
 		"name" : "test",
 		"id" : 5,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "testContract"
 	}, {
 		"line" : 5,
 		"name" : "userBalance",
@@ -3566,13 +3566,13 @@
 		"name" : "u",
 		"id" : 55,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 26,
 		"name" : "mallory",
 		"id" : 68,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "Mallory"
 	}, {
 		"line" : 27,
 		"name" : "credit",
@@ -3584,121 +3584,121 @@
 		"name" : "mal",
 		"id" : 76,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Mallory"
 	}, {
 		"line" : 31,
 		"name" : "adrr",
 		"id" : 79,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 36,
 		"name" : "simple",
 		"id" : 100,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "SimpleDAO"
 	}, {
 		"line" : 43,
 		"name" : "owner",
 		"id" : 112,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 47,
 		"name" : "c",
 		"id" : 114,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 52,
 		"name" : "amount",
 		"id" : 125,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 58,
 		"name" : "amount",
 		"id" : 155,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 64,
 		"name" : "a",
 		"id" : 186,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 75,
 		"name" : "num",
 		"id" : 207,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 76,
 		"name" : "num2",
 		"id" : 209,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 84,
 		"name" : "num",
 		"id" : 230,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 84,
 		"name" : "num2",
 		"id" : 232,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 103,
 		"name" : "a",
 		"id" : 286,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 104,
 		"name" : "num",
 		"id" : 288,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 121,
 		"name" : "owner",
 		"id" : 323,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 124,
 		"name" : "i",
 		"id" : 326,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 125,
 		"name" : "a",
 		"id" : 329,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 125,
 		"name" : "b",
 		"id" : 332,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 126,
 		"name" : "c",
 		"id" : 335,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 137,
 		"name" : "amount",
 		"id" : 356,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 159,
 		"name" : "numbers",
@@ -3734,19 +3734,19 @@
 		"name" : "recipient",
 		"id" : 574,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 202,
 		"name" : "value",
 		"id" : 576,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
 		"line" : 210,
 		"name" : "account",
 		"id" : 595,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 213,
 		"name" : "xs",
@@ -3758,7 +3758,7 @@
 		"name" : "a",
 		"id" : 643,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "A"
 	}, {
 		"line" : 248,
 		"name" : "numbers",
@@ -3770,7 +3770,7 @@
 		"name" : "a",
 		"id" : 682,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "A"
 	}, {
 		"line" : 264,
 		"name" : "balances",
@@ -3782,73 +3782,73 @@
 		"name" : "recipient",
 		"id" : 695,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 290,
 		"name" : "value",
 		"id" : 697,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
 		"line" : 313,
 		"name" : "account",
 		"id" : 716,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 318,
 		"name" : "nullReturn",
 		"id" : 737,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 322,
 		"name" : "word",
 		"id" : 760,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 323,
 		"name" : "whatever",
 		"id" : 762,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 329,
 		"name" : "o",
 		"id" : 775,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "One"
 	}, {
 		"line" : 335,
 		"name" : "reentryProtector",
 		"id" : 784,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 371,
 		"name" : "suggestedExtraGasToIncludeWithSends",
 		"id" : 808,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 436,
 		"name" : "_toAddress",
 		"id" : 810,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 436,
 		"name" : "_valueWei",
 		"id" : 812,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 437,
 		"name" : "_extraGasIncluded",
 		"id" : 814,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 449,
 		"name" : "funds",
@@ -3860,139 +3860,139 @@
 		"name" : "_address",
 		"id" : 849,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 471,
 		"name" : "_toAddress",
 		"id" : 874,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 471,
 		"name" : "_valueWei",
 		"id" : 876,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 472,
 		"name" : "_extraGas",
 		"id" : 878,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 482,
 		"name" : "fromAddress",
 		"id" : 898,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 483,
 		"name" : "toAddress",
 		"id" : 903,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 483,
 		"name" : "allAvailableWei",
 		"id" : 907,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 499,
 		"name" : "fromAddress",
 		"id" : 936,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 503,
 		"name" : "sentOk",
 		"id" : 955,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 495,
 		"name" : "_toAddress",
 		"id" : 921,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 496,
 		"name" : "_valueWei",
 		"id" : 923,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 496,
 		"name" : "_extraGasIncluded",
 		"id" : 925,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 536,
 		"name" : "_rawValueWei",
 		"id" : 977,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 570,
 		"name" : "minimumNameLength",
 		"id" : 1098,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 570,
 		"name" : "maximumNameLength",
 		"id" : 1101,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 571,
 		"name" : "nameDataPrefix",
 		"id" : 1104,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 595,
 		"name" : "nameBytes",
 		"id" : 1112,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
 		"line" : 597,
 		"name" : "lengthBytes",
 		"id" : 1118,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 600,
 		"name" : "foundNonPunctuation",
 		"id" : 1134,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 602,
 		"name" : "b",
 		"id" : 1148,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "byte"
 	}, {
 		"line" : 737,
 		"name" : "kingdomName",
 		"id" : 1472,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 740,
 		"name" : "world",
 		"id" : 1474,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 748,
 		"name" : "rules",
 		"id" : 1476,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "ThroneRules"
 	}, {
 		"line" : 772,
 		"name" : "monarchsByNumber",
@@ -4004,253 +4004,253 @@
 		"name" : "topWizard",
 		"id" : 1492,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 783,
 		"name" : "subWizard",
 		"id" : 1494,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 805,
 		"name" : "_kingdomName",
 		"id" : 1524,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 807,
 		"name" : "_world",
 		"id" : 1526,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 807,
 		"name" : "_topWizard",
 		"id" : 1528,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 808,
 		"name" : "_subWizard",
 		"id" : 1530,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 808,
 		"name" : "_startingClaimPriceWei",
 		"id" : 1532,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 810,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 1534,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 810,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 1536,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 811,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 1538,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 812,
 		"name" : "_commissionPerThousand",
 		"id" : 1540,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 840,
 		"name" : "reignStartedTimestamp",
 		"id" : 1607,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 851,
 		"name" : "elapsedReignDurationSeconds",
 		"id" : 1620,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 867,
 		"name" : "lastClaimPriceWei",
 		"id" : 1650,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 869,
 		"name" : "newClaimPrice",
 		"id" : 1656,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 885,
 		"name" : "valueWei",
 		"id" : 1707,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 893,
 		"name" : "_monarchName",
 		"id" : 1718,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 947,
 		"name" : "_monarchName",
 		"id" : 1756,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 961,
 		"name" : "_replacement",
 		"id" : 1772,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 966,
 		"name" : "_monarchName",
 		"id" : 1800,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 971,
 		"name" : "_compensationAddress",
 		"id" : 1819,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 978,
 		"name" : "paidWei",
 		"id" : 1843,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 979,
 		"name" : "priceWei",
 		"id" : 1848,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 984,
 		"name" : "excessWei",
 		"id" : 1859,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 989,
 		"name" : "compensationWei",
 		"id" : 1871,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 990,
 		"name" : "commissionWei",
 		"id" : 1874,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1116,
 		"name" : "_startingClaimPriceWei",
 		"id" : 2113,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1117,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 2115,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1117,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 2117,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1118,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 2119,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1119,
 		"name" : "_commissionPerThousand",
 		"id" : 2121,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1161,
 		"name" : "_kingdomName",
 		"id" : 2195,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1161,
 		"name" : "_world",
 		"id" : 2197,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1162,
 		"name" : "_topWizard",
 		"id" : 2199,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1164,
 		"name" : "_subWizard",
 		"id" : 2201,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1164,
 		"name" : "_startingClaimPriceWei",
 		"id" : 2203,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1165,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 2205,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1167,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 2207,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1168,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 2209,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1168,
 		"name" : "_commissionPerThousand",
 		"id" : 2211,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1203,
 		"name" : "topWizard",
 		"id" : 2281,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1207,
 		"name" : "kingdomCreationFeeWei",
 		"id" : 2283,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1217,
 		"name" : "kingdomsByNumber",
@@ -4262,13 +4262,13 @@
 		"name" : "maximumClaimPriceWei",
 		"id" : 2301,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1230,
 		"name" : "kingdomFactory",
 		"id" : 2303,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "KingdomFactory"
 	}, {
 		"line" : 1238,
 		"name" : "kingdomNumbersByfuzzyHash",
@@ -4280,277 +4280,277 @@
 		"name" : "_topWizard",
 		"id" : 2327,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1258,
 		"name" : "_kingdomCreationFeeWei",
 		"id" : 2329,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1259,
 		"name" : "_kingdomFactory",
 		"id" : 2331,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "KingdomFactory"
 	}, {
 		"line" : 1260,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 2333,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1282,
 		"name" : "fuzzyHash",
 		"id" : 2397,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1281,
 		"name" : "_kingdomName",
 		"id" : 2391,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1302,
 		"name" : "_kingdomName",
 		"id" : 2409,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1307,
 		"name" : "_startingClaimPriceWei",
 		"id" : 2421,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1307,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 2423,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1310,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 2425,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1310,
 		"name" : "_commissionPerThousand",
 		"id" : 2427,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1374,
 		"name" : "_kingdomName",
 		"id" : 2459,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1374,
 		"name" : "_startingClaimPriceWei",
 		"id" : 2461,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1375,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 2463,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1375,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 2465,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1376,
 		"name" : "_commissionPerThousand",
 		"id" : 2467,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1389,
 		"name" : "_replacement",
 		"id" : 2487,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1394,
 		"name" : "_kingdomCreationFeeWei",
 		"id" : 2503,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1398,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 2519,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1408,
 		"name" : "_kingdomFactory",
 		"id" : 2535,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "KingdomFactory"
 	}, {
 		"line" : 1419,
 		"name" : "subWizard",
 		"id" : 2563,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1420,
 		"name" : "newKingdomNumber",
 		"id" : 2575,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1424,
 		"name" : "paidWei",
 		"id" : 2585,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1431,
 		"name" : "excessWei",
 		"id" : 2596,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1437,
 		"name" : "kingdomContract",
 		"id" : 2614,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Kingdom"
 	}, {
 		"line" : 1412,
 		"name" : "_kingdomName",
 		"id" : 2551,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1414,
 		"name" : "_startingClaimPriceWei",
 		"id" : 2553,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1417,
 		"name" : "_claimPriceAdjustPercent",
 		"id" : 2555,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1417,
 		"name" : "_curseIncubationDurationSeconds",
 		"id" : 2557,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1418,
 		"name" : "_commissionPerThousand",
 		"id" : 2559,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1461,
 		"name" : "oldWizard",
 		"id" : 2665,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1455,
 		"name" : "replacement",
 		"id" : 2647,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1467,
 		"name" : "_kingdomCreationFeeWei",
 		"id" : 2680,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1477,
 		"name" : "_maximumClaimPriceWei",
 		"id" : 2708,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1487,
 		"name" : "_kingdomFactory",
 		"id" : 2738,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "KingdomFactory"
 	}, {
 		"line" : 1511,
 		"name" : "fuzzyHash",
 		"id" : 2772,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1508,
 		"name" : "_kingdomName",
 		"id" : 2766,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1510,
 		"name" : "_newKingdomNumber",
 		"id" : 2768,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1525,
 		"name" : "_rawValueWei",
 		"id" : 2799,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1529,
 		"name" : "_valueWei",
 		"id" : 2811,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1536,
 		"name" : "_name",
 		"id" : 2823,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1542,
 		"name" : "_data",
 		"id" : 2835,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
 		"line" : 1546,
 		"name" : "_name",
 		"id" : 2847,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 1550,
 		"name" : "locked",
 		"id" : 2861,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 1559,
 		"name" : "account",
 		"id" : 2904,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1561,
 		"name" : "a",
 		"id" : 2913,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1562,
 		"name" : "values",
@@ -4562,31 +4562,31 @@
 		"name" : "i",
 		"id" : 2950,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1565,
 		"name" : "value",
 		"id" : 2944,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1573,
 		"name" : "i",
 		"id" : 2972,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1573,
 		"name" : "value",
 		"id" : 2968,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1576,
 		"name" : "i",
 		"id" : 2984,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1591,
 		"name" : "approvals",
@@ -4598,31 +4598,31 @@
 		"name" : "approvalMask",
 		"id" : 3074,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
 		"line" : 1594,
 		"name" : "approver1",
 		"id" : 3076,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
 		"line" : 1595,
 		"name" : "approver2",
 		"id" : 3078,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
 		"line" : 1595,
 		"name" : "target",
 		"id" : 3080,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
 		"line" : 1607,
 		"name" : "approver",
 		"id" : 3103,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1620,
 		"name" : "balances",
@@ -4634,37 +4634,37 @@
 		"name" : "amount",
 		"id" : 3148,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1637,
 		"name" : "stack",
 		"id" : 3182,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1639,
 		"name" : "stackLimit",
 		"id" : 3185,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1642,
 		"name" : "amount",
 		"id" : 3187,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
 		"line" : 1642,
 		"name" : "dao",
 		"id" : 3189,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "MiniDAO"
 	}, {
 		"line" : 1643,
 		"name" : "daoAddress",
 		"id" : 3191,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1659,
 		"name" : "tickers",
@@ -4676,37 +4676,37 @@
 		"name" : "btc",
 		"id" : 3291,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes8"
 	}, {
 		"line" : 1676,
 		"name" : "eth",
 		"id" : 3297,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes8"
 	}, {
 		"line" : 1677,
 		"name" : "ltc",
 		"id" : 3303,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes8"
 	}, {
 		"line" : 1678,
 		"name" : "doge",
 		"id" : 3309,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes8"
 	}, {
 		"line" : 1684,
 		"name" : "account",
 		"id" : 3328,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1751,
 		"name" : "chairperson",
 		"id" : 3486,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 1752,
 		"name" : "voters",
@@ -4730,2106 +4730,2106 @@
 		"name" : "voter",
 		"id" : 3538,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 1821,
+		"line" : 1824,
 		"name" : "sender",
 		"id" : 3581,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Voter"
 	}, {
-		"line" : 1845,
+		"line" : 1850,
 		"name" : "delegate_",
 		"id" : 3640,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Voter"
 	}, {
-		"line" : 1818,
+		"line" : 1820,
 		"name" : "to",
 		"id" : 3577,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 1857,
+		"line" : 1864,
 		"name" : "sender",
 		"id" : 3673,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Voter"
 	}, {
-		"line" : 1856,
+		"line" : 1863,
 		"name" : "proposal",
 		"id" : 3669,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1870,
+		"line" : 1878,
 		"name" : "winningVoteCount",
 		"id" : 3713,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1887,
+		"line" : 1899,
 		"name" : "c",
 		"id" : 3781,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1884,
+		"line" : 1895,
 		"name" : "a",
 		"id" : 3766,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1884,
+		"line" : 1895,
 		"name" : "b",
 		"id" : 3768,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1898,
+		"line" : 1908,
 		"name" : "c",
 		"id" : 3807,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1894,
+		"line" : 1904,
 		"name" : "a",
 		"id" : 3799,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1894,
+		"line" : 1904,
 		"name" : "b",
 		"id" : 3801,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1906,
+		"line" : 1917,
 		"name" : "a",
 		"id" : 3817,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1906,
+		"line" : 1917,
 		"name" : "b",
 		"id" : 3819,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1913,
+		"line" : 1928,
 		"name" : "c",
 		"id" : 3845,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1909,
+		"line" : 1926,
 		"name" : "a",
 		"id" : 3837,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1910,
+		"line" : 1928,
 		"name" : "b",
 		"id" : 3839,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 1916,
+		"line" : 1933,
 		"name" : "data1",
 		"id" : 3862,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1917,
+		"line" : 1934,
 		"name" : "values",
 		"id" : 3866,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 1919,
+		"line" : 1938,
 		"name" : "balances",
 		"id" : 3870,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 1926,
+		"line" : 1940,
 		"name" : "a",
 		"id" : 3880,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1928,
+		"line" : 1941,
 		"name" : "a",
 		"id" : 3892,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1930,
+		"line" : 1943,
 		"name" : "a",
 		"id" : 3906,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1930,
+		"line" : 1943,
 		"name" : "b",
 		"id" : 3908,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 1933,
+		"line" : 1943,
 		"name" : "a",
 		"id" : 3920,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1938,
+		"line" : 1948,
 		"name" : "a",
 		"id" : 3932,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 1938,
+		"line" : 1948,
 		"name" : "b",
 		"id" : 3934,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1940,
+		"line" : 1950,
 		"name" : "a",
 		"id" : 3946,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 1947,
+		"line" : 1958,
 		"name" : "owner",
 		"id" : 3963,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 1948,
+		"line" : 1959,
 		"name" : "last_completed_migration",
 		"id" : 3965,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1951,
+		"line" : 1968,
 		"name" : "completed",
 		"id" : 3985,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 1958,
+		"line" : 1972,
 		"name" : "upgraded",
 		"id" : 4003,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Migrations"
 	}, {
-		"line" : 1958,
+		"line" : 1971,
 		"name" : "new_address",
 		"id" : 3997,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 1966,
+		"line" : 1975,
 		"name" : "storedData",
 		"id" : 4020,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 1967,
+		"line" : 1975,
 		"name" : "n",
 		"id" : 4022,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 1968,
+		"line" : 1975,
 		"name" : "x",
 		"id" : 4024,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint16"
 	}, {
-		"line" : 1970,
+		"line" : 1977,
 		"name" : "n",
 		"id" : 4036,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 1971,
+		"line" : 1979,
 		"name" : "owner",
 		"id" : 4049,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 1972,
+		"line" : 1981,
 		"name" : "storedData",
 		"id" : 4053,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 1974,
+		"line" : 1985,
 		"name" : "n",
 		"id" : 4055,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 1974,
+		"line" : 1985,
 		"name" : "x",
 		"id" : 4057,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 1975,
+		"line" : 1989,
 		"name" : "n",
 		"id" : 4075,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 1991,
+		"line" : 2006,
 		"name" : "postsFromAccount",
 		"id" : 4128,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 1993,
+		"line" : 2007,
 		"name" : "commentsFromPost",
 		"id" : 4133,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 1997,
+		"line" : 2012,
 		"name" : "commentFromAccount",
 		"id" : 4137,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2001,
+		"line" : 2014,
 		"name" : "posts",
 		"id" : 4140,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 2001,
+		"line" : 2015,
 		"name" : "comments",
 		"id" : 4143,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 2018,
+		"line" : 2035,
 		"name" : "post",
 		"id" : 4183,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Post"
 	}, {
-		"line" : 2019,
+		"line" : 2038,
 		"name" : "postId",
 		"id" : 4189,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2018,
+		"line" : 2034,
 		"name" : "_text",
 		"id" : 4179,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2030,
+		"line" : 2052,
 		"name" : "comment",
 		"id" : 4221,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Comment"
 	}, {
-		"line" : 2033,
+		"line" : 2055,
 		"name" : "commentId",
 		"id" : 4227,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2028,
+		"line" : 2047,
 		"name" : "_postId",
 		"id" : 4215,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2029,
+		"line" : 2051,
 		"name" : "_text",
 		"id" : 4217,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2058,
+		"line" : 2071,
 		"name" : "name",
 		"id" : 4272,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2061,
+		"line" : 2071,
 		"name" : "symbol",
 		"id" : 4274,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2061,
+		"line" : 2072,
 		"name" : "version",
 		"id" : 4276,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2061,
+		"line" : 2073,
 		"name" : "decimals",
 		"id" : 4278,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2062,
+		"line" : 2074,
 		"name" : "totalSupply",
 		"id" : 4280,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2063,
+		"line" : 2077,
 		"name" : "balanceOf",
 		"id" : 4284,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2066,
+		"line" : 2081,
 		"name" : "allowance",
 		"id" : 4290,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2068,
+		"line" : 2082,
 		"name" : "spentAllowance",
 		"id" : 4296,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2082,
+		"line" : 2091,
 		"name" : "initialSupply",
 		"id" : 4306,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2082,
+		"line" : 2091,
 		"name" : "tokenName",
 		"id" : 4308,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2083,
+		"line" : 2092,
 		"name" : "decimalUnits",
 		"id" : 4310,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2084,
+		"line" : 2093,
 		"name" : "tokenSymbol",
 		"id" : 4312,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2084,
+		"line" : 2093,
 		"name" : "versionOfTheCode",
 		"id" : 4314,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2104,
+		"line" : 2114,
 		"name" : "_to",
 		"id" : 4347,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2104,
+		"line" : 2114,
 		"name" : "_value",
 		"id" : 4349,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2123,
+		"line" : 2128,
 		"name" : "spender",
 		"id" : 4413,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "tokenRecipient"
 	}, {
-		"line" : 2118,
+		"line" : 2126,
 		"name" : "_spender",
 		"id" : 4394,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2119,
+		"line" : 2127,
 		"name" : "_value",
 		"id" : 4396,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2119,
+		"line" : 2127,
 		"name" : "_extraData",
 		"id" : 4398,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 2126,
+		"line" : 2131,
 		"name" : "_from",
 		"id" : 4433,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2127,
+		"line" : 2133,
 		"name" : "_to",
 		"id" : 4435,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2127,
+		"line" : 2134,
 		"name" : "_value",
 		"id" : 4437,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2139,
+		"line" : 2146,
 		"name" : "owner",
 		"id" : 4515,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2139,
+		"line" : 2147,
 		"name" : "_owner",
 		"id" : 4517,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2142,
+		"line" : 2150,
 		"name" : "_owner",
 		"id" : 4527,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2143,
+		"line" : 2152,
 		"name" : "recipient",
 		"id" : 4544,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2148,
+		"line" : 2155,
 		"name" : "addr",
 		"id" : 4578,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2147,
+		"line" : 2154,
 		"name" : "code",
 		"id" : 4572,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 2147,
+		"line" : 2155,
 		"name" : "salt",
 		"id" : 4574,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2192,
+		"line" : 2212,
 		"name" : "cbAddress",
 		"id" : 4591,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2226,
+		"line" : 2231,
 		"name" : "day",
 		"id" : 4693,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2226,
+		"line" : 2231,
 		"name" : "week",
 		"id" : 4702,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2227,
+		"line" : 2232,
 		"name" : "month",
 		"id" : 4711,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2227,
+		"line" : 2235,
 		"name" : "proofType_NONE",
 		"id" : 4714,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "byte"
 	}, {
-		"line" : 2228,
+		"line" : 2235,
 		"name" : "proofType_TLSNotary",
 		"id" : 4717,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "byte"
 	}, {
-		"line" : 2228,
+		"line" : 2238,
 		"name" : "proofStorage_IPFS",
 		"id" : 4720,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "byte"
 	}, {
-		"line" : 2229,
+		"line" : 2239,
 		"name" : "networkID_auto",
 		"id" : 4723,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2229,
+		"line" : 2239,
 		"name" : "networkID_mainnet",
 		"id" : 4726,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2230,
+		"line" : 2239,
 		"name" : "networkID_testnet",
 		"id" : 4729,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2230,
+		"line" : 2240,
 		"name" : "networkID_morden",
 		"id" : 4732,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2231,
+		"line" : 2240,
 		"name" : "networkID_consensys",
 		"id" : 4735,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 2232,
+		"line" : 2240,
 		"name" : "OAR",
 		"id" : 4737,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "OraclizeAddrResolverI"
 	}, {
-		"line" : 2235,
+		"line" : 2241,
 		"name" : "oraclize",
 		"id" : 4739,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "OraclizeI"
 	}, {
-		"line" : 2455,
+		"line" : 2464,
 		"name" : "DieselPriceUSD",
 		"id" : 6131,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2460,
+		"line" : 2472,
 		"name" : "myid",
 		"id" : 6148,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 2460,
+		"line" : 2473,
 		"name" : "result",
 		"id" : 6150,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2478,
+		"line" : 2488,
 		"name" : "ETHXBT",
 		"id" : 6190,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2485,
+		"line" : 2498,
 		"name" : "myid",
 		"id" : 6213,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 2486,
+		"line" : 2499,
 		"name" : "result",
 		"id" : 6215,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2487,
+		"line" : 2499,
 		"name" : "proof",
 		"id" : 6217,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 2515,
+		"line" : 2529,
 		"name" : "swarmContent",
 		"id" : 6272,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2524,
+		"line" : 2535,
 		"name" : "myid",
 		"id" : 6289,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 2525,
+		"line" : 2535,
 		"name" : "result",
 		"id" : 6291,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2537,
+		"line" : 2551,
 		"name" : "temperature",
 		"id" : 6328,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2546,
+		"line" : 2558,
 		"name" : "myid",
 		"id" : 6345,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 2546,
+		"line" : 2558,
 		"name" : "result",
 		"id" : 6347,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2563,
+		"line" : 2567,
 		"name" : "viewsCount",
 		"id" : 6384,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2566,
+		"line" : 2578,
 		"name" : "myid",
 		"id" : 6401,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 2566,
+		"line" : 2578,
 		"name" : "result",
 		"id" : 6403,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2592,
+		"line" : 2608,
 		"name" : "authority",
 		"id" : 6461,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "DSAuthority"
 	}, {
-		"line" : 2593,
+		"line" : 2609,
 		"name" : "owner",
 		"id" : 6463,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2600,
+		"line" : 2612,
 		"name" : "owner_",
 		"id" : 6479,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2605,
+		"line" : 2617,
 		"name" : "authority_",
 		"id" : 6495,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "DSAuthority"
 	}, {
-		"line" : 2613,
+		"line" : 2628,
 		"name" : "src",
 		"id" : 6527,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2615,
+		"line" : 2628,
 		"name" : "sig",
 		"id" : 6529,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes4"
 	}, {
-		"line" : 2628,
+		"line" : 2641,
 		"name" : "totalVisit",
 		"id" : 6573,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 2634,
+		"line" : 2642,
 		"name" : "visitors",
 		"id" : 6582,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2635,
+		"line" : 2643,
 		"name" : "visitorAddrs",
 		"id" : 6585,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 2677,
+		"line" : 2691,
 		"name" : "owner",
 		"id" : 6677,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2680,
+		"line" : 2692,
 		"name" : "bidIncrement",
 		"id" : 6679,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2681,
+		"line" : 2693,
 		"name" : "startBlock",
 		"id" : 6681,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2681,
+		"line" : 2694,
 		"name" : "endBlock",
 		"id" : 6683,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2682,
+		"line" : 2694,
 		"name" : "ipfsHash",
 		"id" : 6685,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2685,
+		"line" : 2696,
 		"name" : "canceled",
 		"id" : 6687,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2685,
+		"line" : 2697,
 		"name" : "highestBindingBid",
 		"id" : 6689,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2686,
+		"line" : 2697,
 		"name" : "highestBidder",
 		"id" : 6691,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2689,
+		"line" : 2700,
 		"name" : "fundsByBidder",
 		"id" : 6695,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 2689,
+		"line" : 2704,
 		"name" : "ownerHasWithdrawn",
 		"id" : 6697,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2697,
+		"line" : 2719,
 		"name" : "_owner",
 		"id" : 6721,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2697,
+		"line" : 2719,
 		"name" : "_bidIncrement",
 		"id" : 6723,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2698,
+		"line" : 2721,
 		"name" : "_startBlock",
 		"id" : 6725,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2700,
+		"line" : 2723,
 		"name" : "_endBlock",
 		"id" : 6727,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2702,
+		"line" : 2723,
 		"name" : "_ipfsHash",
 		"id" : 6729,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 2736,
+		"line" : 2748,
 		"name" : "newBid",
 		"id" : 6799,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2749,
+		"line" : 2765,
 		"name" : "highestBid",
 		"id" : 6814,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2792,
+		"line" : 2804,
 		"name" : "a",
 		"id" : 6879,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2793,
+		"line" : 2804,
 		"name" : "b",
 		"id" : 6881,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2805,
+		"line" : 2812,
 		"name" : "withdrawalAccount",
 		"id" : 6924,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 2807,
+		"line" : 2813,
 		"name" : "withdrawalAmount",
 		"id" : 6927,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2872,
+		"line" : 2881,
 		"name" : "auctions",
 		"id" : 7103,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 2879,
+		"line" : 2886,
 		"name" : "newAuction",
 		"id" : 7130,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Auction"
 	}, {
-		"line" : 2878,
+		"line" : 2885,
 		"name" : "bidIncrement",
 		"id" : 7120,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2879,
+		"line" : 2885,
 		"name" : "startBlock",
 		"id" : 7122,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2879,
+		"line" : 2886,
 		"name" : "endBlock",
 		"id" : 7124,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2879,
+		"line" : 2886,
 		"name" : "ipfsHash",
 		"id" : 7126,
 		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2886,
-		"name" : "_bool",
-		"id" : 7169,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2886,
-		"name" : "_int",
-		"id" : 7171,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2886,
-		"name" : "_int8",
-		"id" : 7173,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2886,
-		"name" : "_int256",
-		"id" : 7175,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2887,
-		"name" : "_uint",
-		"id" : 7177,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2887,
-		"name" : "_uint8",
-		"id" : 7179,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2887,
-		"name" : "_uint256",
-		"id" : 7181,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2888,
-		"name" : "_address",
-		"id" : 7183,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2888,
-		"name" : "_byte",
-		"id" : 7185,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2888,
-		"name" : "_bytes1",
-		"id" : 7187,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2889,
-		"name" : "_bytes32",
-		"id" : 7189,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2889,
-		"name" : "_bytes",
-		"id" : 7191,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2889,
-		"name" : "_string",
-		"id" : 7193,
-		"isStateVariable" : true,
-		"type" : "None"
-	}, {
-		"line" : 2892,
-		"name" : "___bool",
-		"id" : 7205,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2891,
-		"name" : "_bool",
-		"id" : 7199,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2896,
-		"name" : "___int",
-		"id" : 7222,
-		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "string"
 	}, {
 		"line" : 2895,
 		"name" : "_bool",
+		"id" : 7169,
+		"isStateVariable" : true,
+		"type" : "bool"
+	}, {
+		"line" : 2895,
+		"name" : "_int",
+		"id" : 7171,
+		"isStateVariable" : true,
+		"type" : "int"
+	}, {
+		"line" : 2895,
+		"name" : "_int8",
+		"id" : 7173,
+		"isStateVariable" : true,
+		"type" : "int8"
+	}, {
+		"line" : 2895,
+		"name" : "_int256",
+		"id" : 7175,
+		"isStateVariable" : true,
+		"type" : "int256"
+	}, {
+		"line" : 2895,
+		"name" : "_uint",
+		"id" : 7177,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 2895,
+		"name" : "_uint8",
+		"id" : 7179,
+		"isStateVariable" : true,
+		"type" : "uint8"
+	}, {
+		"line" : 2895,
+		"name" : "_uint256",
+		"id" : 7181,
+		"isStateVariable" : true,
+		"type" : "uint256"
+	}, {
+		"line" : 2896,
+		"name" : "_address",
+		"id" : 7183,
+		"isStateVariable" : true,
+		"type" : "address"
+	}, {
+		"line" : 2896,
+		"name" : "_byte",
+		"id" : 7185,
+		"isStateVariable" : true,
+		"type" : "byte"
+	}, {
+		"line" : 2896,
+		"name" : "_bytes1",
+		"id" : 7187,
+		"isStateVariable" : true,
+		"type" : "bytes1"
+	}, {
+		"line" : 2897,
+		"name" : "_bytes32",
+		"id" : 7189,
+		"isStateVariable" : true,
+		"type" : "bytes32"
+	}, {
+		"line" : 2897,
+		"name" : "_bytes",
+		"id" : 7191,
+		"isStateVariable" : true,
+		"type" : "bytes"
+	}, {
+		"line" : 2897,
+		"name" : "_string",
+		"id" : 7193,
+		"isStateVariable" : true,
+		"type" : "string"
+	}, {
+		"line" : 2902,
+		"name" : "___bool",
+		"id" : 7205,
+		"isStateVariable" : false,
+		"type" : "bool"
+	}, {
+		"line" : 2899,
+		"name" : "_bool",
+		"id" : 7199,
+		"isStateVariable" : false,
+		"type" : "bool"
+	}, {
+		"line" : 2908,
+		"name" : "___int",
+		"id" : 7222,
+		"isStateVariable" : false,
+		"type" : "int"
+	}, {
+		"line" : 2907,
+		"name" : "_bool",
 		"id" : 7216,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2900,
+		"line" : 2915,
 		"name" : "___int8",
 		"id" : 7239,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "int8"
 	}, {
-		"line" : 2898,
+		"line" : 2911,
 		"name" : "_bool",
 		"id" : 7233,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2907,
+		"line" : 2925,
 		"name" : "___int256",
 		"id" : 7256,
 		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2906,
-		"name" : "_bool",
-		"id" : 7250,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2915,
-		"name" : "___uint",
-		"id" : 7273,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2910,
-		"name" : "_bool",
-		"id" : 7267,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 2924,
-		"name" : "___uint8",
-		"id" : 7290,
-		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "int256"
 	}, {
 		"line" : 2921,
 		"name" : "_bool",
-		"id" : 7284,
+		"id" : 7250,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2932,
-		"name" : "___uint256",
-		"id" : 7307,
+		"line" : 2935,
+		"name" : "___uint",
+		"id" : 7273,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 2930,
+		"line" : 2931,
 		"name" : "_bool",
-		"id" : 7301,
+		"id" : 7267,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 2942,
-		"name" : "___address",
-		"id" : 7324,
+		"name" : "___uint8",
+		"id" : 7290,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
 		"line" : 2941,
 		"name" : "_bool",
-		"id" : 7318,
+		"id" : 7284,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2951,
-		"name" : "___byte",
-		"id" : 7341,
+		"line" : 2949,
+		"name" : "___uint256",
+		"id" : 7307,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
 		"line" : 2949,
 		"name" : "_bool",
-		"id" : 7335,
+		"id" : 7301,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 2955,
-		"name" : "___bytes1",
-		"id" : 7358,
+		"name" : "___address",
+		"id" : 7324,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 2954,
 		"name" : "_bool",
-		"id" : 7352,
+		"id" : 7318,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 2961,
-		"name" : "___bytes32",
-		"id" : 7375,
+		"name" : "___byte",
+		"id" : 7341,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "byte"
 	}, {
 		"line" : 2958,
 		"name" : "_bool",
-		"id" : 7369,
+		"id" : 7335,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2976,
-		"name" : "___bytes",
-		"id" : 7392,
+		"line" : 2975,
+		"name" : "___bytes1",
+		"id" : 7358,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes1"
 	}, {
-		"line" : 2972,
+		"line" : 2971,
 		"name" : "_bool",
-		"id" : 7386,
+		"id" : 7352,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 2985,
-		"name" : "___string",
-		"id" : 7409,
+		"name" : "___bytes32",
+		"id" : 7375,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
 		"line" : 2982,
 		"name" : "_bool",
-		"id" : 7403,
+		"id" : 7369,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
 		"line" : 2991,
+		"name" : "___bytes",
+		"id" : 7392,
+		"isStateVariable" : false,
+		"type" : "bytes"
+	}, {
+		"line" : 2988,
+		"name" : "_bool",
+		"id" : 7386,
+		"isStateVariable" : false,
+		"type" : "bool"
+	}, {
+		"line" : 2996,
+		"name" : "___string",
+		"id" : 7409,
+		"isStateVariable" : false,
+		"type" : "string"
+	}, {
+		"line" : 2995,
+		"name" : "_bool",
+		"id" : 7403,
+		"isStateVariable" : false,
+		"type" : "bool"
+	}, {
+		"line" : 3001,
 		"name" : "___bool",
 		"id" : 7430,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 2991,
+		"line" : 3002,
 		"name" : "___uint256",
 		"id" : 7433,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3856,
+		"line" : 3866,
 		"name" : "txCount",
 		"id" : 10561,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3858,
+		"line" : 3867,
 		"name" : "owner",
 		"id" : 10563,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3860,
+		"line" : 3868,
 		"name" : "pendingOwner",
 		"id" : 10565,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3860,
+		"line" : 3870,
 		"name" : "arrayLimit",
 		"id" : 10568,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint16"
 	}, {
-		"line" : 3861,
+		"line" : 3871,
 		"name" : "discountStep",
 		"id" : 10571,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3861,
+		"line" : 3871,
 		"name" : "fee",
 		"id" : 10574,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3871,
+		"line" : 3881,
 		"name" : "_owner",
 		"id" : 10617,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3871,
+		"line" : 3881,
 		"name" : "_pendingOwner",
 		"id" : 10619,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3877,
+		"line" : 3886,
 		"name" : "count",
 		"id" : 10643,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3876,
+		"line" : 3886,
 		"name" : "_customer",
 		"id" : 10637,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3881,
+		"line" : 3890,
 		"name" : "_customer",
 		"id" : 10655,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3884,
+		"line" : 3891,
 		"name" : "_newPendingOwner",
 		"id" : 10669,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3888,
+		"line" : 3899,
 		"name" : "_newLimit",
 		"id" : 10690,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint16"
 	}, {
-		"line" : 3891,
+		"line" : 3903,
 		"name" : "_newFee",
 		"id" : 10702,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3892,
+		"line" : 3908,
 		"name" : "_newStep",
 		"id" : 10714,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3901,
+		"line" : 3915,
 		"name" : "total",
 		"id" : 10738,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3905,
+		"line" : 3918,
 		"name" : "erc20token",
 		"id" : 10749,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "ERC20"
 	}, {
-		"line" : 3905,
+		"line" : 3920,
 		"name" : "i",
 		"id" : 10755,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 3896,
+		"line" : 3912,
 		"name" : "token",
 		"id" : 10726,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3897,
+		"line" : 3912,
 		"name" : "_contributors",
 		"id" : 10729,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 3899,
+		"line" : 3914,
 		"name" : "_balances",
 		"id" : 10732,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 3926,
+		"line" : 3940,
 		"name" : "total",
 		"id" : 10823,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 3929,
+		"line" : 3942,
 		"name" : "i",
 		"id" : 10834,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 3919,
+		"line" : 3933,
 		"name" : "_contributors",
 		"id" : 10814,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 3920,
+		"line" : 3936,
 		"name" : "_balances",
 		"id" : 10817,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 3948,
+		"line" : 3958,
 		"name" : "uintStorage",
 		"id" : 10929,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3949,
+		"line" : 3960,
 		"name" : "stringStorage",
 		"id" : 10933,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3949,
+		"line" : 3962,
 		"name" : "addressStorage",
 		"id" : 10937,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3950,
+		"line" : 3963,
 		"name" : "bytesStorage",
 		"id" : 10941,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3954,
+		"line" : 3963,
 		"name" : "boolStorage",
 		"id" : 10945,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3955,
+		"line" : 3966,
 		"name" : "intStorage",
 		"id" : 10949,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 3963,
+		"line" : 3977,
 		"name" : "_impl",
 		"id" : 10954,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 3966,
+		"line" : 3982,
 		"name" : "data",
 		"id" : 10967,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 3991,
+		"line" : 4005,
 		"name" : "_upgradeabilityOwner",
 		"id" : 10981,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4002,
+		"line" : 4012,
 		"name" : "newUpgradeabilityOwner",
 		"id" : 10991,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4009,
+		"line" : 4016,
 		"name" : "totalSupply",
 		"id" : 11002,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4064,
+		"line" : 4075,
 		"name" : "owner",
 		"id" : 11077,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4070,
+		"line" : 4084,
 		"name" : "newOwner",
 		"id" : 11089,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4072,
+		"line" : 4085,
 		"name" : "_newOwner",
 		"id" : 11097,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4090,
+		"line" : 4105,
 		"name" : "transferEnabled",
 		"id" : 11152,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4092,
+		"line" : 4106,
 		"name" : "lockFlag",
 		"id" : 11155,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4095,
+		"line" : 4106,
 		"name" : "locked",
 		"id" : 11159,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4096,
+		"line" : 4111,
 		"name" : "exclude",
 		"id" : 11163,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4098,
+		"line" : 4112,
 		"name" : "_enable",
 		"id" : 11165,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4102,
+		"line" : 4116,
 		"name" : "_enable",
 		"id" : 11177,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4105,
+		"line" : 4118,
 		"name" : "_addr",
 		"id" : 11193,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4113,
+		"line" : 4122,
 		"name" : "_addr",
 		"id" : 11218,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4117,
+		"line" : 4124,
 		"name" : "_addr",
 		"id" : 11236,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4124,
+		"line" : 4131,
 		"name" : "_to",
 		"id" : 11285,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4126,
+		"line" : 4131,
 		"name" : "_value",
 		"id" : 11287,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4135,
+		"line" : 4142,
 		"name" : "_from",
 		"id" : 11342,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4135,
+		"line" : 4142,
 		"name" : "_to",
 		"id" : 11344,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4136,
+		"line" : 4142,
 		"name" : "_value",
 		"id" : 11346,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4145,
+		"line" : 4160,
 		"name" : "_owner",
 		"id" : 11415,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4150,
+		"line" : 4166,
 		"name" : "_spender",
 		"id" : 11427,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4150,
+		"line" : 4166,
 		"name" : "_value",
 		"id" : 11429,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4159,
+		"line" : 4174,
 		"name" : "_owner",
 		"id" : 11455,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4159,
+		"line" : 4174,
 		"name" : "_spender",
 		"id" : 11457,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4166,
+		"line" : 4177,
 		"name" : "balances",
 		"id" : 11473,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4166,
+		"line" : 4179,
 		"name" : "allowed",
 		"id" : 11479,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4171,
+		"line" : 4189,
 		"name" : "name",
 		"id" : 11492,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 4175,
+		"line" : 4190,
 		"name" : "decimals",
 		"id" : 11495,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 4183,
+		"line" : 4197,
 		"name" : "symbol",
 		"id" : 11498,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 4186,
+		"line" : 4198,
 		"name" : "version",
 		"id" : 11501,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "string"
 	}, {
-		"line" : 4190,
+		"line" : 4202,
 		"name" : "allocateEndTime",
 		"id" : 11503,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4193,
+		"line" : 4206,
 		"name" : "nonces",
 		"id" : 11507,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4217,
+		"line" : 4235,
 		"name" : "nonce",
 		"id" : 11551,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4218,
+		"line" : 4237,
 		"name" : "h",
 		"id" : 11557,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4209,
+		"line" : 4223,
 		"name" : "_from",
 		"id" : 11519,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4209,
+		"line" : 4223,
 		"name" : "_to",
 		"id" : 11521,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4211,
+		"line" : 4224,
 		"name" : "_value",
 		"id" : 11523,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4212,
+		"line" : 4224,
 		"name" : "_feeSmt",
 		"id" : 11525,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4212,
+		"line" : 4225,
 		"name" : "_v",
 		"id" : 11527,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 4212,
+		"line" : 4225,
 		"name" : "_r",
 		"id" : 11529,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4212,
+		"line" : 4226,
 		"name" : "_s",
 		"id" : 11531,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4249,
+		"line" : 4253,
 		"name" : "nonce",
 		"id" : 11666,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4249,
+		"line" : 4254,
 		"name" : "hash",
 		"id" : 11672,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4244,
+		"line" : 4251,
 		"name" : "_from",
 		"id" : 11650,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4245,
+		"line" : 4251,
 		"name" : "_spender",
 		"id" : 11652,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4246,
+		"line" : 4251,
 		"name" : "_value",
 		"id" : 11654,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4246,
+		"line" : 4252,
 		"name" : "_v",
 		"id" : 11656,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint8"
 	}, {
-		"line" : 4247,
+		"line" : 4252,
 		"name" : "_r",
 		"id" : 11658,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4249,
+		"line" : 4252,
 		"name" : "_s",
 		"id" : 11660,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4254,
+		"line" : 4264,
 		"name" : "_addr",
 		"id" : 11719,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4260,
+		"line" : 4270,
 		"name" : "_spender",
 		"id" : 11731,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4260,
+		"line" : 4270,
 		"name" : "_value",
 		"id" : 11733,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4260,
+		"line" : 4270,
 		"name" : "_extraData",
 		"id" : 11735,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 4285,
+		"line" : 4292,
 		"name" : "_spender",
 		"id" : 11782,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4285,
+		"line" : 4292,
 		"name" : "_value",
 		"id" : 11784,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4285,
+		"line" : 4294,
 		"name" : "_extraData",
 		"id" : 11786,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 4300,
+		"line" : 4312,
 		"name" : "to",
 		"id" : 11859,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4302,
+		"line" : 4314,
 		"name" : "value",
 		"id" : 11865,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4295,
+		"line" : 4308,
 		"name" : "_owners",
 		"id" : 11823,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4296,
+		"line" : 4309,
 		"name" : "_values",
 		"id" : 11826,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4314,
+		"line" : 4323,
 		"name" : "beneficiary",
 		"id" : 11905,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4315,
+		"line" : 4324,
 		"name" : "auctionEndTime",
 		"id" : 11907,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4316,
+		"line" : 4327,
 		"name" : "highestBidder",
 		"id" : 11909,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4318,
+		"line" : 4328,
 		"name" : "highestBid",
 		"id" : 11911,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4319,
+		"line" : 4332,
 		"name" : "pendingReturns",
 		"id" : 11915,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4323,
+		"line" : 4334,
 		"name" : "ended",
 		"id" : 11917,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4336,
+		"line" : 4346,
 		"name" : "_biddingTime",
 		"id" : 11931,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4337,
+		"line" : 4347,
 		"name" : "_beneficiary",
 		"id" : 11933,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4370,
+		"line" : 4379,
 		"name" : "amount",
 		"id" : 12000,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4422,
+		"line" : 4432,
 		"name" : "beneficiary",
 		"id" : 12078,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4422,
+		"line" : 4433,
 		"name" : "biddingEnd",
 		"id" : 12080,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4424,
+		"line" : 4434,
 		"name" : "revealEnd",
 		"id" : 12082,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4424,
+		"line" : 4436,
 		"name" : "ended",
 		"id" : 12084,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4425,
+		"line" : 4436,
 		"name" : "bids",
 		"id" : 12089,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4426,
+		"line" : 4437,
 		"name" : "highestBidder",
 		"id" : 12091,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4427,
+		"line" : 4440,
 		"name" : "highestBid",
 		"id" : 12093,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4429,
+		"line" : 4441,
 		"name" : "pendingReturns",
 		"id" : 12097,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4444,
+		"line" : 4455,
 		"name" : "_biddingTime",
 		"id" : 12129,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4445,
+		"line" : 4457,
 		"name" : "_revealTime",
 		"id" : 12131,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4446,
+		"line" : 4458,
 		"name" : "_beneficiary",
 		"id" : 12133,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4468,
+		"line" : 4478,
 		"name" : "_blindedBid",
 		"id" : 12155,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4482,
+		"line" : 4490,
 		"name" : "length",
 		"id" : 12193,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4485,
+		"line" : 4498,
 		"name" : "refund",
 		"id" : 12222,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4488,
+		"line" : 4499,
 		"name" : "bidToCheck",
 		"id" : 12235,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "Bid"
 	}, {
-		"line" : 4488,
+		"line" : 4500,
 		"name" : "value",
 		"id" : 12244,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4489,
+		"line" : 4500,
 		"name" : "fake",
 		"id" : 12246,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bool"
 	}, {
-		"line" : 4489,
+		"line" : 4500,
 		"name" : "secret",
 		"id" : 12248,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4478,
+		"line" : 4487,
 		"name" : "_values",
 		"id" : 12177,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4479,
+		"line" : 4487,
 		"name" : "_fake",
 		"id" : 12180,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4480,
+		"line" : 4488,
 		"name" : "_secret",
 		"id" : 12183,
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4509,
+		"line" : 4520,
 		"name" : "bidder",
 		"id" : 12319,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4509,
+		"line" : 4520,
 		"name" : "value",
 		"id" : 12321,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4526,
+		"line" : 4542,
 		"name" : "amount",
 		"id" : 12361,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4551,
+		"line" : 4564,
 		"name" : "owner",
 		"id" : 12420,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4551,
+		"line" : 4565,
 		"name" : "usedNonces",
 		"id" : 12424,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4564,
+		"line" : 4569,
 		"name" : "message",
 		"id" : 12451,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4556,
+		"line" : 4566,
 		"name" : "amount",
 		"id" : 12430,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4557,
+		"line" : 4566,
 		"name" : "nonce",
 		"id" : 12432,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4558,
+		"line" : 4567,
 		"name" : "signature",
 		"id" : 12434,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 4603,
+		"line" : 4610,
 		"name" : "sender",
 		"id" : 12570,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4604,
+		"line" : 4611,
 		"name" : "recipient",
 		"id" : 12572,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4605,
+		"line" : 4613,
 		"name" : "expiration",
 		"id" : 12574,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4606,
+		"line" : 4615,
 		"name" : "_recipient",
 		"id" : 12576,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4606,
+		"line" : 4616,
 		"name" : "duration",
 		"id" : 12578,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4615,
+		"line" : 4625,
 		"name" : "message",
 		"id" : 12607,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes32"
 	}, {
-		"line" : 4611,
+		"line" : 4623,
 		"name" : "amount",
 		"id" : 12599,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4612,
+		"line" : 4623,
 		"name" : "signature",
 		"id" : 12601,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 4626,
+		"line" : 4640,
 		"name" : "amount",
 		"id" : 12628,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4626,
+		"line" : 4640,
 		"name" : "signature",
 		"id" : 12630,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "bytes"
 	}, {
-		"line" : 4635,
+		"line" : 4646,
 		"name" : "newExpiration",
 		"id" : 12660,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4686,
+		"line" : 4700,
 		"name" : "n",
 		"id" : 12766,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4686,
+		"line" : 4701,
 		"name" : "lockHolder",
 		"id" : 12768,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4696,
+		"line" : 4706,
 		"name" : "newState",
 		"id" : 12804,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4701,
+		"line" : 4715,
 		"name" : "amountToWithdraw",
 		"id" : 12824,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4709,
+		"line" : 4723,
 		"name" : "userBalances",
 		"id" : 12852,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4712,
+		"line" : 4724,
 		"name" : "claimedBonus",
 		"id" : 12856,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4712,
+		"line" : 4724,
 		"name" : "rewardsForA",
 		"id" : 12860,
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 4717,
+		"line" : 4729,
 		"name" : "amountToWithdraw",
 		"id" : 12866,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint"
 	}, {
-		"line" : 4716,
+		"line" : 4728,
 		"name" : "recipient",
 		"id" : 12862,
 		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 4723,
-		"name" : "recipient",
-		"id" : 12889,
-		"isStateVariable" : false,
-		"type" : "None"
-	}, {
-		"line" : 4733,
-		"name" : "amountToWithdraw",
-		"id" : 12922,
-		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
 		"line" : 4731,
 		"name" : "recipient",
+		"id" : 12889,
+		"isStateVariable" : false,
+		"type" : "address"
+	}, {
+		"line" : 4747,
+		"name" : "amountToWithdraw",
+		"id" : 12922,
+		"isStateVariable" : false,
+		"type" : "uint"
+	}, {
+		"line" : 4747,
+		"name" : "recipient",
 		"id" : 12918,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4742,
+		"line" : 4753,
 		"name" : "recipient",
 		"id" : 12945,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "address"
 	}, {
-		"line" : 4753,
+		"line" : 4761,
 		"name" : "payees",
 		"id" : 12980,
 		"isStateVariable" : true,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 4754,
+		"line" : 4764,
 		"name" : "nextPayeeIndex",
 		"id" : 12982,
 		"isStateVariable" : true,
-		"type" : "None"
+		"type" : "uint256"
 	}, {
-		"line" : 4754,
+		"line" : 4765,
 		"name" : "i",
 		"id" : 12986,
 		"isStateVariable" : false,
-		"type" : "None"
+		"type" : "uint256"
 	} ]
 }

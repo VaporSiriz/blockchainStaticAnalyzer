@@ -1,9 +1,9 @@
 JSON AST (compact format):
 
 
-======= ./Haechi/solidity_examples/Ballot.sol =======
+======= solidity_examples/Ballot.sol =======
 {
-  "absolutePath": "./Haechi/solidity_examples/Ballot.sol",
+  "absolutePath": "solidity_examples/Ballot.sol",
   "exportedSymbols":
   {
     "Ballot":

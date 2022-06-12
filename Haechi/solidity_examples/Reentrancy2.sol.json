@@ -1,0 +1,195 @@
+======= Haechi/solidity_examples/Reentrancy2.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 2,
+		"name" : "EtherStore",
+		"id" : 138
+	}, {
+		"kind" : "contract",
+		"line" : 29,
+		"name" : "Attack",
+		"id" : 208
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 7,
+		"name" : "depositFunds",
+		"id" : 24
+	}, {
+		"visibility" : "public",
+		"line" : 10,
+		"name" : "withdrawFunds",
+		"id" : 80
+	}, {
+		"visibility" : "public",
+		"line" : 18,
+		"name" : "withdrawFundsToAddress",
+		"id" : 137
+	}, {
+		"visibility" : "public",
+		"line" : 35,
+		"name" : "None",
+		"id" : 152
+	}, {
+		"visibility" : "public",
+		"line" : 38,
+		"name" : "attackEtherStore",
+		"id" : 178
+	}, {
+		"visibility" : "public",
+		"line" : 46,
+		"name" : "collectEther",
+		"id" : 191
+	}, {
+		"visibility" : "public",
+		"line" : 50,
+		"name" : "None",
+		"id" : 207
+	} ],
+	"functionCall" : [ {
+		"caller" : "require",
+		"line" : 12,
+		"name" : "None",
+		"id" : 36
+	}, {
+		"caller" : "require",
+		"line" : 13,
+		"name" : "None",
+		"id" : 42
+	}, {
+		"caller" : "require",
+		"line" : 14,
+		"name" : "None",
+		"id" : 53
+	}, {
+		"caller" : "require",
+		"line" : 15,
+		"name" : "None",
+		"id" : 63
+	}, {
+		"caller" : null,
+		"line" : 16,
+		"name" : "value",
+		"id" : 61
+	}, {
+		"caller" : null,
+		"line" : 16,
+		"name" : "None",
+		"id" : 62
+	}, {
+		"caller" : "require",
+		"line" : 21,
+		"name" : "None",
+		"id" : 94
+	}, {
+		"caller" : "require",
+		"line" : 22,
+		"name" : "None",
+		"id" : 100
+	}, {
+		"caller" : "require",
+		"line" : 24,
+		"name" : "None",
+		"id" : 111
+	}, {
+		"caller" : "require",
+		"line" : 26,
+		"name" : "None",
+		"id" : 120
+	}, {
+		"caller" : null,
+		"line" : 26,
+		"name" : "value",
+		"id" : 118
+	}, {
+		"caller" : null,
+		"line" : 26,
+		"name" : "None",
+		"id" : 119
+	}, {
+		"caller" : "EtherStore",
+		"line" : 37,
+		"name" : "None",
+		"id" : 148
+	}, {
+		"caller" : "require",
+		"line" : 41,
+		"name" : "None",
+		"id" : 160
+	}, {
+		"caller" : null,
+		"line" : 42,
+		"name" : "value",
+		"id" : 168
+	}, {
+		"caller" : null,
+		"line" : 42,
+		"name" : "None",
+		"id" : 169
+	}, {
+		"caller" : "etherStore",
+		"line" : 44,
+		"name" : "withdrawFunds",
+		"id" : 175
+	}, {
+		"caller" : null,
+		"line" : 49,
+		"name" : "transfer",
+		"id" : 188
+	}, {
+		"caller" : "etherStore",
+		"line" : 54,
+		"name" : "withdrawFunds",
+		"id" : 202
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "withdrawalLimit",
+		"id" : 4,
+		"isStateVariable" : true,
+		"type" : "uint256"
+	}, {
+		"line" : 5,
+		"name" : "lastWithdrawTime",
+		"id" : 8,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 6,
+		"name" : "balances",
+		"id" : 12,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 12,
+		"name" : "_weiToWithdraw",
+		"id" : 26,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 21,
+		"name" : "_weiToWithdraw",
+		"id" : 82,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 21,
+		"name" : "_to",
+		"id" : 84,
+		"isStateVariable" : false,
+		"type" : "address"
+	}, {
+		"line" : 31,
+		"name" : "etherStore",
+		"id" : 140,
+		"isStateVariable" : true,
+		"type" : "EtherStore"
+	}, {
+		"line" : 35,
+		"name" : "_etherStoreAddress",
+		"id" : 142,
+		"isStateVariable" : false,
+		"type" : "address"
+	} ]
+}

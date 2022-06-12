@@ -22,6 +22,15 @@ contract Mallory {
   function getBalance(address u) public view returns(uint){
     return userBalance[u];
   }
+
+  function testFunc3() public returns(uint256) {
+    testFunc();
+    return 3;
+  }
+
+  function testFunc4() public {
+    this.testFunc3();
+  }
 }
  
 contract SimpleDAO {

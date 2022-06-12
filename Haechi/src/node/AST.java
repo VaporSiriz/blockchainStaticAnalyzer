@@ -18,5 +18,15 @@ public class AST {
 	public String getNodeType() {
 		return nodeType;
 	}
+
+	public AST getParentOfNodeType(String nodeType) {
+		AST temp_parent = parent;
+		String parentNodeType = temp_parent.getNodeType();
+		while(!parentNodeType.equals(nodeType)) {
+			temp_parent = temp_parent.getParent();
+			parentNodeType = temp_parent.getNodeType();
+		}
+		return temp_parent;
+	}
 }
 

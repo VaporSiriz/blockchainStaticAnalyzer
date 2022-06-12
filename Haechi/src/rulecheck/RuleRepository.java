@@ -16,6 +16,7 @@ public class RuleRepository {
         registerRule(new Reentrancy());
         registerRule(new TransferEther());
         registerRule(new TxOrigin());
+        registerRule(new ManipulatedBalance());
     }
 
     private void registerRule(ValidationRule rule) {
