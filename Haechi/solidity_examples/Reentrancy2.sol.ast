@@ -8,14 +8,14 @@ JSON AST (compact format):
 	{
 		"Attack" : 
 		[
-			208
+			221
 		],
 		"EtherStore" : 
 		[
-			138
+			151
 		]
 	},
-	"id" : 209,
+	"id" : 222,
 	"nodeType" : "SourceUnit",
 	"nodes" : 
 	[
@@ -24,12 +24,15 @@ JSON AST (compact format):
 			"literals" : 
 			[
 				"solidity",
-				"^",
+				">",
 				"0.4",
-				".25"
+				".0",
+				"<",
+				"0.6",
+				".0"
 			],
 			"nodeType" : "PragmaDirective",
-			"src" : "0:23:0"
+			"src" : "0:30:0"
 		},
 		{
 			"baseContracts" : [],
@@ -37,10 +40,10 @@ JSON AST (compact format):
 			"contractKind" : "contract",
 			"documentation" : null,
 			"fullyImplemented" : true,
-			"id" : 138,
+			"id" : 151,
 			"linearizedBaseContracts" : 
 			[
-				138
+				151
 			],
 			"name" : "EtherStore",
 			"nodeType" : "ContractDefinition",
@@ -51,8 +54,8 @@ JSON AST (compact format):
 					"id" : 4,
 					"name" : "withdrawalLimit",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 138,
-					"src" : "52:40:0",
+					"scope" : 151,
+					"src" : "58:40:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
@@ -65,7 +68,7 @@ JSON AST (compact format):
 						"id" : 2,
 						"name" : "uint256",
 						"nodeType" : "ElementaryTypeName",
-						"src" : "52:7:0",
+						"src" : "58:7:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_uint256",
@@ -83,7 +86,7 @@ JSON AST (compact format):
 						"kind" : "number",
 						"lValueRequested" : false,
 						"nodeType" : "Literal",
-						"src" : "85:7:0",
+						"src" : "91:7:0",
 						"subdenomination" : "ether",
 						"typeDescriptions" : 
 						{
@@ -99,8 +102,8 @@ JSON AST (compact format):
 					"id" : 8,
 					"name" : "lastWithdrawTime",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 138,
-					"src" : "98:51:0",
+					"scope" : 151,
+					"src" : "104:51:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
@@ -116,7 +119,7 @@ JSON AST (compact format):
 							"id" : 5,
 							"name" : "address",
 							"nodeType" : "ElementaryTypeName",
-							"src" : "106:7:0",
+							"src" : "112:7:0",
 							"typeDescriptions" : 
 							{
 								"typeIdentifier" : "t_address",
@@ -124,7 +127,7 @@ JSON AST (compact format):
 							}
 						},
 						"nodeType" : "Mapping",
-						"src" : "98:27:0",
+						"src" : "104:27:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -135,7 +138,7 @@ JSON AST (compact format):
 							"id" : 6,
 							"name" : "uint256",
 							"nodeType" : "ElementaryTypeName",
-							"src" : "117:7:0",
+							"src" : "123:7:0",
 							"typeDescriptions" : 
 							{
 								"typeIdentifier" : "t_uint256",
@@ -151,8 +154,8 @@ JSON AST (compact format):
 					"id" : 12,
 					"name" : "balances",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 138,
-					"src" : "155:43:0",
+					"scope" : 151,
+					"src" : "161:43:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
@@ -168,7 +171,7 @@ JSON AST (compact format):
 							"id" : 9,
 							"name" : "address",
 							"nodeType" : "ElementaryTypeName",
-							"src" : "163:7:0",
+							"src" : "169:7:0",
 							"typeDescriptions" : 
 							{
 								"typeIdentifier" : "t_address",
@@ -176,7 +179,7 @@ JSON AST (compact format):
 							}
 						},
 						"nodeType" : "Mapping",
-						"src" : "155:27:0",
+						"src" : "161:27:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -187,7 +190,7 @@ JSON AST (compact format):
 							"id" : 10,
 							"name" : "uint256",
 							"nodeType" : "ElementaryTypeName",
-							"src" : "174:7:0",
+							"src" : "180:7:0",
 							"typeDescriptions" : 
 							{
 								"typeIdentifier" : "t_uint256",
@@ -203,7 +206,7 @@ JSON AST (compact format):
 					{
 						"id" : 23,
 						"nodeType" : "Block",
-						"src" : "244:50:0",
+						"src" : "250:50:0",
 						"statements" : 
 						[
 							{
@@ -226,7 +229,7 @@ JSON AST (compact format):
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
 											"referencedDeclaration" : 12,
-											"src" : "254:8:0",
+											"src" : "260:8:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -244,8 +247,8 @@ JSON AST (compact format):
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "263:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "269:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
@@ -260,7 +263,7 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "263:10:0",
+											"src" : "269:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
@@ -272,7 +275,7 @@ JSON AST (compact format):
 										"isPure" : false,
 										"lValueRequested" : true,
 										"nodeType" : "IndexAccess",
-										"src" : "254:20:0",
+										"src" : "260:20:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -291,8 +294,8 @@ JSON AST (compact format):
 											"name" : "msg",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
-											"referencedDeclaration" : 223,
-											"src" : "278:3:0",
+											"referencedDeclaration" : 236,
+											"src" : "284:3:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_magic_message",
@@ -307,14 +310,14 @@ JSON AST (compact format):
 										"memberName" : "value",
 										"nodeType" : "MemberAccess",
 										"referencedDeclaration" : null,
-										"src" : "278:9:0",
+										"src" : "284:9:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "254:33:0",
+									"src" : "260:33:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -323,7 +326,7 @@ JSON AST (compact format):
 								},
 								"id" : 22,
 								"nodeType" : "ExpressionStatement",
-								"src" : "254:33:0"
+								"src" : "260:33:0"
 							}
 						]
 					},
@@ -340,7 +343,7 @@ JSON AST (compact format):
 						"id" : 13,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "226:2:0"
+						"src" : "232:2:0"
 					},
 					"payable" : true,
 					"returnParameters" : 
@@ -348,10 +351,10 @@ JSON AST (compact format):
 						"id" : 14,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "244:0:0"
+						"src" : "250:0:0"
 					},
-					"scope" : 138,
-					"src" : "205:89:0",
+					"scope" : 151,
+					"src" : "211:89:0",
 					"stateMutability" : "payable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -361,7 +364,7 @@ JSON AST (compact format):
 					{
 						"id" : 79,
 						"nodeType" : "Block",
-						"src" : "355:332:0",
+						"src" : "361:330:0",
 						"statements" : 
 						[
 							{
@@ -393,7 +396,7 @@ JSON AST (compact format):
 													"nodeType" : "Identifier",
 													"overloadedDeclarations" : [],
 													"referencedDeclaration" : 12,
-													"src" : "373:8:0",
+													"src" : "379:8:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -411,8 +414,8 @@ JSON AST (compact format):
 														"name" : "msg",
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
-														"referencedDeclaration" : 223,
-														"src" : "382:3:0",
+														"referencedDeclaration" : 236,
+														"src" : "388:3:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_magic_message",
@@ -427,7 +430,7 @@ JSON AST (compact format):
 													"memberName" : "sender",
 													"nodeType" : "MemberAccess",
 													"referencedDeclaration" : null,
-													"src" : "382:10:0",
+													"src" : "388:10:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_address",
@@ -439,7 +442,7 @@ JSON AST (compact format):
 												"isPure" : false,
 												"lValueRequested" : false,
 												"nodeType" : "IndexAccess",
-												"src" : "373:20:0",
+												"src" : "379:20:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -456,14 +459,14 @@ JSON AST (compact format):
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 26,
-												"src" : "397:14:0",
+												"src" : "403:14:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "373:38:0",
+											"src" : "379:38:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -485,11 +488,11 @@ JSON AST (compact format):
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "365:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "371:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
@@ -504,7 +507,7 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "365:47:0",
+									"src" : "371:47:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
@@ -513,7 +516,7 @@ JSON AST (compact format):
 								},
 								"id" : 37,
 								"nodeType" : "ExpressionStatement",
-								"src" : "365:47:0"
+								"src" : "371:47:0"
 							},
 							{
 								"expression" : 
@@ -541,7 +544,7 @@ JSON AST (compact format):
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 26,
-												"src" : "431:14:0",
+												"src" : "436:14:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -558,14 +561,14 @@ JSON AST (compact format):
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 4,
-												"src" : "449:15:0",
+												"src" : "454:15:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "431:33:0",
+											"src" : "436:33:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -587,11 +590,11 @@ JSON AST (compact format):
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "423:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "428:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
@@ -606,7 +609,7 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "423:42:0",
+									"src" : "428:42:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
@@ -615,7 +618,7 @@ JSON AST (compact format):
 								},
 								"id" : 43,
 								"nodeType" : "ExpressionStatement",
-								"src" : "423:42:0"
+								"src" : "428:42:0"
 							},
 							{
 								"expression" : 
@@ -642,8 +645,8 @@ JSON AST (compact format):
 												"name" : "now",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 225,
-												"src" : "484:3:0",
+												"referencedDeclaration" : 238,
+												"src" : "488:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -676,7 +679,7 @@ JSON AST (compact format):
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
 														"referencedDeclaration" : 8,
-														"src" : "491:16:0",
+														"src" : "495:16:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -694,8 +697,8 @@ JSON AST (compact format):
 															"name" : "msg",
 															"nodeType" : "Identifier",
 															"overloadedDeclarations" : [],
-															"referencedDeclaration" : 223,
-															"src" : "508:3:0",
+															"referencedDeclaration" : 236,
+															"src" : "512:3:0",
 															"typeDescriptions" : 
 															{
 																"typeIdentifier" : "t_magic_message",
@@ -710,7 +713,7 @@ JSON AST (compact format):
 														"memberName" : "sender",
 														"nodeType" : "MemberAccess",
 														"referencedDeclaration" : null,
-														"src" : "508:10:0",
+														"src" : "512:10:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_address",
@@ -722,7 +725,7 @@ JSON AST (compact format):
 													"isPure" : false,
 													"lValueRequested" : false,
 													"nodeType" : "IndexAccess",
-													"src" : "491:28:0",
+													"src" : "495:28:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_uint256",
@@ -742,7 +745,7 @@ JSON AST (compact format):
 													"kind" : "number",
 													"lValueRequested" : false,
 													"nodeType" : "Literal",
-													"src" : "522:7:0",
+													"src" : "526:7:0",
 													"subdenomination" : "weeks",
 													"typeDescriptions" : 
 													{
@@ -751,14 +754,14 @@ JSON AST (compact format):
 													},
 													"value" : "1"
 												},
-												"src" : "491:38:0",
+												"src" : "495:38:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "484:45:0",
+											"src" : "488:45:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -780,11 +783,11 @@ JSON AST (compact format):
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "476:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "480:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
@@ -799,7 +802,7 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "476:54:0",
+									"src" : "480:54:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
@@ -808,7 +811,7 @@ JSON AST (compact format):
 								},
 								"id" : 54,
 								"nodeType" : "ExpressionStatement",
-								"src" : "476:54:0"
+								"src" : "480:54:0"
 							},
 							{
 								"expression" : 
@@ -831,7 +834,7 @@ JSON AST (compact format):
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
 														"referencedDeclaration" : 26,
-														"src" : "570:14:0",
+														"src" : "574:14:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_uint256",
@@ -861,8 +864,8 @@ JSON AST (compact format):
 																"name" : "msg",
 																"nodeType" : "Identifier",
 																"overloadedDeclarations" : [],
-																"referencedDeclaration" : 223,
-																"src" : "548:3:0",
+																"referencedDeclaration" : 236,
+																"src" : "552:3:0",
 																"typeDescriptions" : 
 																{
 																	"typeIdentifier" : "t_magic_message",
@@ -877,7 +880,7 @@ JSON AST (compact format):
 															"memberName" : "sender",
 															"nodeType" : "MemberAccess",
 															"referencedDeclaration" : null,
-															"src" : "548:10:0",
+															"src" : "552:10:0",
 															"typeDescriptions" : 
 															{
 																"typeIdentifier" : "t_address",
@@ -892,7 +895,7 @@ JSON AST (compact format):
 														"memberName" : "call",
 														"nodeType" : "MemberAccess",
 														"referencedDeclaration" : null,
-														"src" : "548:15:0",
+														"src" : "552:15:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_function_barecall_payable$__$returns$_t_bool_$",
@@ -907,7 +910,7 @@ JSON AST (compact format):
 													"memberName" : "value",
 													"nodeType" : "MemberAccess",
 													"referencedDeclaration" : null,
-													"src" : "548:21:0",
+													"src" : "552:21:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_barecall_payable$__$returns$_t_bool_$value_$",
@@ -922,7 +925,7 @@ JSON AST (compact format):
 												"lValueRequested" : false,
 												"names" : [],
 												"nodeType" : "FunctionCall",
-												"src" : "548:37:0",
+												"src" : "552:37:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_function_barecall_payable$__$returns$_t_bool_$value",
@@ -937,7 +940,7 @@ JSON AST (compact format):
 											"lValueRequested" : false,
 											"names" : [],
 											"nodeType" : "FunctionCall",
-											"src" : "548:39:0",
+											"src" : "552:39:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -959,11 +962,11 @@ JSON AST (compact format):
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "540:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "544:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
@@ -978,7 +981,7 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "540:48:0",
+									"src" : "544:48:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
@@ -987,7 +990,7 @@ JSON AST (compact format):
 								},
 								"id" : 64,
 								"nodeType" : "ExpressionStatement",
-								"src" : "540:48:0"
+								"src" : "544:48:0"
 							},
 							{
 								"expression" : 
@@ -1009,7 +1012,7 @@ JSON AST (compact format):
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
 											"referencedDeclaration" : 12,
-											"src" : "598:8:0",
+											"src" : "602:8:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -1027,8 +1030,8 @@ JSON AST (compact format):
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "607:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "611:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
@@ -1043,7 +1046,7 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "607:10:0",
+											"src" : "611:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
@@ -1055,7 +1058,7 @@ JSON AST (compact format):
 										"isPure" : false,
 										"lValueRequested" : true,
 										"nodeType" : "IndexAccess",
-										"src" : "598:20:0",
+										"src" : "602:20:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1072,14 +1075,14 @@ JSON AST (compact format):
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
 										"referencedDeclaration" : 26,
-										"src" : "622:14:0",
+										"src" : "626:14:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "598:38:0",
+									"src" : "602:38:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1088,7 +1091,7 @@ JSON AST (compact format):
 								},
 								"id" : 71,
 								"nodeType" : "ExpressionStatement",
-								"src" : "598:38:0"
+								"src" : "602:38:0"
 							},
 							{
 								"expression" : 
@@ -1110,7 +1113,7 @@ JSON AST (compact format):
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
 											"referencedDeclaration" : 8,
-											"src" : "646:16:0",
+											"src" : "650:16:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
@@ -1128,8 +1131,8 @@ JSON AST (compact format):
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "663:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "667:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
@@ -1144,7 +1147,7 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "663:10:0",
+											"src" : "667:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
@@ -1156,7 +1159,7 @@ JSON AST (compact format):
 										"isPure" : false,
 										"lValueRequested" : true,
 										"nodeType" : "IndexAccess",
-										"src" : "646:28:0",
+										"src" : "650:28:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1172,15 +1175,15 @@ JSON AST (compact format):
 										"name" : "now",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 225,
-										"src" : "677:3:0",
+										"referencedDeclaration" : 238,
+										"src" : "681:3:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "646:34:0",
+									"src" : "650:34:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1189,7 +1192,7 @@ JSON AST (compact format):
 								},
 								"id" : 78,
 								"nodeType" : "ExpressionStatement",
-								"src" : "646:34:0"
+								"src" : "650:34:0"
 							}
 						]
 					},
@@ -1213,7 +1216,7 @@ JSON AST (compact format):
 								"name" : "_weiToWithdraw",
 								"nodeType" : "VariableDeclaration",
 								"scope" : 80,
-								"src" : "324:22:0",
+								"src" : "330:22:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -1226,7 +1229,7 @@ JSON AST (compact format):
 									"id" : 25,
 									"name" : "uint256",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "324:7:0",
+									"src" : "330:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1237,7 +1240,7 @@ JSON AST (compact format):
 								"visibility" : "internal"
 							}
 						],
-						"src" : "323:24:0"
+						"src" : "329:24:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
@@ -1245,10 +1248,10 @@ JSON AST (compact format):
 						"id" : 28,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "355:0:0"
+						"src" : "361:0:0"
 					},
-					"scope" : 138,
-					"src" : "300:387:0",
+					"scope" : 151,
+					"src" : "306:385:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -1256,11 +1259,221 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 136,
+						"id" : 149,
 						"nodeType" : "Block",
-						"src" : "770:325:0",
+						"src" : "774:434:0",
 						"statements" : 
 						[
+							{
+								"condition" : 
+								{
+									"argumentTypes" : null,
+									"commonType" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									},
+									"id" : 91,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftExpression" : 
+									{
+										"argumentTypes" : null,
+										"expression" : 
+										{
+											"argumentTypes" : null,
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"id" : 87,
+												"name" : "msg",
+												"nodeType" : "Identifier",
+												"overloadedDeclarations" : [],
+												"referencedDeclaration" : 236,
+												"src" : "787:3:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_magic_message",
+													"typeString" : "msg"
+												}
+											},
+											"id" : 88,
+											"isConstant" : false,
+											"isLValue" : false,
+											"isPure" : false,
+											"lValueRequested" : false,
+											"memberName" : "sender",
+											"nodeType" : "MemberAccess",
+											"referencedDeclaration" : null,
+											"src" : "787:10:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_address",
+												"typeString" : "address"
+											}
+										},
+										"id" : 89,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : false,
+										"lValueRequested" : false,
+										"memberName" : "balance",
+										"nodeType" : "MemberAccess",
+										"referencedDeclaration" : null,
+										"src" : "787:18:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "BinaryOperation",
+									"operator" : ">",
+									"rightExpression" : 
+									{
+										"argumentTypes" : null,
+										"hexValue" : "31",
+										"id" : 90,
+										"isConstant" : false,
+										"isLValue" : false,
+										"isPure" : true,
+										"kind" : "number",
+										"lValueRequested" : false,
+										"nodeType" : "Literal",
+										"src" : "808:7:0",
+										"subdenomination" : "ether",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_rational_1000000000000000000_by_1",
+											"typeString" : "int_const 1000000000000000000"
+										},
+										"value" : "1"
+									},
+									"src" : "787:28:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_bool",
+										"typeString" : "bool"
+									}
+								},
+								"falseBody" : null,
+								"id" : 99,
+								"nodeType" : "IfStatement",
+								"src" : "784:100:0",
+								"trueBody" : 
+								{
+									"id" : 98,
+									"nodeType" : "Block",
+									"src" : "817:67:0",
+									"statements" : 
+									[
+										{
+											"expression" : 
+											{
+												"argumentTypes" : null,
+												"arguments" : 
+												[
+													{
+														"argumentTypes" : null,
+														"commonType" : 
+														{
+															"typeIdentifier" : "t_uint256",
+															"typeString" : "uint256"
+														},
+														"id" : 95,
+														"isConstant" : false,
+														"isLValue" : false,
+														"isPure" : false,
+														"lValueRequested" : false,
+														"leftExpression" : 
+														{
+															"argumentTypes" : null,
+															"id" : 93,
+															"name" : "_weiToWithdraw",
+															"nodeType" : "Identifier",
+															"overloadedDeclarations" : [],
+															"referencedDeclaration" : 82,
+															"src" : "839:14:0",
+															"typeDescriptions" : 
+															{
+																"typeIdentifier" : "t_uint256",
+																"typeString" : "uint256"
+															}
+														},
+														"nodeType" : "BinaryOperation",
+														"operator" : "<=",
+														"rightExpression" : 
+														{
+															"argumentTypes" : null,
+															"id" : 94,
+															"name" : "withdrawalLimit",
+															"nodeType" : "Identifier",
+															"overloadedDeclarations" : [],
+															"referencedDeclaration" : 4,
+															"src" : "857:15:0",
+															"typeDescriptions" : 
+															{
+																"typeIdentifier" : "t_uint256",
+																"typeString" : "uint256"
+															}
+														},
+														"src" : "839:33:0",
+														"typeDescriptions" : 
+														{
+															"typeIdentifier" : "t_bool",
+															"typeString" : "bool"
+														}
+													}
+												],
+												"expression" : 
+												{
+													"argumentTypes" : 
+													[
+														{
+															"typeIdentifier" : "t_bool",
+															"typeString" : "bool"
+														}
+													],
+													"id" : 92,
+													"name" : "require",
+													"nodeType" : "Identifier",
+													"overloadedDeclarations" : 
+													[
+														239,
+														240
+													],
+													"referencedDeclaration" : 239,
+													"src" : "831:7:0",
+													"typeDescriptions" : 
+													{
+														"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
+														"typeString" : "function (bool) pure"
+													}
+												},
+												"id" : 96,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"kind" : "functionCall",
+												"lValueRequested" : false,
+												"names" : [],
+												"nodeType" : "FunctionCall",
+												"src" : "831:42:0",
+												"typeDescriptions" : 
+												{
+													"typeIdentifier" : "t_tuple$__$",
+													"typeString" : "tuple()"
+												}
+											},
+											"id" : 97,
+											"nodeType" : "ExpressionStatement",
+											"src" : "831:42:0"
+										}
+									]
+								}
+							},
 							{
 								"expression" : 
 								{
@@ -1274,7 +1487,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 93,
+											"id" : 106,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1285,38 +1498,38 @@ JSON AST (compact format):
 												"baseExpression" : 
 												{
 													"argumentTypes" : null,
-													"id" : 88,
+													"id" : 101,
 													"name" : "balances",
 													"nodeType" : "Identifier",
 													"overloadedDeclarations" : [],
 													"referencedDeclaration" : 12,
-													"src" : "788:8:0",
+													"src" : "901:8:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
 														"typeString" : "mapping(address => uint256)"
 													}
 												},
-												"id" : 91,
+												"id" : 104,
 												"indexExpression" : 
 												{
 													"argumentTypes" : null,
 													"expression" : 
 													{
 														"argumentTypes" : null,
-														"id" : 89,
+														"id" : 102,
 														"name" : "msg",
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
-														"referencedDeclaration" : 223,
-														"src" : "797:3:0",
+														"referencedDeclaration" : 236,
+														"src" : "910:3:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_magic_message",
 															"typeString" : "msg"
 														}
 													},
-													"id" : 90,
+													"id" : 103,
 													"isConstant" : false,
 													"isLValue" : false,
 													"isPure" : false,
@@ -1324,7 +1537,7 @@ JSON AST (compact format):
 													"memberName" : "sender",
 													"nodeType" : "MemberAccess",
 													"referencedDeclaration" : null,
-													"src" : "797:10:0",
+													"src" : "910:10:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_address",
@@ -1336,7 +1549,7 @@ JSON AST (compact format):
 												"isPure" : false,
 												"lValueRequested" : false,
 												"nodeType" : "IndexAccess",
-												"src" : "788:20:0",
+												"src" : "901:20:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -1348,19 +1561,19 @@ JSON AST (compact format):
 											"rightExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 92,
+												"id" : 105,
 												"name" : "_weiToWithdraw",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 82,
-												"src" : "812:14:0",
+												"src" : "925:14:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "788:38:0",
+											"src" : "901:38:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -1377,23 +1590,23 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 87,
+										"id" : 100,
 										"name" : "require",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "780:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "893:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 94,
+									"id" : 107,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1401,16 +1614,16 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "780:47:0",
+									"src" : "893:47:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 95,
+								"id" : 108,
 								"nodeType" : "ExpressionStatement",
-								"src" : "780:47:0"
+								"src" : "893:47:0"
 							},
 							{
 								"expression" : 
@@ -1425,7 +1638,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 99,
+											"id" : 112,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1433,12 +1646,12 @@ JSON AST (compact format):
 											"leftExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 97,
+												"id" : 110,
 												"name" : "_weiToWithdraw",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 82,
-												"src" : "846:14:0",
+												"src" : "959:14:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -1450,19 +1663,19 @@ JSON AST (compact format):
 											"rightExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 98,
+												"id" : 111,
 												"name" : "withdrawalLimit",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 4,
-												"src" : "864:15:0",
+												"src" : "977:15:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "846:33:0",
+											"src" : "959:33:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -1479,23 +1692,23 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 96,
+										"id" : 109,
 										"name" : "require",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "838:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "951:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 100,
+									"id" : 113,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1503,16 +1716,16 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "838:42:0",
+									"src" : "951:42:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 101,
+								"id" : 114,
 								"nodeType" : "ExpressionStatement",
-								"src" : "838:42:0"
+								"src" : "951:42:0"
 							},
 							{
 								"expression" : 
@@ -1527,7 +1740,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 110,
+											"id" : 123,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1535,12 +1748,12 @@ JSON AST (compact format):
 											"leftExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 103,
+												"id" : 116,
 												"name" : "now",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 225,
-												"src" : "899:3:0",
+												"referencedDeclaration" : 238,
+												"src" : "1012:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -1557,7 +1770,7 @@ JSON AST (compact format):
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												},
-												"id" : 109,
+												"id" : 122,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : false,
@@ -1568,38 +1781,38 @@ JSON AST (compact format):
 													"baseExpression" : 
 													{
 														"argumentTypes" : null,
-														"id" : 104,
+														"id" : 117,
 														"name" : "lastWithdrawTime",
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
 														"referencedDeclaration" : 8,
-														"src" : "906:16:0",
+														"src" : "1019:16:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
 															"typeString" : "mapping(address => uint256)"
 														}
 													},
-													"id" : 107,
+													"id" : 120,
 													"indexExpression" : 
 													{
 														"argumentTypes" : null,
 														"expression" : 
 														{
 															"argumentTypes" : null,
-															"id" : 105,
+															"id" : 118,
 															"name" : "msg",
 															"nodeType" : "Identifier",
 															"overloadedDeclarations" : [],
-															"referencedDeclaration" : 223,
-															"src" : "923:3:0",
+															"referencedDeclaration" : 236,
+															"src" : "1036:3:0",
 															"typeDescriptions" : 
 															{
 																"typeIdentifier" : "t_magic_message",
 																"typeString" : "msg"
 															}
 														},
-														"id" : 106,
+														"id" : 119,
 														"isConstant" : false,
 														"isLValue" : false,
 														"isPure" : false,
@@ -1607,7 +1820,7 @@ JSON AST (compact format):
 														"memberName" : "sender",
 														"nodeType" : "MemberAccess",
 														"referencedDeclaration" : null,
-														"src" : "923:10:0",
+														"src" : "1036:10:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_address",
@@ -1619,7 +1832,7 @@ JSON AST (compact format):
 													"isPure" : false,
 													"lValueRequested" : false,
 													"nodeType" : "IndexAccess",
-													"src" : "906:28:0",
+													"src" : "1019:28:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_uint256",
@@ -1632,14 +1845,14 @@ JSON AST (compact format):
 												{
 													"argumentTypes" : null,
 													"hexValue" : "31",
-													"id" : 108,
+													"id" : 121,
 													"isConstant" : false,
 													"isLValue" : false,
 													"isPure" : true,
 													"kind" : "number",
 													"lValueRequested" : false,
 													"nodeType" : "Literal",
-													"src" : "937:7:0",
+													"src" : "1050:7:0",
 													"subdenomination" : "weeks",
 													"typeDescriptions" : 
 													{
@@ -1648,14 +1861,14 @@ JSON AST (compact format):
 													},
 													"value" : "1"
 												},
-												"src" : "906:38:0",
+												"src" : "1019:38:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "899:45:0",
+											"src" : "1012:45:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -1672,23 +1885,23 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 102,
+										"id" : 115,
 										"name" : "require",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "891:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "1004:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 111,
+									"id" : 124,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1696,16 +1909,16 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "891:54:0",
+									"src" : "1004:54:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 112,
+								"id" : 125,
 								"nodeType" : "ExpressionStatement",
-								"src" : "891:54:0"
+								"src" : "1004:54:0"
 							},
 							{
 								"expression" : 
@@ -1723,12 +1936,12 @@ JSON AST (compact format):
 												[
 													{
 														"argumentTypes" : null,
-														"id" : 117,
+														"id" : 130,
 														"name" : "_weiToWithdraw",
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
 														"referencedDeclaration" : 82,
-														"src" : "978:14:0",
+														"src" : "1091:14:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_uint256",
@@ -1751,19 +1964,19 @@ JSON AST (compact format):
 														"expression" : 
 														{
 															"argumentTypes" : null,
-															"id" : 114,
+															"id" : 127,
 															"name" : "_to",
 															"nodeType" : "Identifier",
 															"overloadedDeclarations" : [],
 															"referencedDeclaration" : 84,
-															"src" : "963:3:0",
+															"src" : "1076:3:0",
 															"typeDescriptions" : 
 															{
 																"typeIdentifier" : "t_address",
 																"typeString" : "address"
 															}
 														},
-														"id" : 115,
+														"id" : 128,
 														"isConstant" : false,
 														"isLValue" : false,
 														"isPure" : false,
@@ -1771,14 +1984,14 @@ JSON AST (compact format):
 														"memberName" : "call",
 														"nodeType" : "MemberAccess",
 														"referencedDeclaration" : null,
-														"src" : "963:8:0",
+														"src" : "1076:8:0",
 														"typeDescriptions" : 
 														{
 															"typeIdentifier" : "t_function_barecall_payable$__$returns$_t_bool_$",
 															"typeString" : "function () payable returns (bool)"
 														}
 													},
-													"id" : 116,
+													"id" : 129,
 													"isConstant" : false,
 													"isLValue" : false,
 													"isPure" : false,
@@ -1786,14 +1999,14 @@ JSON AST (compact format):
 													"memberName" : "value",
 													"nodeType" : "MemberAccess",
 													"referencedDeclaration" : null,
-													"src" : "963:14:0",
+													"src" : "1076:14:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_barecall_payable$__$returns$_t_bool_$value_$",
 														"typeString" : "function (uint256) returns (function () payable returns (bool))"
 													}
 												},
-												"id" : 118,
+												"id" : 131,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : false,
@@ -1801,14 +2014,14 @@ JSON AST (compact format):
 												"lValueRequested" : false,
 												"names" : [],
 												"nodeType" : "FunctionCall",
-												"src" : "963:30:0",
+												"src" : "1076:30:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_function_barecall_payable$__$returns$_t_bool_$value",
 													"typeString" : "function () payable returns (bool)"
 												}
 											},
-											"id" : 119,
+											"id" : 132,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1816,7 +2029,7 @@ JSON AST (compact format):
 											"lValueRequested" : false,
 											"names" : [],
 											"nodeType" : "FunctionCall",
-											"src" : "963:32:0",
+											"src" : "1076:32:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -1833,23 +2046,23 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 113,
+										"id" : 126,
 										"name" : "require",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "955:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "1068:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 120,
+									"id" : 133,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1857,22 +2070,22 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "955:41:0",
+									"src" : "1068:41:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 121,
+								"id" : 134,
 								"nodeType" : "ExpressionStatement",
-								"src" : "955:41:0"
+								"src" : "1068:41:0"
 							},
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 127,
+									"id" : 140,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1883,38 +2096,38 @@ JSON AST (compact format):
 										"baseExpression" : 
 										{
 											"argumentTypes" : null,
-											"id" : 122,
+											"id" : 135,
 											"name" : "balances",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
 											"referencedDeclaration" : 12,
-											"src" : "1006:8:0",
+											"src" : "1119:8:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
 												"typeString" : "mapping(address => uint256)"
 											}
 										},
-										"id" : 125,
+										"id" : 138,
 										"indexExpression" : 
 										{
 											"argumentTypes" : null,
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 123,
+												"id" : 136,
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "1015:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "1128:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
 													"typeString" : "msg"
 												}
 											},
-											"id" : 124,
+											"id" : 137,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1922,7 +2135,7 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "1015:10:0",
+											"src" : "1128:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
@@ -1934,7 +2147,7 @@ JSON AST (compact format):
 										"isPure" : false,
 										"lValueRequested" : true,
 										"nodeType" : "IndexAccess",
-										"src" : "1006:20:0",
+										"src" : "1119:20:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1946,34 +2159,34 @@ JSON AST (compact format):
 									"rightHandSide" : 
 									{
 										"argumentTypes" : null,
-										"id" : 126,
+										"id" : 139,
 										"name" : "_weiToWithdraw",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
 										"referencedDeclaration" : 82,
-										"src" : "1030:14:0",
+										"src" : "1143:14:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "1006:38:0",
+									"src" : "1119:38:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									}
 								},
-								"id" : 128,
+								"id" : 141,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1006:38:0"
+								"src" : "1119:38:0"
 							},
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 134,
+									"id" : 147,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1984,38 +2197,38 @@ JSON AST (compact format):
 										"baseExpression" : 
 										{
 											"argumentTypes" : null,
-											"id" : 129,
+											"id" : 142,
 											"name" : "lastWithdrawTime",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
 											"referencedDeclaration" : 8,
-											"src" : "1054:16:0",
+											"src" : "1167:16:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_mapping$_t_address_$_t_uint256_$",
 												"typeString" : "mapping(address => uint256)"
 											}
 										},
-										"id" : 132,
+										"id" : 145,
 										"indexExpression" : 
 										{
 											"argumentTypes" : null,
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 130,
+												"id" : 143,
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "1071:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "1184:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
 													"typeString" : "msg"
 												}
 											},
-											"id" : 131,
+											"id" : 144,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -2023,7 +2236,7 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "1071:10:0",
+											"src" : "1184:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
@@ -2035,7 +2248,7 @@ JSON AST (compact format):
 										"isPure" : false,
 										"lValueRequested" : true,
 										"nodeType" : "IndexAccess",
-										"src" : "1054:28:0",
+										"src" : "1167:28:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -2047,33 +2260,33 @@ JSON AST (compact format):
 									"rightHandSide" : 
 									{
 										"argumentTypes" : null,
-										"id" : 133,
+										"id" : 146,
 										"name" : "now",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 225,
-										"src" : "1085:3:0",
+										"referencedDeclaration" : 238,
+										"src" : "1198:3:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "1054:34:0",
+									"src" : "1167:34:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									}
 								},
-								"id" : 135,
+								"id" : 148,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1054:34:0"
+								"src" : "1167:34:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 137,
+					"id" : 150,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -2091,8 +2304,8 @@ JSON AST (compact format):
 								"id" : 82,
 								"name" : "_weiToWithdraw",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 137,
-								"src" : "726:22:0",
+								"scope" : 150,
+								"src" : "730:22:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -2105,7 +2318,7 @@ JSON AST (compact format):
 									"id" : 81,
 									"name" : "uint256",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "726:7:0",
+									"src" : "730:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -2120,8 +2333,8 @@ JSON AST (compact format):
 								"id" : 84,
 								"name" : "_to",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 137,
-								"src" : "750:11:0",
+								"scope" : 150,
+								"src" : "754:11:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -2134,7 +2347,7 @@ JSON AST (compact format):
 									"id" : 83,
 									"name" : "address",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "750:7:0",
+									"src" : "754:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_address",
@@ -2145,7 +2358,7 @@ JSON AST (compact format):
 								"visibility" : "internal"
 							}
 						],
-						"src" : "725:37:0"
+						"src" : "729:37:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
@@ -2153,17 +2366,17 @@ JSON AST (compact format):
 						"id" : 86,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "770:0:0"
+						"src" : "774:0:0"
 					},
-					"scope" : 138,
-					"src" : "693:402:0",
+					"scope" : 151,
+					"src" : "697:511:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
 				}
 			],
-			"scope" : 209,
-			"src" : "25:1073:0"
+			"scope" : 222,
+			"src" : "32:1179:0"
 		},
 		{
 			"baseContracts" : [],
@@ -2171,10 +2384,10 @@ JSON AST (compact format):
 			"contractKind" : "contract",
 			"documentation" : null,
 			"fullyImplemented" : true,
-			"id" : 208,
+			"id" : 221,
 			"linearizedBaseContracts" : 
 			[
-				208
+				221
 			],
 			"name" : "Attack",
 			"nodeType" : "ContractDefinition",
@@ -2182,29 +2395,29 @@ JSON AST (compact format):
 			[
 				{
 					"constant" : false,
-					"id" : 140,
+					"id" : 153,
 					"name" : "etherStore",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 208,
-					"src" : "1123:28:0",
+					"scope" : 221,
+					"src" : "1235:28:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
 					{
-						"typeIdentifier" : "t_contract$_EtherStore_$138",
+						"typeIdentifier" : "t_contract$_EtherStore_$151",
 						"typeString" : "contract EtherStore"
 					},
 					"typeName" : 
 					{
 						"contractScope" : null,
-						"id" : 139,
+						"id" : 152,
 						"name" : "EtherStore",
 						"nodeType" : "UserDefinedTypeName",
-						"referencedDeclaration" : 138,
-						"src" : "1123:10:0",
+						"referencedDeclaration" : 151,
+						"src" : "1235:10:0",
 						"typeDescriptions" : 
 						{
-							"typeIdentifier" : "t_contract$_EtherStore_$138",
+							"typeIdentifier" : "t_contract$_EtherStore_$151",
 							"typeString" : "contract EtherStore"
 						}
 					},
@@ -2214,16 +2427,16 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 151,
+						"id" : 164,
 						"nodeType" : "Block",
-						"src" : "1205:60:0",
+						"src" : "1317:60:0",
 						"statements" : 
 						[
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 149,
+									"id" : 162,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2231,15 +2444,15 @@ JSON AST (compact format):
 									"leftHandSide" : 
 									{
 										"argumentTypes" : null,
-										"id" : 145,
+										"id" : 158,
 										"name" : "etherStore",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 140,
-										"src" : "1215:10:0",
+										"referencedDeclaration" : 153,
+										"src" : "1327:10:0",
 										"typeDescriptions" : 
 										{
-											"typeIdentifier" : "t_contract$_EtherStore_$138",
+											"typeIdentifier" : "t_contract$_EtherStore_$151",
 											"typeString" : "contract EtherStore"
 										}
 									},
@@ -2252,12 +2465,12 @@ JSON AST (compact format):
 										[
 											{
 												"argumentTypes" : null,
-												"id" : 147,
+												"id" : 160,
 												"name" : "_etherStoreAddress",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 142,
-												"src" : "1239:18:0",
+												"referencedDeclaration" : 155,
+												"src" : "1351:18:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_address",
@@ -2274,19 +2487,19 @@ JSON AST (compact format):
 													"typeString" : "address"
 												}
 											],
-											"id" : 146,
+											"id" : 159,
 											"name" : "EtherStore",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
-											"referencedDeclaration" : 138,
-											"src" : "1228:10:0",
+											"referencedDeclaration" : 151,
+											"src" : "1340:10:0",
 											"typeDescriptions" : 
 											{
-												"typeIdentifier" : "t_type$_t_contract$_EtherStore_$138_$",
+												"typeIdentifier" : "t_type$_t_contract$_EtherStore_$151_$",
 												"typeString" : "type(contract EtherStore)"
 											}
 										},
-										"id" : 148,
+										"id" : 161,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -2294,28 +2507,28 @@ JSON AST (compact format):
 										"lValueRequested" : false,
 										"names" : [],
 										"nodeType" : "FunctionCall",
-										"src" : "1228:30:0",
+										"src" : "1340:30:0",
 										"typeDescriptions" : 
 										{
-											"typeIdentifier" : "t_contract$_EtherStore_$138",
+											"typeIdentifier" : "t_contract$_EtherStore_$151",
 											"typeString" : "contract EtherStore"
 										}
 									},
-									"src" : "1215:43:0",
+									"src" : "1327:43:0",
 									"typeDescriptions" : 
 									{
-										"typeIdentifier" : "t_contract$_EtherStore_$138",
+										"typeIdentifier" : "t_contract$_EtherStore_$151",
 										"typeString" : "contract EtherStore"
 									}
 								},
-								"id" : 150,
+								"id" : 163,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1215:43:0"
+								"src" : "1327:43:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 152,
+					"id" : 165,
 					"implemented" : true,
 					"isConstructor" : true,
 					"isDeclaredConst" : false,
@@ -2324,17 +2537,17 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 143,
+						"id" : 156,
 						"nodeType" : "ParameterList",
 						"parameters" : 
 						[
 							{
 								"constant" : false,
-								"id" : 142,
+								"id" : 155,
 								"name" : "_etherStoreAddress",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 152,
-								"src" : "1170:26:0",
+								"scope" : 165,
+								"src" : "1282:26:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -2344,10 +2557,10 @@ JSON AST (compact format):
 								},
 								"typeName" : 
 								{
-									"id" : 141,
+									"id" : 154,
 									"name" : "address",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "1170:7:0",
+									"src" : "1282:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_address",
@@ -2358,18 +2571,18 @@ JSON AST (compact format):
 								"visibility" : "internal"
 							}
 						],
-						"src" : "1169:28:0"
+						"src" : "1281:28:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
 					{
-						"id" : 144,
+						"id" : 157,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1205:0:0"
+						"src" : "1317:0:0"
 					},
-					"scope" : 208,
-					"src" : "1158:107:0",
+					"scope" : 221,
+					"src" : "1270:107:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -2377,9 +2590,9 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 177,
+						"id" : 190,
 						"nodeType" : "Block",
-						"src" : "1314:141:0",
+						"src" : "1426:141:0",
 						"statements" : 
 						[
 							{
@@ -2395,7 +2608,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 159,
+											"id" : 172,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -2406,19 +2619,19 @@ JSON AST (compact format):
 												"expression" : 
 												{
 													"argumentTypes" : null,
-													"id" : 156,
+													"id" : 169,
 													"name" : "msg",
 													"nodeType" : "Identifier",
 													"overloadedDeclarations" : [],
-													"referencedDeclaration" : 223,
-													"src" : "1332:3:0",
+													"referencedDeclaration" : 236,
+													"src" : "1444:3:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_magic_message",
 														"typeString" : "msg"
 													}
 												},
-												"id" : 157,
+												"id" : 170,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : false,
@@ -2426,7 +2639,7 @@ JSON AST (compact format):
 												"memberName" : "value",
 												"nodeType" : "MemberAccess",
 												"referencedDeclaration" : null,
-												"src" : "1332:9:0",
+												"src" : "1444:9:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -2439,14 +2652,14 @@ JSON AST (compact format):
 											{
 												"argumentTypes" : null,
 												"hexValue" : "31",
-												"id" : 158,
+												"id" : 171,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : true,
 												"kind" : "number",
 												"lValueRequested" : false,
 												"nodeType" : "Literal",
-												"src" : "1345:7:0",
+												"src" : "1457:7:0",
 												"subdenomination" : "ether",
 												"typeDescriptions" : 
 												{
@@ -2455,7 +2668,7 @@ JSON AST (compact format):
 												},
 												"value" : "1"
 											},
-											"src" : "1332:20:0",
+											"src" : "1444:20:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -2472,23 +2685,23 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 155,
+										"id" : 168,
 										"name" : "require",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : 
 										[
-											226,
-											227
+											239,
+											240
 										],
-										"referencedDeclaration" : 226,
-										"src" : "1324:7:0",
+										"referencedDeclaration" : 239,
+										"src" : "1436:7:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_require_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 160,
+									"id" : 173,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2496,16 +2709,16 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "1324:29:0",
+									"src" : "1436:29:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 161,
+								"id" : 174,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1324:29:0"
+								"src" : "1436:29:0"
 							},
 							{
 								"expression" : 
@@ -2520,14 +2733,14 @@ JSON AST (compact format):
 											{
 												"argumentTypes" : null,
 												"hexValue" : "31",
-												"id" : 167,
+												"id" : 180,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : true,
 												"kind" : "number",
 												"lValueRequested" : false,
 												"nodeType" : "Literal",
-												"src" : "1394:7:0",
+												"src" : "1506:7:0",
 												"subdenomination" : "ether",
 												"typeDescriptions" : 
 												{
@@ -2552,19 +2765,19 @@ JSON AST (compact format):
 												"expression" : 
 												{
 													"argumentTypes" : null,
-													"id" : 162,
+													"id" : 175,
 													"name" : "etherStore",
 													"nodeType" : "Identifier",
 													"overloadedDeclarations" : [],
-													"referencedDeclaration" : 140,
-													"src" : "1364:10:0",
+													"referencedDeclaration" : 153,
+													"src" : "1476:10:0",
 													"typeDescriptions" : 
 													{
-														"typeIdentifier" : "t_contract$_EtherStore_$138",
+														"typeIdentifier" : "t_contract$_EtherStore_$151",
 														"typeString" : "contract EtherStore"
 													}
 												},
-												"id" : 165,
+												"id" : 178,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : false,
@@ -2572,14 +2785,14 @@ JSON AST (compact format):
 												"memberName" : "depositFunds",
 												"nodeType" : "MemberAccess",
 												"referencedDeclaration" : 24,
-												"src" : "1364:23:0",
+												"src" : "1476:23:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_function_external_payable$__$returns$__$",
 													"typeString" : "function () payable external"
 												}
 											},
-											"id" : 166,
+											"id" : 179,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -2587,14 +2800,14 @@ JSON AST (compact format):
 											"memberName" : "value",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "1364:29:0",
+											"src" : "1476:29:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_function_setvalue_nonpayable$_t_uint256_$returns$_t_function_external_payable$__$returns$__$value_$",
 												"typeString" : "function (uint256) returns (function () payable external)"
 											}
 										},
-										"id" : 168,
+										"id" : 181,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -2602,14 +2815,14 @@ JSON AST (compact format):
 										"lValueRequested" : false,
 										"names" : [],
 										"nodeType" : "FunctionCall",
-										"src" : "1364:38:0",
+										"src" : "1476:38:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_external_payable$__$returns$__$value",
 											"typeString" : "function () payable external"
 										}
 									},
-									"id" : 169,
+									"id" : 182,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2617,16 +2830,16 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "1364:40:0",
+									"src" : "1476:40:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 170,
+								"id" : 183,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1364:40:0"
+								"src" : "1476:40:0"
 							},
 							{
 								"expression" : 
@@ -2637,14 +2850,14 @@ JSON AST (compact format):
 										{
 											"argumentTypes" : null,
 											"hexValue" : "31",
-											"id" : 174,
+											"id" : 187,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : true,
 											"kind" : "number",
 											"lValueRequested" : false,
 											"nodeType" : "Literal",
-											"src" : "1440:7:0",
+											"src" : "1552:7:0",
 											"subdenomination" : "ether",
 											"typeDescriptions" : 
 											{
@@ -2666,19 +2879,19 @@ JSON AST (compact format):
 										"expression" : 
 										{
 											"argumentTypes" : null,
-											"id" : 171,
+											"id" : 184,
 											"name" : "etherStore",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
-											"referencedDeclaration" : 140,
-											"src" : "1415:10:0",
+											"referencedDeclaration" : 153,
+											"src" : "1527:10:0",
 											"typeDescriptions" : 
 											{
-												"typeIdentifier" : "t_contract$_EtherStore_$138",
+												"typeIdentifier" : "t_contract$_EtherStore_$151",
 												"typeString" : "contract EtherStore"
 											}
 										},
-										"id" : 173,
+										"id" : 186,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -2686,14 +2899,14 @@ JSON AST (compact format):
 										"memberName" : "withdrawFunds",
 										"nodeType" : "MemberAccess",
 										"referencedDeclaration" : 80,
-										"src" : "1415:24:0",
+										"src" : "1527:24:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_external_nonpayable$_t_uint256_$returns$__$",
 											"typeString" : "function (uint256) external"
 										}
 									},
-									"id" : 175,
+									"id" : 188,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2701,21 +2914,21 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "1415:33:0",
+									"src" : "1527:33:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 176,
+								"id" : 189,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1415:33:0"
+								"src" : "1527:33:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 178,
+					"id" : 191,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -2724,21 +2937,21 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 153,
+						"id" : 166,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1296:2:0"
+						"src" : "1408:2:0"
 					},
 					"payable" : true,
 					"returnParameters" : 
 					{
-						"id" : 154,
+						"id" : 167,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1314:0:0"
+						"src" : "1426:0:0"
 					},
-					"scope" : 208,
-					"src" : "1271:184:0",
+					"scope" : 221,
+					"src" : "1383:184:0",
 					"stateMutability" : "payable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -2746,9 +2959,9 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 190,
+						"id" : 203,
 						"nodeType" : "Block",
-						"src" : "1492:50:0",
+						"src" : "1604:50:0",
 						"statements" : 
 						[
 							{
@@ -2762,19 +2975,19 @@ JSON AST (compact format):
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 186,
+												"id" : 199,
 												"name" : "this",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 238,
-												"src" : "1522:4:0",
+												"referencedDeclaration" : 251,
+												"src" : "1634:4:0",
 												"typeDescriptions" : 
 												{
-													"typeIdentifier" : "t_contract$_Attack_$208",
+													"typeIdentifier" : "t_contract$_Attack_$221",
 													"typeString" : "contract Attack"
 												}
 											},
-											"id" : 187,
+											"id" : 200,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -2782,7 +2995,7 @@ JSON AST (compact format):
 											"memberName" : "balance",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "1522:12:0",
+											"src" : "1634:12:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_uint256",
@@ -2805,19 +3018,19 @@ JSON AST (compact format):
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 181,
+												"id" : 194,
 												"name" : "msg",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 223,
-												"src" : "1502:3:0",
+												"referencedDeclaration" : 236,
+												"src" : "1614:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_magic_message",
 													"typeString" : "msg"
 												}
 											},
-											"id" : 184,
+											"id" : 197,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -2825,14 +3038,14 @@ JSON AST (compact format):
 											"memberName" : "sender",
 											"nodeType" : "MemberAccess",
 											"referencedDeclaration" : null,
-											"src" : "1502:10:0",
+											"src" : "1614:10:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_address",
 												"typeString" : "address"
 											}
 										},
-										"id" : 185,
+										"id" : 198,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -2840,14 +3053,14 @@ JSON AST (compact format):
 										"memberName" : "transfer",
 										"nodeType" : "MemberAccess",
 										"referencedDeclaration" : null,
-										"src" : "1502:19:0",
+										"src" : "1614:19:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
 											"typeString" : "function (uint256)"
 										}
 									},
-									"id" : 188,
+									"id" : 201,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2855,21 +3068,21 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "1502:33:0",
+									"src" : "1614:33:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 189,
+								"id" : 202,
 								"nodeType" : "ExpressionStatement",
-								"src" : "1502:33:0"
+								"src" : "1614:33:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 191,
+					"id" : 204,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -2878,21 +3091,21 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 179,
+						"id" : 192,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1482:2:0"
+						"src" : "1594:2:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
 					{
-						"id" : 180,
+						"id" : 193,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1492:0:0"
+						"src" : "1604:0:0"
 					},
-					"scope" : 208,
-					"src" : "1461:81:0",
+					"scope" : 221,
+					"src" : "1573:81:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -2900,9 +3113,9 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 206,
+						"id" : 219,
 						"nodeType" : "Block",
-						"src" : "1575:108:0",
+						"src" : "1687:108:0",
 						"statements" : 
 						[
 							{
@@ -2914,7 +3127,7 @@ JSON AST (compact format):
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									},
-									"id" : 197,
+									"id" : 210,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -2925,19 +3138,19 @@ JSON AST (compact format):
 										"expression" : 
 										{
 											"argumentTypes" : null,
-											"id" : 194,
+											"id" : 207,
 											"name" : "etherStore",
 											"nodeType" : "Identifier",
 											"overloadedDeclarations" : [],
-											"referencedDeclaration" : 140,
-											"src" : "1589:10:0",
+											"referencedDeclaration" : 153,
+											"src" : "1701:10:0",
 											"typeDescriptions" : 
 											{
-												"typeIdentifier" : "t_contract$_EtherStore_$138",
+												"typeIdentifier" : "t_contract$_EtherStore_$151",
 												"typeString" : "contract EtherStore"
 											}
 										},
-										"id" : 195,
+										"id" : 208,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -2945,7 +3158,7 @@ JSON AST (compact format):
 										"memberName" : "balance",
 										"nodeType" : "MemberAccess",
 										"referencedDeclaration" : null,
-										"src" : "1589:18:0",
+										"src" : "1701:18:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -2958,14 +3171,14 @@ JSON AST (compact format):
 									{
 										"argumentTypes" : null,
 										"hexValue" : "31",
-										"id" : 196,
+										"id" : 209,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : true,
 										"kind" : "number",
 										"lValueRequested" : false,
 										"nodeType" : "Literal",
-										"src" : "1610:7:0",
+										"src" : "1722:7:0",
 										"subdenomination" : "ether",
 										"typeDescriptions" : 
 										{
@@ -2974,7 +3187,7 @@ JSON AST (compact format):
 										},
 										"value" : "1"
 									},
-									"src" : "1589:28:0",
+									"src" : "1701:28:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_bool",
@@ -2982,14 +3195,14 @@ JSON AST (compact format):
 									}
 								},
 								"falseBody" : null,
-								"id" : 205,
+								"id" : 218,
 								"nodeType" : "IfStatement",
-								"src" : "1585:92:0",
+								"src" : "1697:92:0",
 								"trueBody" : 
 								{
-									"id" : 204,
+									"id" : 217,
 									"nodeType" : "Block",
-									"src" : "1619:58:0",
+									"src" : "1731:58:0",
 									"statements" : 
 									[
 										{
@@ -3001,14 +3214,14 @@ JSON AST (compact format):
 													{
 														"argumentTypes" : null,
 														"hexValue" : "31",
-														"id" : 201,
+														"id" : 214,
 														"isConstant" : false,
 														"isLValue" : false,
 														"isPure" : true,
 														"kind" : "number",
 														"lValueRequested" : false,
 														"nodeType" : "Literal",
-														"src" : "1658:7:0",
+														"src" : "1770:7:0",
 														"subdenomination" : "ether",
 														"typeDescriptions" : 
 														{
@@ -3030,19 +3243,19 @@ JSON AST (compact format):
 													"expression" : 
 													{
 														"argumentTypes" : null,
-														"id" : 198,
+														"id" : 211,
 														"name" : "etherStore",
 														"nodeType" : "Identifier",
 														"overloadedDeclarations" : [],
-														"referencedDeclaration" : 140,
-														"src" : "1633:10:0",
+														"referencedDeclaration" : 153,
+														"src" : "1745:10:0",
 														"typeDescriptions" : 
 														{
-															"typeIdentifier" : "t_contract$_EtherStore_$138",
+															"typeIdentifier" : "t_contract$_EtherStore_$151",
 															"typeString" : "contract EtherStore"
 														}
 													},
-													"id" : 200,
+													"id" : 213,
 													"isConstant" : false,
 													"isLValue" : false,
 													"isPure" : false,
@@ -3050,14 +3263,14 @@ JSON AST (compact format):
 													"memberName" : "withdrawFunds",
 													"nodeType" : "MemberAccess",
 													"referencedDeclaration" : 80,
-													"src" : "1633:24:0",
+													"src" : "1745:24:0",
 													"typeDescriptions" : 
 													{
 														"typeIdentifier" : "t_function_external_nonpayable$_t_uint256_$returns$__$",
 														"typeString" : "function (uint256) external"
 													}
 												},
-												"id" : 202,
+												"id" : 215,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : false,
@@ -3065,16 +3278,16 @@ JSON AST (compact format):
 												"lValueRequested" : false,
 												"names" : [],
 												"nodeType" : "FunctionCall",
-												"src" : "1633:33:0",
+												"src" : "1745:33:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_tuple$__$",
 													"typeString" : "tuple()"
 												}
 											},
-											"id" : 203,
+											"id" : 216,
 											"nodeType" : "ExpressionStatement",
-											"src" : "1633:33:0"
+											"src" : "1745:33:0"
 										}
 									]
 								}
@@ -3082,7 +3295,7 @@ JSON AST (compact format):
 						]
 					},
 					"documentation" : null,
-					"id" : 207,
+					"id" : 220,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -3091,29 +3304,29 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 192,
+						"id" : 205,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1557:2:0"
+						"src" : "1669:2:0"
 					},
 					"payable" : true,
 					"returnParameters" : 
 					{
-						"id" : 193,
+						"id" : 206,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "1575:0:0"
+						"src" : "1687:0:0"
 					},
-					"scope" : 208,
-					"src" : "1548:135:0",
+					"scope" : 221,
+					"src" : "1660:135:0",
 					"stateMutability" : "payable",
 					"superFunction" : null,
 					"visibility" : "public"
 				}
 			],
-			"scope" : 209,
-			"src" : "1101:584:0"
+			"scope" : 222,
+			"src" : "1213:584:0"
 		}
 	],
-	"src" : "0:1685:0"
+	"src" : "0:1797:0"
 }

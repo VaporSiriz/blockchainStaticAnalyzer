@@ -42,8 +42,8 @@ public class ParsingToAST {
 			visitFunctionDefinition(node, parent);
 		if(node.get("nodeType").equals("ModifierDefinition"))
 			visitModifierDefinition(node, parent);
-//		if(node.get("nodeType").equals("PragmaDirective"))
-//			visitPragmaDirective(node, parent);
+		if(node.get("nodeType").equals("PragmaDirective"))
+			visitPragmaDirective(node, parent);
 //		if(node.get("nodeType").equals("ImportDirective"))
 //			visitImportDirective(node, parent);
 //		if(node.get("nodeType").equals("StructDefinition"))
@@ -75,7 +75,15 @@ public class ParsingToAST {
 //			initialValue(node.get("initialValue"), variableDeclarationStatementInstance, "variableDeclarationInitialValue");
 		}
 	}
-	
+
+	public void visitPragmaDirective(JSONObject node, AST parent) {
+		PragmaDirective pragmaDirective = new PragmaDirective(node);
+		pragmaDirective.parent = parent;
+		if(parent.children != null) {
+			parent.children.add(pragmaDirective);
+		}
+	}
+
 	public void visitContractDefinition(JSONObject node, AST parent) {
 		ContractDefinition contractDefinition = new ContractDefinition(node);
 		contractDefinition.parent = parent;
@@ -208,6 +216,17 @@ public class ParsingToAST {
 				parent.children.add(identifier);
 			}
 		}
+	}
+
+	private String getMemberAccessFullName(JSONObject node, String fullName) {
+		JSONObject expression = (JSONObject) node.get("expression");
+		if(expression.get("nodeType").equals("MemberAccess")) {
+			fullName = getMemberAccessFullName(expression, expression.get("memberName")+"."+fullName);
+		} else {
+			fullName = (String)expression.get("name")+"."+fullName;
+		}
+
+		return fullName;
 	}
 	
 	public void visitReturnStatement(JSONObject node, AST parent) {

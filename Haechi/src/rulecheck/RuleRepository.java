@@ -11,12 +11,17 @@ public class RuleRepository {
     public RuleRepository() {
         registerRule(new DoSAttack());
         registerRule(new MultipleInheritance());
-        registerRule(new Overflow());
         registerRule(new Underflow());
         registerRule(new Reentrancy());
         registerRule(new TransferEther());
         registerRule(new TxOrigin());
         registerRule(new ManipulatedBalance());
+        registerRule(new FrozenEther());
+        registerRule(new ErroneousContructorName());
+        registerRule(new ShortAddress());
+        registerRule(new Overflow());
+        registerRule(new Underflow());
+        registerRule(new DelegatecallInjection());
     }
 
     private void registerRule(ValidationRule rule) {

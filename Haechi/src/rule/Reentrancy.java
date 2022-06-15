@@ -35,11 +35,6 @@ public class Reentrancy implements ValidationRule{
 			characterCounts.clear();
 		}
 		/*
-		...
-		check the weakness
-		...
-		*/
-		/*
 			1. msg.sender.call이 속한 함수가 존재.
 			2. 해당 함수를 call하는 contract가 존재.
 			3. 해당 contract의 fallback에서 해당 함수를 재호출.
@@ -53,7 +48,7 @@ public class Reentrancy implements ValidationRule{
 		FunctionDefinitionContext functionDefinitionContext = new FunctionDefinitionContext();
 		List<FunctionDefinition> functionDefinitions = functionDefinitionContext.getAllFunctionDefinitions();
 		for(FunctionDefinition functionDefinition : functionDefinitions) {
-			if((boolean) functionDefinition.getPayable() == true) {
+			if(functionDefinition.getStateMutability().equals("payable")) {
 				// 0.6 이전 버전에는 Name이 None인 것임.
 				if(functionDefinition.getName().equals("None")) {
 					ContractDefinition cd = (ContractDefinition) functionDefinition.getParentOfNodeType("ContractDefinition");
@@ -62,7 +57,7 @@ public class Reentrancy implements ValidationRule{
 			}
 		}
 
-		// 함수가 call되는 fallback 함수를 미리 다 찾아 놓음.
+		// 함수가 call 되는 fallback 함수를 미리 다 찾아 놓음.
 		// HashMap<call되는 함수 , HashMap<함수가 속한 contract, HashMap<함수가 호출되는 함수, 위치>>>
 		HashMap<String, HashMap<String,  String>> functionCallMapFromFallBack = new HashMap<String, HashMap<String,  String>>();
 		FunctionCallContext functionCallContext = new FunctionCallContext();
@@ -71,14 +66,17 @@ public class Reentrancy implements ValidationRule{
 		for(FunctionCall functionCall : functionCalls) {
 			String functionName = functionCall.getName();
 			String functionMemberName = functionCall.getMemberName();
-			FunctionDefinition fd = (FunctionDefinition) functionCall.getParentOfNodeType("FunctionDefinition");
-			ContractDefinition cd = (ContractDefinition) functionCall.getParentOfNodeType("ContractDefinition");
-			if(functionName!=null && !functionMemberName.equals("None")) {
-				// fd의 이름이 None 이면 Fallback 함수이다.
-				if(fd.getName().equals("None")) {
-					HashMap<String, String> whichContract = new HashMap<String, String>();
-					whichContract.put(cd.getName(), functionCall.getSrc());
-					functionCallMapFromFallBack.put(functionCall.getMemberName(), whichContract);
+			AST ast = functionCall.getParentOfNodeType("FunctionDefinition");
+			if(ast != null) {
+				FunctionDefinition fd = (FunctionDefinition) ast;
+				ContractDefinition cd = (ContractDefinition) functionCall.getParentOfNodeType("ContractDefinition");
+				if (functionName != null && !functionMemberName.equals("None")) {
+					// fd의 이름이 None 이면 Fallback 함수이다.
+					if (fd.getName().equals("None")) {
+						HashMap<String, String> whichContract = new HashMap<String, String>();
+						whichContract.put(cd.getName(), functionCall.getSrc());
+						functionCallMapFromFallBack.put(functionCall.getMemberName(), whichContract);
+					}
 				}
 			}
 		}
@@ -100,8 +98,7 @@ public class Reentrancy implements ValidationRule{
 						// fallback() 함수여야 이더를 받을 수 있음.
 						// 여기서는 일단은 0.6 으로 처리 => 무기명 함수라 이름이 없음.
 						// 또한 어떤 이름으로 호출된 함수에 포함된 expression 인지 알아야 함.
-						AST parent = expression.getParentOfNodeType("FunctionDefinition");
-						FunctionDefinition fd = (FunctionDefinition) parent;
+						FunctionDefinition fd = (FunctionDefinition) expression.getParentOfNodeType("FunctionDefinition");
 						if(functionCallMapFromFallBack.containsKey(fd.getName())) {
 							HashMap<String, String> thisFunctionCallMap = functionCallMapFromFallBack.get(fd.getName());
 							Set<String> keys = thisFunctionCallMap.keySet();
@@ -113,7 +110,6 @@ public class Reentrancy implements ValidationRule{
 						}
 					}
 				}
-			} else {
 			}
 		}
 	}

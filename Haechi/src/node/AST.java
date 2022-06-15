@@ -25,6 +25,7 @@ public class AST {
 		while(!parentNodeType.equals(nodeType)) {
 			temp_parent = temp_parent.getParent();
 			parentNodeType = temp_parent.getNodeType();
+			if(parentNodeType==null) return null;
 		}
 		return temp_parent;
 	}

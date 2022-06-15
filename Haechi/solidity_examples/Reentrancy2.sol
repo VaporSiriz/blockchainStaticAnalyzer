@@ -1,4 +1,4 @@
-pragma solidity^0.4.25;
+pragma solidity >0.4.0 <0.6.0;
 
 contract EtherStore {
     uint256 public withdrawalLimit = 1 ether;

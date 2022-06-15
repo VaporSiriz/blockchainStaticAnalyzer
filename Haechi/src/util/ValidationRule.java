@@ -1,5 +1,6 @@
 package util;
 
+import node.AST;
 import java.util.List;
 
 public interface ValidationRule {

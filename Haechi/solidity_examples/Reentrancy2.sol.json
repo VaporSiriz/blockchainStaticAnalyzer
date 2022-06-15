@@ -4,16 +4,16 @@
 		"kind" : "contract",
 		"line" : 2,
 		"name" : "EtherStore",
-		"id" : 138
+		"id" : 151
 	}, {
 		"kind" : "contract",
-		"line" : 29,
+		"line" : 37,
 		"name" : "Attack",
-		"id" : 208
+		"id" : 221
 	} ],
 	"functionDefinition" : [ {
 		"visibility" : "public",
-		"line" : 7,
+		"line" : 6,
 		"name" : "depositFunds",
 		"id" : 24
 	}, {
@@ -25,27 +25,27 @@
 		"visibility" : "public",
 		"line" : 18,
 		"name" : "withdrawFundsToAddress",
-		"id" : 137
-	}, {
-		"visibility" : "public",
-		"line" : 35,
-		"name" : "None",
-		"id" : 152
+		"id" : 150
 	}, {
 		"visibility" : "public",
 		"line" : 38,
-		"name" : "attackEtherStore",
-		"id" : 178
+		"name" : "None",
+		"id" : 165
 	}, {
 		"visibility" : "public",
-		"line" : 46,
-		"name" : "collectEther",
+		"line" : 42,
+		"name" : "attackEtherStore",
 		"id" : 191
 	}, {
 		"visibility" : "public",
 		"line" : 50,
+		"name" : "collectEther",
+		"id" : 204
+	}, {
+		"visibility" : "public",
+		"line" : 54,
 		"name" : "None",
-		"id" : 207
+		"id" : 220
 	} ],
 	"functionCall" : [ {
 		"caller" : "require",
@@ -79,69 +79,74 @@
 		"id" : 62
 	}, {
 		"caller" : "require",
-		"line" : 21,
-		"name" : "None",
-		"id" : 94
-	}, {
-		"caller" : "require",
 		"line" : 22,
 		"name" : "None",
-		"id" : 100
+		"id" : 96
 	}, {
 		"caller" : "require",
 		"line" : 24,
 		"name" : "None",
-		"id" : 111
+		"id" : 107
 	}, {
 		"caller" : "require",
 		"line" : 26,
 		"name" : "None",
-		"id" : 120
+		"id" : 113
 	}, {
-		"caller" : null,
-		"line" : 26,
-		"name" : "value",
-		"id" : 118
-	}, {
-		"caller" : null,
-		"line" : 26,
+		"caller" : "require",
+		"line" : 27,
 		"name" : "None",
-		"id" : 119
+		"id" : 124
+	}, {
+		"caller" : "require",
+		"line" : 28,
+		"name" : "None",
+		"id" : 133
+	}, {
+		"caller" : null,
+		"line" : 28,
+		"name" : "value",
+		"id" : 131
+	}, {
+		"caller" : null,
+		"line" : 28,
+		"name" : "None",
+		"id" : 132
 	}, {
 		"caller" : "EtherStore",
-		"line" : 37,
-		"name" : "None",
-		"id" : 148
-	}, {
-		"caller" : "require",
 		"line" : 41,
 		"name" : "None",
-		"id" : 160
+		"id" : 161
 	}, {
-		"caller" : null,
-		"line" : 42,
-		"name" : "value",
-		"id" : 168
-	}, {
-		"caller" : null,
-		"line" : 42,
+		"caller" : "require",
+		"line" : 44,
 		"name" : "None",
-		"id" : 169
+		"id" : 173
+	}, {
+		"caller" : null,
+		"line" : 46,
+		"name" : "value",
+		"id" : 181
+	}, {
+		"caller" : null,
+		"line" : 46,
+		"name" : "None",
+		"id" : 182
 	}, {
 		"caller" : "etherStore",
-		"line" : 44,
-		"name" : "withdrawFunds",
-		"id" : 175
-	}, {
-		"caller" : null,
 		"line" : 49,
-		"name" : "transfer",
+		"name" : "withdrawFunds",
 		"id" : 188
 	}, {
+		"caller" : null,
+		"line" : 53,
+		"name" : "transfer",
+		"id" : 201
+	}, {
 		"caller" : "etherStore",
-		"line" : 54,
+		"line" : 58,
 		"name" : "withdrawFunds",
-		"id" : 202
+		"id" : 215
 	} ],
 	"VariableDeclaration" : [ {
 		"line" : 4,
@@ -156,7 +161,7 @@
 		"isStateVariable" : true,
 		"type" : "Mapping"
 	}, {
-		"line" : 6,
+		"line" : 5,
 		"name" : "balances",
 		"id" : 12,
 		"isStateVariable" : true,
@@ -180,15 +185,15 @@
 		"isStateVariable" : false,
 		"type" : "address"
 	}, {
-		"line" : 31,
+		"line" : 37,
 		"name" : "etherStore",
-		"id" : 140,
+		"id" : 153,
 		"isStateVariable" : true,
 		"type" : "EtherStore"
 	}, {
-		"line" : 35,
+		"line" : 38,
 		"name" : "_etherStoreAddress",
-		"id" : 142,
+		"id" : 155,
 		"isStateVariable" : false,
 		"type" : "address"
 	} ]

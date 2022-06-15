@@ -2,9 +2,7 @@ package rule;
 
 import context.ExpressionContext;
 import context.FunctionCallContext;
-import node.AST;
-import node.Expression;
-import node.FunctionCall;
+import node.*;
 import org.json.simple.JSONObject;
 import util.Position;
 import util.ValidationRule;
@@ -26,13 +24,18 @@ public class ManipulatedBalance implements ValidationRule{
 			characterCounts.clear();
 		}
 		Position position = new Position();
-		// Balance를 사용하고 있으면 에러
+		// 제어 흐름에 Balance를 사용하고 있으면 에러
 		ExpressionContext expressionContext = new ExpressionContext();
 		List<Expression> expressions = expressionContext.getAllExpressions();
 		for(Expression expression : expressions) {
 			String memberName = expression.getMemberName();
 			if(memberName != null && memberName.equals("balance")) {
-				characterCounts.add(expression.getSrc().split(":")[0]);
+				AST ifStatement = expression.getParentOfNodeType("IfStatement");
+				AST whileStatement = expression.getParentOfNodeType("WhileStatement");
+				AST doWhileStatement = expression.getParentOfNodeType("DoWhileStatement");
+				if(ifStatement != null || whileStatement != null || doWhileStatement != null) {
+					characterCounts.add(expression.getSrc().split(":")[0]);
+				}
 			}
 		}
 	}

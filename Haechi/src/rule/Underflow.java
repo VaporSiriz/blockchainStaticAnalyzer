@@ -3,6 +3,9 @@ package rule;
 import java.util.ArrayList;
 import java.util.List;
 
+import context.ExpressionContext;
+import node.ContractDefinition;
+import node.Expression;
 import util.ValidationRule;
 
 public class Underflow implements ValidationRule{
@@ -10,17 +13,24 @@ public class Underflow implements ValidationRule{
 
 	@Override
 	public boolean isImplement() {
-		return false;
+		return true;
 	}
 
 	@Override
 	public void analyze() {
 		characterCounts.clear();
-		/*
-		...
-		check the weakness
-		...
-		*/
+		// Library가 아닌 곳에서 -, -=, -- 연산을 하는 경우
+		ExpressionContext expressionContext = new ExpressionContext();
+		List<Expression> expressions = expressionContext.getAllOperations();
+		for(Expression expression : expressions) {
+			ContractDefinition cd = (ContractDefinition) expression.getParentOfNodeType("ContractDefinition");
+			if(cd != null && cd.getContractKind().equals("contract")) {
+				String operator = expression.getOperator();
+				if(operator.equals("-=") || operator.equals("-") || operator.equals("--")) {
+					characterCounts.add(expression.getSrc().split(":")[0]);
+				}
+			}
+		}
 	}
 
 	@Override

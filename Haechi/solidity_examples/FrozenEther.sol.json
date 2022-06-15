@@ -1,0 +1,23 @@
+======= Haechi/solidity_examples/FrozenEther.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "FrozenEther",
+		"id" : 18
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 7,
+		"name" : "None",
+		"id" : 17
+	} ],
+	"functionCall" : [ ],
+	"VariableDeclaration" : [ {
+		"line" : 5,
+		"name" : "balances",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	} ]
+}
