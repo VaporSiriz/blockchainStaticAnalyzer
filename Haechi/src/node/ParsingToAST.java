@@ -71,9 +71,19 @@ public class ParsingToAST {
 			JSONObject temp = (JSONObject) declaration.get(i);
 			if(temp.containsKey("name"))
 				visitVariableDeclaration((JSONObject) declaration.get(i), variableDeclarationStatementInstance);
-//			if(node.containsKey("initialValue"))
-//			initialValue(node.get("initialValue"), variableDeclarationStatementInstance, "variableDeclarationInitialValue");
+			if(node.containsKey("initialValue"))
+				initialValue((JSONObject)node.get("initialValue"), variableDeclarationStatementInstance, "variableDeclarationInitialValue");
 		}
+	}
+
+	public void initialValue(JSONObject node, AST parent, String typeOfExpression) {
+		JSONObject expression_object = (JSONObject) node.get("expression");
+		VariableDeclarationStatement variableDeclarationStatement = new VariableDeclarationStatement(node);
+		variableDeclarationStatement.parent = parent;
+		if(parent.children!=null) {
+			parent.children.add(variableDeclarationStatement);
+		}
+		visitExpression(expression_object, variableDeclarationStatement, typeOfExpression);
 	}
 
 	public void visitPragmaDirective(JSONObject node, AST parent) {
@@ -160,8 +170,9 @@ public class ParsingToAST {
 			visitDoWhileStatement(node, parent);
 		if(node.get("nodeType").equals("Return"))
 			visitReturnStatement(node, parent); 
-		else if(node.get("nodeType").equals("ExpressionStatement"))
+		else if(node.get("nodeType").equals("ExpressionStatement")) {
 			visitExpressionStatement(node, parent);
+		}
 	}
 	
 	public void visitExpression(JSONObject node, AST parent, String typeOfExpression) {
@@ -171,8 +182,9 @@ public class ParsingToAST {
 			parent.children.add(expressionInstance);
 		}
 		
-		if(node.containsKey("expression"))
+		if(node.containsKey("expression")) {
 			visitExpression((JSONObject) node.get("expression"), expressionInstance, "expression");
+		}
 		if(node.containsKey("leftHandSide"))
 			visitExpression((JSONObject) node.get("leftHandSide"), expressionInstance, "leftHandSide");
 		if(node.containsKey("rightHandSide"))
