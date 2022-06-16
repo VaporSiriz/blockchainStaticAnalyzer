@@ -25,14 +25,12 @@ public class DelegatecallInjection implements ValidationRule{
         // 여기서는 library로 호출했을 때만 체크. stateless한 경우를 이 경우가 아니고서는 만들지 못함.
         ExpressionContext expressionContext = new ExpressionContext();
         List<Expression> expressions = expressionContext.getAllDelegateCalls();
-        System.out.println("-----delegatecall------");
         for(Expression expression : expressions) {
              ContractDefinition cd = (ContractDefinition) expression.getParentOfNodeType("ContractDefinition");
              if(!cd.getContractKind().equals("library")) {
                  characterCounts.add(expression.getSrc().split(":")[0]);
              }
         }
-        System.out.println("-----delegatecall------");
     }
 
     @Override

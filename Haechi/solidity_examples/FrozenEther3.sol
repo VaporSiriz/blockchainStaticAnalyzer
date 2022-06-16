@@ -12,6 +12,10 @@ contract FrozenEther {
         balances[msg.sender] = 0;
     }
 
+    function comeOverBalance() public {
+        require(this.balance > 0);
+    }
+
     function deposit(address _to) public payable {
         (bool success, ) = _to.delegatecall(msg.data);
         require(success, "Failed");

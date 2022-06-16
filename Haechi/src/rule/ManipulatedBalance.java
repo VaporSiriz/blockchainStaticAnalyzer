@@ -36,6 +36,22 @@ public class ManipulatedBalance implements ValidationRule{
 				if(ifStatement != null || whileStatement != null || doWhileStatement != null) {
 					characterCounts.add(expression.getSrc().split(":")[0]);
 				}
+
+				FunctionCall functionCall = (FunctionCall) expression.getParentOfNodeType("FunctionCall");
+				if(functionCall!=null) {
+					List<AST> children = functionCall.getChildren();
+					for(int i=0;i<children.size();i++) {
+						AST child = children.get(i);
+						if(child.getNodeType().equals("Identifier")) {
+							if(child.getClass().toString().equals("class node.Expression")) {
+								Expression identifier = (Expression) child;
+								if (identifier.getName().equals("require")) {
+									characterCounts.add(expression.getSrc().split(":")[0]);
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

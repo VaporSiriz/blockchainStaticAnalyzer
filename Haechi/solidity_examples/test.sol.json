@@ -653,11 +653,6 @@
 		"id" : 919
 	}, {
 		"visibility" : "internal",
-		"line" : 492,
-		"name" : "withdrawFundsAdvancedRP",
-		"id" : 974
-	}, {
-		"visibility" : "internal",
 		"line" : 535,
 		"name" : "roundMoneyDownNicely",
 		"id" : 1077
@@ -686,51 +681,6 @@
 		"line" : 836,
 		"name" : "isLivingMonarch",
 		"id" : 1637
-	}, {
-		"visibility" : "public",
-		"line" : 862,
-		"name" : "currentClaimPriceWei",
-		"id" : 1701
-	}, {
-		"visibility" : "public",
-		"line" : 883,
-		"name" : "currentClaimPriceInFinney",
-		"id" : 1716
-	}, {
-		"visibility" : "public",
-		"line" : 893,
-		"name" : "validateProposedMonarchName",
-		"id" : 1728
-	}, {
-		"visibility" : "internal",
-		"line" : 909,
-		"name" : "latestMonarchInternal",
-		"id" : 1741
-	}, {
-		"visibility" : "public",
-		"line" : 931,
-		"name" : "None",
-		"id" : 1754
-	}, {
-		"visibility" : "public",
-		"line" : 946,
-		"name" : "claimThrone",
-		"id" : 1770
-	}, {
-		"visibility" : "public",
-		"line" : 960,
-		"name" : "replaceWizard",
-		"id" : 1786
-	}, {
-		"visibility" : "internal",
-		"line" : 963,
-		"name" : "fallbackRP",
-		"id" : 1813
-	}, {
-		"visibility" : "internal",
-		"line" : 969,
-		"name" : "claimThroneRP",
-		"id" : 1944
 	}, {
 		"visibility" : "public",
 		"line" : 1113,
@@ -817,31 +767,6 @@
 		"name" : "createKingdomRP",
 		"id" : 2645
 	}, {
-		"visibility" : "internal",
-		"line" : 1454,
-		"name" : "replaceWizardRP",
-		"id" : 2678
-	}, {
-		"visibility" : "internal",
-		"line" : 1466,
-		"name" : "setKingdomCreationFeeWeiRP",
-		"id" : 2706
-	}, {
-		"visibility" : "internal",
-		"line" : 1476,
-		"name" : "setMaximumClaimPriceWeiRP",
-		"id" : 2736
-	}, {
-		"visibility" : "internal",
-		"line" : 1485,
-		"name" : "setKingdomFactoryRP",
-		"id" : 2764
-	}, {
-		"visibility" : "internal",
-		"line" : 1506,
-		"name" : "checkUniqueAndRegisterNewKingdomName",
-		"id" : 2792
-	}, {
 		"visibility" : "public",
 		"line" : 1525,
 		"name" : "roundMoneyDownNicelyET",
@@ -891,26 +816,6 @@
 		"line" : 1565,
 		"name" : "find",
 		"id" : 2966
-	}, {
-		"visibility" : "public",
-		"line" : 1572,
-		"name" : "removeByValue",
-		"id" : 2982
-	}, {
-		"visibility" : "public",
-		"line" : 1575,
-		"name" : "removeByIndex",
-		"id" : 3014
-	}, {
-		"visibility" : "public",
-		"line" : 1580,
-		"name" : "getValues",
-		"id" : 3023
-	}, {
-		"visibility" : "public",
-		"line" : 1582,
-		"name" : "test",
-		"id" : 3067
 	}, {
 		"visibility" : "public",
 		"line" : 1596,
@@ -968,61 +873,6 @@
 		"id" : 3338
 	}, {
 		"visibility" : "public",
-		"line" : 1694,
-		"name" : "testPackedArgs",
-		"id" : 3353
-	}, {
-		"visibility" : "public",
-		"line" : 1698,
-		"name" : "hashHex",
-		"id" : 3363
-	}, {
-		"visibility" : "public",
-		"line" : 1703,
-		"name" : "hashInt",
-		"id" : 3375
-	}, {
-		"visibility" : "public",
-		"line" : 1709,
-		"name" : "hashNegative",
-		"id" : 3388
-	}, {
-		"visibility" : "public",
-		"line" : 1712,
-		"name" : "hash8",
-		"id" : 3398
-	}, {
-		"visibility" : "public",
-		"line" : 1716,
-		"name" : "hash32",
-		"id" : 3410
-	}, {
-		"visibility" : "public",
-		"line" : 1721,
-		"name" : "hash256",
-		"id" : 3422
-	}, {
-		"visibility" : "public",
-		"line" : 1726,
-		"name" : "hashEth",
-		"id" : 3434
-	}, {
-		"visibility" : "public",
-		"line" : 1732,
-		"name" : "hashWei",
-		"id" : 3446
-	}, {
-		"visibility" : "public",
-		"line" : 1734,
-		"name" : "hashMultipleArgs",
-		"id" : 3459
-	}, {
-		"visibility" : "public",
-		"line" : 1737,
-		"name" : "hashString",
-		"id" : 3469
-	}, {
-		"visibility" : "public",
 		"line" : 1757,
 		"name" : "Ballot",
 		"id" : 3536
@@ -1037,40 +887,10 @@
 		"name" : "delegate",
 		"id" : 3667
 	}, {
-		"visibility" : "public",
-		"line" : 1863,
-		"name" : "vote",
-		"id" : 3707
-	}, {
-		"visibility" : "public",
-		"line" : 1874,
-		"name" : "winningProposal",
-		"id" : 3749
-	}, {
-		"visibility" : "public",
-		"line" : 1886,
-		"name" : "winnerName",
-		"id" : 3763
-	}, {
 		"visibility" : "internal",
 		"line" : 1894,
 		"name" : "mul",
 		"id" : 3797
-	}, {
-		"visibility" : "internal",
-		"line" : 1904,
-		"name" : "div",
-		"id" : 3815
-	}, {
-		"visibility" : "internal",
-		"line" : 1916,
-		"name" : "sub",
-		"id" : 3835
-	}, {
-		"visibility" : "internal",
-		"line" : 1926,
-		"name" : "add",
-		"id" : 3859
 	}, {
 		"visibility" : "public",
 		"line" : 1938,
@@ -1171,11 +991,6 @@
 		"line" : 2033,
 		"name" : "newPost",
 		"id" : 4213
-	}, {
-		"visibility" : "public",
-		"line" : 2047,
-		"name" : "newComment",
-		"id" : 4257
 	}, {
 		"visibility" : "public",
 		"line" : 2065,
@@ -1412,21 +1227,6 @@
 		"name" : "placeBid",
 		"id" : 6877
 	}, {
-		"visibility" : "private",
-		"line" : 2804,
-		"name" : "min",
-		"id" : 6895
-	}, {
-		"visibility" : "public",
-		"line" : 2807,
-		"name" : "cancelAuction",
-		"id" : 6916
-	}, {
-		"visibility" : "public",
-		"line" : 2811,
-		"name" : "withdraw",
-		"id" : 7039
-	}, {
 		"visibility" : "public",
 		"line" : 2885,
 		"name" : "AuctionFactory",
@@ -1451,71 +1251,6 @@
 		"line" : 2898,
 		"name" : "boolFunctionReturnsBool",
 		"id" : 7210
-	}, {
-		"visibility" : "public",
-		"line" : 2906,
-		"name" : "boolFunctionReturnsInt",
-		"id" : 7227
-	}, {
-		"visibility" : "public",
-		"line" : 2910,
-		"name" : "boolFunctionReturnsInt8",
-		"id" : 7244
-	}, {
-		"visibility" : "public",
-		"line" : 2920,
-		"name" : "boolFunctionReturnsInt256",
-		"id" : 7261
-	}, {
-		"visibility" : "public",
-		"line" : 2930,
-		"name" : "boolFunctionReturnsUint",
-		"id" : 7278
-	}, {
-		"visibility" : "public",
-		"line" : 2940,
-		"name" : "boolFunctionReturnsUint8",
-		"id" : 7295
-	}, {
-		"visibility" : "public",
-		"line" : 2949,
-		"name" : "boolFunctionReturnsUint256",
-		"id" : 7312
-	}, {
-		"visibility" : "public",
-		"line" : 2954,
-		"name" : "boolFunctionReturnsAddress",
-		"id" : 7329
-	}, {
-		"visibility" : "public",
-		"line" : 2958,
-		"name" : "boolFunctionReturnsByte",
-		"id" : 7346
-	}, {
-		"visibility" : "public",
-		"line" : 2964,
-		"name" : "boolFunctionReturnsBytes1",
-		"id" : 7363
-	}, {
-		"visibility" : "public",
-		"line" : 2980,
-		"name" : "boolFunctionReturnsBytes32",
-		"id" : 7380
-	}, {
-		"visibility" : "public",
-		"line" : 2986,
-		"name" : "boolFunctionReturnsBytes",
-		"id" : 7397
-	}, {
-		"visibility" : "public",
-		"line" : 2992,
-		"name" : "boolFunctionReturnsString",
-		"id" : 7414
-	}, {
-		"visibility" : "public",
-		"line" : 2998,
-		"name" : "boolUint256FunctionReturnsBoolUint256",
-		"id" : 7440
 	}, {
 		"visibility" : "public",
 		"line" : 3850,
@@ -1561,46 +1296,6 @@
 		"line" : 3886,
 		"name" : "discountRate",
 		"id" : 10653
-	}, {
-		"visibility" : "public",
-		"line" : 3890,
-		"name" : "currentFee",
-		"id" : 10667
-	}, {
-		"visibility" : "public",
-		"line" : 3891,
-		"name" : "claimOwner",
-		"id" : 10688
-	}, {
-		"visibility" : "public",
-		"line" : 3899,
-		"name" : "changeTreshold",
-		"id" : 10700
-	}, {
-		"visibility" : "public",
-		"line" : 3903,
-		"name" : "changeFee",
-		"id" : 10712
-	}, {
-		"visibility" : "public",
-		"line" : 3906,
-		"name" : "changeDiscountStep",
-		"id" : 10724
-	}, {
-		"visibility" : "public",
-		"line" : 3911,
-		"name" : "multisendToken",
-		"id" : 10811
-	}, {
-		"visibility" : "public",
-		"line" : 3932,
-		"name" : "multisendEther",
-		"id" : 10877
-	}, {
-		"visibility" : "public",
-		"line" : 3948,
-		"name" : "claimTokens",
-		"id" : 10924
 	}, {
 		"visibility" : "public",
 		"line" : 3976,
@@ -1733,31 +1428,6 @@
 		"id" : 11648
 	}, {
 		"visibility" : "public",
-		"line" : 4251,
-		"name" : "approveProxy",
-		"id" : 11717
-	}, {
-		"visibility" : "public",
-		"line" : 4264,
-		"name" : "getNonce",
-		"id" : 11729
-	}, {
-		"visibility" : "public",
-		"line" : 4270,
-		"name" : "approveAndCall",
-		"id" : 11780
-	}, {
-		"visibility" : "public",
-		"line" : 4291,
-		"name" : "approveAndCallcode",
-		"id" : 11820
-	}, {
-		"visibility" : "public",
-		"line" : 4306,
-		"name" : "allocateTokens",
-		"id" : 11902
-	}, {
-		"visibility" : "public",
 		"line" : 4346,
 		"name" : "None",
 		"id" : 11947
@@ -1773,11 +1443,6 @@
 		"id" : 12038
 	}, {
 		"visibility" : "public",
-		"line" : 4395,
-		"name" : "auctionEnd",
-		"id" : 12070
-	}, {
-		"visibility" : "public",
 		"line" : 4455,
 		"name" : "None",
 		"id" : 12153
@@ -1791,21 +1456,6 @@
 		"line" : 4485,
 		"name" : "reveal",
 		"id" : 12317
-	}, {
-		"visibility" : "internal",
-		"line" : 4518,
-		"name" : "placeBid",
-		"id" : 12357
-	}, {
-		"visibility" : "public",
-		"line" : 4541,
-		"name" : "withdraw",
-		"id" : 12388
-	}, {
-		"visibility" : "public",
-		"line" : 4556,
-		"name" : "auctionEnd",
-		"id" : 12415
 	}, {
 		"visibility" : "public",
 		"line" : 4565,
@@ -1876,31 +1526,6 @@
 		"line" : 4712,
 		"name" : "withdrawBalance",
 		"id" : 12848
-	}, {
-		"visibility" : "public",
-		"line" : 4725,
-		"name" : "withdrawReward",
-		"id" : 12887
-	}, {
-		"visibility" : "public",
-		"line" : 4731,
-		"name" : "getFirstWithdrawalBonus",
-		"id" : 12916
-	}, {
-		"visibility" : "public",
-		"line" : 4745,
-		"name" : "untrustedWithdrawReward",
-		"id" : 12943
-	}, {
-		"visibility" : "public",
-		"line" : 4751,
-		"name" : "untrustedGetFirstWithdrawalBonus",
-		"id" : 12972
-	}, {
-		"visibility" : "public",
-		"line" : 4764,
-		"name" : "payOut",
-		"id" : 13019
 	} ],
 	"functionCall" : [ {
 		"caller" : "dao",
@@ -1932,16 +1557,6 @@
 		"line" : 19,
 		"name" : "withdraw",
 		"id" : 50
-	}, {
-		"caller" : "mallory",
-		"line" : 32,
-		"name" : "testFunc",
-		"id" : 84
-	}, {
-		"caller" : "mal",
-		"line" : 33,
-		"name" : "func",
-		"id" : 89
 	}, {
 		"caller" : "simple",
 		"line" : 41,
@@ -2088,10 +1703,25 @@
 		"name" : "foo",
 		"id" : 661
 	}, {
-		"caller" : "numbers",
-		"line" : 249,
-		"name" : "push",
-		"id" : 679
+		"caller" : null,
+		"line" : 438,
+		"name" : "value",
+		"id" : 823
+	}, {
+		"caller" : null,
+		"line" : 438,
+		"name" : "gas",
+		"id" : 826
+	}, {
+		"caller" : null,
+		"line" : 438,
+		"name" : "value",
+		"id" : 823
+	}, {
+		"caller" : null,
+		"line" : 438,
+		"name" : "None",
+		"id" : 827
 	}, {
 		"caller" : null,
 		"line" : 438,
@@ -2105,8 +1735,8 @@
 	}, {
 		"caller" : null,
 		"line" : 438,
-		"name" : "None",
-		"id" : 827
+		"name" : "value",
+		"id" : 823
 	}, {
 		"caller" : "externalEnter",
 		"line" : 461,
@@ -2138,16 +1768,6 @@
 		"name" : "None",
 		"id" : 891
 	}, {
-		"caller" : "withdrawFundsAdvancedRP",
-		"line" : 484,
-		"name" : "None",
-		"id" : 916
-	}, {
-		"caller" : "FundsWithdrawnEvent",
-		"line" : 510,
-		"name" : "None",
-		"id" : 971
-	}, {
 		"caller" : "ThroneRules",
 		"line" : 814,
 		"name" : "None",
@@ -2168,95 +1788,10 @@
 		"name" : "None",
 		"id" : 1599
 	}, {
-		"caller" : "isLivingMonarch",
-		"line" : 863,
+		"caller" : "latestMonarchInternal",
+		"line" : 840,
 		"name" : "None",
-		"id" : 1643
-	}, {
-		"caller" : "roundMoneyDownNicely",
-		"line" : 871,
-		"name" : "None",
-		"id" : 1671
-	}, {
-		"caller" : "roundMoneyUpToWholeFinney",
-		"line" : 886,
-		"name" : "None",
-		"id" : 1713
-	}, {
-		"caller" : "validateNameInternal",
-		"line" : 895,
-		"name" : "None",
-		"id" : 1725
-	}, {
-		"caller" : "externalEnter",
-		"line" : 932,
-		"name" : "None",
-		"id" : 1745
-	}, {
-		"caller" : "fallbackRP",
-		"line" : 934,
-		"name" : "None",
-		"id" : 1748
-	}, {
-		"caller" : "externalLeave",
-		"line" : 934,
-		"name" : "None",
-		"id" : 1751
-	}, {
-		"caller" : "externalEnter",
-		"line" : 948,
-		"name" : "None",
-		"id" : 1760
-	}, {
-		"caller" : "claimThroneRP",
-		"line" : 949,
-		"name" : "None",
-		"id" : 1764
-	}, {
-		"caller" : "externalLeave",
-		"line" : 949,
-		"name" : "None",
-		"id" : 1767
-	}, {
-		"caller" : "externalEnter",
-		"line" : 961,
-		"name" : "None",
-		"id" : 1776
-	}, {
-		"caller" : "replaceWizardRP",
-		"line" : 962,
-		"name" : "None",
-		"id" : 1780
-	}, {
-		"caller" : "externalLeave",
-		"line" : 962,
-		"name" : "None",
-		"id" : 1783
-	}, {
-		"caller" : "claimThroneRP",
-		"line" : 965,
-		"name" : "None",
-		"id" : 1796
-	}, {
-		"caller" : "claimThroneRP",
-		"line" : 968,
-		"name" : "None",
-		"id" : 1808
-	}, {
-		"caller" : "validateNameInternal",
-		"line" : 972,
-		"name" : "None",
-		"id" : 1825
-	}, {
-		"caller" : null,
-		"line" : 977,
-		"name" : "None",
-		"id" : 1836
-	}, {
-		"caller" : "isLivingMonarch",
-		"line" : 991,
-		"name" : "None",
-		"id" : 1877
+		"id" : 1609
 	}, {
 		"caller" : "validateProposedThroneRules",
 		"line" : 1183,
@@ -2378,31 +1913,6 @@
 		"name" : "None",
 		"id" : 2582
 	}, {
-		"caller" : "kingdomsByNumber",
-		"line" : 1446,
-		"name" : "push",
-		"id" : 2642
-	}, {
-		"caller" : "KingdomListing",
-		"line" : 1447,
-		"name" : "None",
-		"id" : 2641
-	}, {
-		"caller" : "WizardReplacedEvent",
-		"line" : 1465,
-		"name" : "None",
-		"id" : 2675
-	}, {
-		"caller" : "CreationFeeChangedEvent",
-		"line" : 1475,
-		"name" : "None",
-		"id" : 2703
-	}, {
-		"caller" : "FactoryChangedEvent",
-		"line" : 1493,
-		"name" : "None",
-		"id" : 2761
-	}, {
 		"caller" : "roundMoneyDownNicely",
 		"line" : 1527,
 		"name" : "None",
@@ -2433,46 +1943,6 @@
 		"name" : "send",
 		"id" : 2932
 	}, {
-		"caller" : "removeByIndex",
-		"line" : 1575,
-		"name" : "None",
-		"id" : 2979
-	}, {
-		"caller" : "values",
-		"line" : 1585,
-		"name" : "push",
-		"id" : 3033
-	}, {
-		"caller" : "values",
-		"line" : 1585,
-		"name" : "push",
-		"id" : 3039
-	}, {
-		"caller" : "values",
-		"line" : 1586,
-		"name" : "push",
-		"id" : 3045
-	}, {
-		"caller" : "values",
-		"line" : 1586,
-		"name" : "push",
-		"id" : 3051
-	}, {
-		"caller" : "values",
-		"line" : 1587,
-		"name" : "push",
-		"id" : 3057
-	}, {
-		"caller" : "removeByValue",
-		"line" : 1588,
-		"name" : "None",
-		"id" : 3061
-	}, {
-		"caller" : "getValues",
-		"line" : 1590,
-		"name" : "None",
-		"id" : 3064
-	}, {
 		"caller" : null,
 		"line" : 1605,
 		"name" : "None",
@@ -2492,6 +1962,11 @@
 		"line" : 1629,
 		"name" : "None",
 		"id" : 3168
+	}, {
+		"caller" : null,
+		"line" : 1629,
+		"name" : "value",
+		"id" : 3167
 	}, {
 		"caller" : "MiniDAO",
 		"line" : 1645,
@@ -2538,111 +2013,6 @@
 		"name" : "None",
 		"id" : 3319
 	}, {
-		"caller" : "sha3",
-		"line" : 1688,
-		"name" : "None",
-		"id" : 3335
-	}, {
-		"caller" : null,
-		"line" : 1688,
-		"name" : "None",
-		"id" : 3334
-	}, {
-		"caller" : "sha3",
-		"line" : 1697,
-		"name" : "None",
-		"id" : 3345
-	}, {
-		"caller" : "sha3",
-		"line" : 1697,
-		"name" : "None",
-		"id" : 3349
-	}, {
-		"caller" : "sha3",
-		"line" : 1701,
-		"name" : "None",
-		"id" : 3360
-	}, {
-		"caller" : "sha3",
-		"line" : 1709,
-		"name" : "None",
-		"id" : 3372
-	}, {
-		"caller" : null,
-		"line" : 1709,
-		"name" : "None",
-		"id" : 3371
-	}, {
-		"caller" : "sha3",
-		"line" : 1711,
-		"name" : "None",
-		"id" : 3385
-	}, {
-		"caller" : null,
-		"line" : 1711,
-		"name" : "None",
-		"id" : 3384
-	}, {
-		"caller" : "sha3",
-		"line" : 1715,
-		"name" : "None",
-		"id" : 3395
-	}, {
-		"caller" : "sha3",
-		"line" : 1720,
-		"name" : "None",
-		"id" : 3407
-	}, {
-		"caller" : null,
-		"line" : 1720,
-		"name" : "None",
-		"id" : 3406
-	}, {
-		"caller" : "sha3",
-		"line" : 1725,
-		"name" : "None",
-		"id" : 3419
-	}, {
-		"caller" : null,
-		"line" : 1725,
-		"name" : "None",
-		"id" : 3418
-	}, {
-		"caller" : "sha3",
-		"line" : 1731,
-		"name" : "None",
-		"id" : 3431
-	}, {
-		"caller" : null,
-		"line" : 1732,
-		"name" : "None",
-		"id" : 3430
-	}, {
-		"caller" : "sha3",
-		"line" : 1733,
-		"name" : "None",
-		"id" : 3443
-	}, {
-		"caller" : null,
-		"line" : 1733,
-		"name" : "None",
-		"id" : 3442
-	}, {
-		"caller" : "sha3",
-		"line" : 1736,
-		"name" : "None",
-		"id" : 3456
-	}, {
-		"caller" : null,
-		"line" : 1736,
-		"name" : "None",
-		"id" : 3455
-	}, {
-		"caller" : "sha3",
-		"line" : 1739,
-		"name" : "None",
-		"id" : 3466
-	}, {
 		"caller" : "proposals",
 		"line" : 1776,
 		"name" : "push",
@@ -2667,51 +2037,6 @@
 		"line" : 1810,
 		"name" : "None",
 		"id" : 3565
-	}, {
-		"caller" : "require",
-		"line" : 1826,
-		"name" : "None",
-		"id" : 3592
-	}, {
-		"caller" : "require",
-		"line" : 1827,
-		"name" : "None",
-		"id" : 3600
-	}, {
-		"caller" : null,
-		"line" : 1836,
-		"name" : "None",
-		"id" : 3608
-	}, {
-		"caller" : "require",
-		"line" : 1843,
-		"name" : "None",
-		"id" : 3623
-	}, {
-		"caller" : "require",
-		"line" : 1866,
-		"name" : "None",
-		"id" : 3684
-	}, {
-		"caller" : "winningProposal",
-		"line" : 1892,
-		"name" : "None",
-		"id" : 3757
-	}, {
-		"caller" : "assert",
-		"line" : 1899,
-		"name" : "None",
-		"id" : 3792
-	}, {
-		"caller" : "assert",
-		"line" : 1919,
-		"name" : "None",
-		"id" : 3828
-	}, {
-		"caller" : "assert",
-		"line" : 1929,
-		"name" : "None",
-		"id" : 3854
 	}, {
 		"caller" : "doIt",
 		"line" : 1942,
@@ -2747,16 +2072,6 @@
 		"line" : 2028,
 		"name" : "None",
 		"id" : 4161
-	}, {
-		"caller" : null,
-		"line" : 2039,
-		"name" : "push",
-		"id" : 4203
-	}, {
-		"caller" : null,
-		"line" : 2059,
-		"name" : "push",
-		"id" : 4240
 	}, {
 		"caller" : "Transfer",
 		"line" : 2123,
@@ -2953,41 +2268,6 @@
 		"name" : "None",
 		"id" : 6537
 	}, {
-		"caller" : "min",
-		"line" : 2775,
-		"name" : "None",
-		"id" : 6835
-	}, {
-		"caller" : "min",
-		"line" : 2798,
-		"name" : "None",
-		"id" : 6854
-	}, {
-		"caller" : "LogBid",
-		"line" : 2803,
-		"name" : "None",
-		"id" : 6872
-	}, {
-		"caller" : "LogCanceled",
-		"line" : 2811,
-		"name" : "None",
-		"id" : 6911
-	}, {
-		"caller" : null,
-		"line" : 2858,
-		"name" : "send",
-		"id" : 7019
-	}, {
-		"caller" : null,
-		"line" : 2860,
-		"name" : "send",
-		"id" : 7025
-	}, {
-		"caller" : "LogWithdrawal",
-		"line" : 2864,
-		"name" : "None",
-		"id" : 7034
-	}, {
 		"caller" : "auctions",
 		"line" : 2888,
 		"name" : "push",
@@ -3012,66 +2292,6 @@
 		"line" : 3880,
 		"name" : "None",
 		"id" : 10608
-	}, {
-		"caller" : "discountRate",
-		"line" : 3891,
-		"name" : "None",
-		"id" : 10663
-	}, {
-		"caller" : "require",
-		"line" : 3893,
-		"name" : "None",
-		"id" : 10677
-	}, {
-		"caller" : "require",
-		"line" : 3917,
-		"name" : "None",
-		"id" : 10746
-	}, {
-		"caller" : "require",
-		"line" : 3920,
-		"name" : "None",
-		"id" : 10767
-	}, {
-		"caller" : "erc20token",
-		"line" : 3921,
-		"name" : "allowance",
-		"id" : 10764
-	}, {
-		"caller" : "erc20token",
-		"line" : 3926,
-		"name" : "transferFrom",
-		"id" : 10789
-	}, {
-		"caller" : "Multisended",
-		"line" : 3930,
-		"name" : "None",
-		"id" : 10808
-	}, {
-		"caller" : "require",
-		"line" : 3941,
-		"name" : "None",
-		"id" : 10831
-	}, {
-		"caller" : null,
-		"line" : 3942,
-		"name" : "transfer",
-		"id" : 10853
-	}, {
-		"caller" : "Multisended",
-		"line" : 3947,
-		"name" : "None",
-		"id" : 10874
-	}, {
-		"caller" : null,
-		"line" : 3948,
-		"name" : "None",
-		"id" : 10873
-	}, {
-		"caller" : "owner",
-		"line" : 3949,
-		"name" : "transfer",
-		"id" : 10892
 	}, {
 		"caller" : "require",
 		"line" : 3980,
@@ -3148,106 +2368,6 @@
 		"name" : "None",
 		"id" : 11547
 	}, {
-		"caller" : "ecrecover",
-		"line" : 4237,
-		"name" : "None",
-		"id" : 11572
-	}, {
-		"caller" : "revert",
-		"line" : 4238,
-		"name" : "None",
-		"id" : 11575
-	}, {
-		"caller" : "revert",
-		"line" : 4239,
-		"name" : "None",
-		"id" : 11600
-	}, {
-		"caller" : "Transfer",
-		"line" : 4239,
-		"name" : "None",
-		"id" : 11613
-	}, {
-		"caller" : "Transfer",
-		"line" : 4241,
-		"name" : "None",
-		"id" : 11627
-	}, {
-		"caller" : "ecrecover",
-		"line" : 4256,
-		"name" : "None",
-		"id" : 11686
-	}, {
-		"caller" : "revert",
-		"line" : 4257,
-		"name" : "None",
-		"id" : 11689
-	}, {
-		"caller" : "Approval",
-		"line" : 4260,
-		"name" : "None",
-		"id" : 11704
-	}, {
-		"caller" : "Approval",
-		"line" : 4274,
-		"name" : "None",
-		"id" : 11754
-	}, {
-		"caller" : "_spender",
-		"line" : 4286,
-		"name" : "call",
-		"id" : 11770
-	}, {
-		"caller" : null,
-		"line" : 4286,
-		"name" : "None",
-		"id" : 11764
-	}, {
-		"caller" : null,
-		"line" : 4286,
-		"name" : "None",
-		"id" : 11763
-	}, {
-		"caller" : "keccak256",
-		"line" : 4286,
-		"name" : "None",
-		"id" : 11762
-	}, {
-		"caller" : "revert",
-		"line" : 4287,
-		"name" : "None",
-		"id" : 11773
-	}, {
-		"caller" : "Approval",
-		"line" : 4299,
-		"name" : "None",
-		"id" : 11805
-	}, {
-		"caller" : "_spender",
-		"line" : 4300,
-		"name" : "call",
-		"id" : 11810
-	}, {
-		"caller" : "revert",
-		"line" : 4300,
-		"name" : "None",
-		"id" : 11813
-	}, {
-		"caller" : "revert",
-		"line" : 4309,
-		"name" : "None",
-		"id" : 11835
-	}, {
-		"caller" : "revert",
-		"line" : 4310,
-		"name" : "None",
-		"id" : 11844
-	}, {
-		"caller" : "revert",
-		"line" : 4316,
-		"name" : "None",
-		"id" : 11886
-	}, {
 		"caller" : "require",
 		"line" : 4367,
 		"name" : "None",
@@ -3257,26 +2377,6 @@
 		"line" : 4367,
 		"name" : "None",
 		"id" : 11963
-	}, {
-		"caller" : null,
-		"line" : 4387,
-		"name" : "send",
-		"id" : 12020
-	}, {
-		"caller" : "require",
-		"line" : 4421,
-		"name" : "None",
-		"id" : 12046
-	}, {
-		"caller" : "require",
-		"line" : 4424,
-		"name" : "None",
-		"id" : 12052
-	}, {
-		"caller" : "beneficiary",
-		"line" : 4429,
-		"name" : "transfer",
-		"id" : 12067
 	}, {
 		"caller" : "require",
 		"line" : 4451,
@@ -3312,51 +2412,6 @@
 		"line" : 4497,
 		"name" : "None",
 		"id" : 12219
-	}, {
-		"caller" : "keccak256",
-		"line" : 4503,
-		"name" : "None",
-		"id" : 12269
-	}, {
-		"caller" : "abi",
-		"line" : 4503,
-		"name" : "encodePacked",
-		"id" : 12268
-	}, {
-		"caller" : "placeBid",
-		"line" : 4508,
-		"name" : "None",
-		"id" : 12290
-	}, {
-		"caller" : null,
-		"line" : 4513,
-		"name" : "None",
-		"id" : 12303
-	}, {
-		"caller" : null,
-		"line" : 4513,
-		"name" : "transfer",
-		"id" : 12314
-	}, {
-		"caller" : null,
-		"line" : 4531,
-		"name" : "None",
-		"id" : 12336
-	}, {
-		"caller" : null,
-		"line" : 4551,
-		"name" : "transfer",
-		"id" : 12383
-	}, {
-		"caller" : "require",
-		"line" : 4559,
-		"name" : "None",
-		"id" : 12397
-	}, {
-		"caller" : "beneficiary",
-		"line" : 4563,
-		"name" : "transfer",
-		"id" : 12412
 	}, {
 		"caller" : "require",
 		"line" : 4567,
@@ -3472,76 +2527,6 @@
 		"line" : 4709,
 		"name" : "None",
 		"id" : 12812
-	}, {
-		"caller" : "require",
-		"line" : 4719,
-		"name" : "None",
-		"id" : 12845
-	}, {
-		"caller" : null,
-		"line" : 4719,
-		"name" : "value",
-		"id" : 12843
-	}, {
-		"caller" : null,
-		"line" : 4719,
-		"name" : "None",
-		"id" : 12844
-	}, {
-		"caller" : "require",
-		"line" : 4730,
-		"name" : "None",
-		"id" : 12884
-	}, {
-		"caller" : null,
-		"line" : 4730,
-		"name" : "value",
-		"id" : 12882
-	}, {
-		"caller" : null,
-		"line" : 4730,
-		"name" : "None",
-		"id" : 12883
-	}, {
-		"caller" : "require",
-		"line" : 4733,
-		"name" : "None",
-		"id" : 12897
-	}, {
-		"caller" : "withdrawReward",
-		"line" : 4739,
-		"name" : "None",
-		"id" : 12907
-	}, {
-		"caller" : "require",
-		"line" : 4750,
-		"name" : "None",
-		"id" : 12940
-	}, {
-		"caller" : null,
-		"line" : 4750,
-		"name" : "value",
-		"id" : 12938
-	}, {
-		"caller" : null,
-		"line" : 4750,
-		"name" : "None",
-		"id" : 12939
-	}, {
-		"caller" : "require",
-		"line" : 4753,
-		"name" : "None",
-		"id" : 12953
-	}, {
-		"caller" : "untrustedWithdrawReward",
-		"line" : 4756,
-		"name" : "None",
-		"id" : 12969
-	}, {
-		"caller" : null,
-		"line" : 4767,
-		"name" : "send",
-		"id" : 13007
 	} ],
 	"VariableDeclaration" : [ {
 		"line" : 3,
@@ -3585,12 +2570,6 @@
 		"id" : 76,
 		"isStateVariable" : false,
 		"type" : "Mallory"
-	}, {
-		"line" : 31,
-		"name" : "adrr",
-		"id" : 79,
-		"isStateVariable" : false,
-		"type" : "address"
 	}, {
 		"line" : 36,
 		"name" : "simple",
@@ -3766,12 +2745,6 @@
 		"isStateVariable" : false,
 		"type" : "ArrayTypeName"
 	}, {
-		"line" : 249,
-		"name" : "a",
-		"id" : 682,
-		"isStateVariable" : false,
-		"type" : "A"
-	}, {
 		"line" : 264,
 		"name" : "balances",
 		"id" : 693,
@@ -3892,42 +2865,6 @@
 		"isStateVariable" : false,
 		"type" : "address"
 	}, {
-		"line" : 483,
-		"name" : "allAvailableWei",
-		"id" : 907,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 499,
-		"name" : "fromAddress",
-		"id" : 936,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 503,
-		"name" : "sentOk",
-		"id" : 955,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 495,
-		"name" : "_toAddress",
-		"id" : 921,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 496,
-		"name" : "_valueWei",
-		"id" : 923,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 496,
-		"name" : "_extraGasIncluded",
-		"id" : 925,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
 		"line" : 536,
 		"name" : "_rawValueWei",
 		"id" : 977,
@@ -3969,12 +2906,6 @@
 		"id" : 1134,
 		"isStateVariable" : false,
 		"type" : "bool"
-	}, {
-		"line" : 602,
-		"name" : "b",
-		"id" : 1148,
-		"isStateVariable" : false,
-		"type" : "byte"
 	}, {
 		"line" : 737,
 		"name" : "kingdomName",
@@ -4075,84 +3006,6 @@
 		"line" : 851,
 		"name" : "elapsedReignDurationSeconds",
 		"id" : 1620,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 867,
-		"name" : "lastClaimPriceWei",
-		"id" : 1650,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 869,
-		"name" : "newClaimPrice",
-		"id" : 1656,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 885,
-		"name" : "valueWei",
-		"id" : 1707,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 893,
-		"name" : "_monarchName",
-		"id" : 1718,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 947,
-		"name" : "_monarchName",
-		"id" : 1756,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 961,
-		"name" : "_replacement",
-		"id" : 1772,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 966,
-		"name" : "_monarchName",
-		"id" : 1800,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 971,
-		"name" : "_compensationAddress",
-		"id" : 1819,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 978,
-		"name" : "paidWei",
-		"id" : 1843,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 979,
-		"name" : "priceWei",
-		"id" : 1848,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 984,
-		"name" : "excessWei",
-		"id" : 1859,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 989,
-		"name" : "compensationWei",
-		"id" : 1871,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 990,
-		"name" : "commissionWei",
-		"id" : 1874,
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
@@ -4420,90 +3273,6 @@
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
-		"line" : 1437,
-		"name" : "kingdomContract",
-		"id" : 2614,
-		"isStateVariable" : false,
-		"type" : "Kingdom"
-	}, {
-		"line" : 1412,
-		"name" : "_kingdomName",
-		"id" : 2551,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 1414,
-		"name" : "_startingClaimPriceWei",
-		"id" : 2553,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1417,
-		"name" : "_claimPriceAdjustPercent",
-		"id" : 2555,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1417,
-		"name" : "_curseIncubationDurationSeconds",
-		"id" : 2557,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1418,
-		"name" : "_commissionPerThousand",
-		"id" : 2559,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1461,
-		"name" : "oldWizard",
-		"id" : 2665,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 1455,
-		"name" : "replacement",
-		"id" : 2647,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 1467,
-		"name" : "_kingdomCreationFeeWei",
-		"id" : 2680,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1477,
-		"name" : "_maximumClaimPriceWei",
-		"id" : 2708,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1487,
-		"name" : "_kingdomFactory",
-		"id" : 2738,
-		"isStateVariable" : false,
-		"type" : "KingdomFactory"
-	}, {
-		"line" : 1511,
-		"name" : "fuzzyHash",
-		"id" : 2772,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1508,
-		"name" : "_kingdomName",
-		"id" : 2766,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 1510,
-		"name" : "_newKingdomNumber",
-		"id" : 2768,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
 		"line" : 1525,
 		"name" : "_rawValueWei",
 		"id" : 2799,
@@ -4561,30 +3330,6 @@
 		"line" : 1566,
 		"name" : "i",
 		"id" : 2950,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1565,
-		"name" : "value",
-		"id" : 2944,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1573,
-		"name" : "i",
-		"id" : 2972,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1573,
-		"name" : "value",
-		"id" : 2968,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1576,
-		"name" : "i",
-		"id" : 2984,
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
@@ -4738,99 +3483,9 @@
 		"isStateVariable" : false,
 		"type" : "Voter"
 	}, {
-		"line" : 1850,
-		"name" : "delegate_",
-		"id" : 3640,
-		"isStateVariable" : false,
-		"type" : "Voter"
-	}, {
-		"line" : 1820,
-		"name" : "to",
-		"id" : 3577,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 1864,
-		"name" : "sender",
-		"id" : 3673,
-		"isStateVariable" : false,
-		"type" : "Voter"
-	}, {
-		"line" : 1863,
-		"name" : "proposal",
-		"id" : 3669,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 1878,
-		"name" : "winningVoteCount",
-		"id" : 3713,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
 		"line" : 1899,
 		"name" : "c",
 		"id" : 3781,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1895,
-		"name" : "a",
-		"id" : 3766,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1895,
-		"name" : "b",
-		"id" : 3768,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1908,
-		"name" : "c",
-		"id" : 3807,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1904,
-		"name" : "a",
-		"id" : 3799,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1904,
-		"name" : "b",
-		"id" : 3801,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1917,
-		"name" : "a",
-		"id" : 3817,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1917,
-		"name" : "b",
-		"id" : 3819,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1928,
-		"name" : "c",
-		"id" : 3845,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1926,
-		"name" : "a",
-		"id" : 3837,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 1928,
-		"name" : "b",
-		"id" : 3839,
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
@@ -5026,36 +3681,6 @@
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
-		"line" : 2034,
-		"name" : "_text",
-		"id" : 4179,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 2052,
-		"name" : "comment",
-		"id" : 4221,
-		"isStateVariable" : false,
-		"type" : "Comment"
-	}, {
-		"line" : 2055,
-		"name" : "commentId",
-		"id" : 4227,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2047,
-		"name" : "_postId",
-		"id" : 4215,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2051,
-		"name" : "_text",
-		"id" : 4217,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
 		"line" : 2071,
 		"name" : "name",
 		"id" : 4272,
@@ -5217,18 +3842,6 @@
 		"id" : 4578,
 		"isStateVariable" : false,
 		"type" : "address"
-	}, {
-		"line" : 2154,
-		"name" : "code",
-		"id" : 4572,
-		"isStateVariable" : false,
-		"type" : "bytes"
-	}, {
-		"line" : 2155,
-		"name" : "salt",
-		"id" : 4574,
-		"isStateVariable" : false,
-		"type" : "uint256"
 	}, {
 		"line" : 2212,
 		"name" : "cbAddress",
@@ -5560,36 +4173,6 @@
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
-		"line" : 2765,
-		"name" : "highestBid",
-		"id" : 6814,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2804,
-		"name" : "a",
-		"id" : 6879,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2804,
-		"name" : "b",
-		"id" : 6881,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2812,
-		"name" : "withdrawalAccount",
-		"id" : 6924,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 2813,
-		"name" : "withdrawalAmount",
-		"id" : 6927,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
 		"line" : 2881,
 		"name" : "auctions",
 		"id" : 7103,
@@ -5710,168 +4293,6 @@
 		"isStateVariable" : false,
 		"type" : "bool"
 	}, {
-		"line" : 2899,
-		"name" : "_bool",
-		"id" : 7199,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2908,
-		"name" : "___int",
-		"id" : 7222,
-		"isStateVariable" : false,
-		"type" : "int"
-	}, {
-		"line" : 2907,
-		"name" : "_bool",
-		"id" : 7216,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2915,
-		"name" : "___int8",
-		"id" : 7239,
-		"isStateVariable" : false,
-		"type" : "int8"
-	}, {
-		"line" : 2911,
-		"name" : "_bool",
-		"id" : 7233,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2925,
-		"name" : "___int256",
-		"id" : 7256,
-		"isStateVariable" : false,
-		"type" : "int256"
-	}, {
-		"line" : 2921,
-		"name" : "_bool",
-		"id" : 7250,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2935,
-		"name" : "___uint",
-		"id" : 7273,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 2931,
-		"name" : "_bool",
-		"id" : 7267,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2942,
-		"name" : "___uint8",
-		"id" : 7290,
-		"isStateVariable" : false,
-		"type" : "uint8"
-	}, {
-		"line" : 2941,
-		"name" : "_bool",
-		"id" : 7284,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2949,
-		"name" : "___uint256",
-		"id" : 7307,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 2949,
-		"name" : "_bool",
-		"id" : 7301,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2955,
-		"name" : "___address",
-		"id" : 7324,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 2954,
-		"name" : "_bool",
-		"id" : 7318,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2961,
-		"name" : "___byte",
-		"id" : 7341,
-		"isStateVariable" : false,
-		"type" : "byte"
-	}, {
-		"line" : 2958,
-		"name" : "_bool",
-		"id" : 7335,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2975,
-		"name" : "___bytes1",
-		"id" : 7358,
-		"isStateVariable" : false,
-		"type" : "bytes1"
-	}, {
-		"line" : 2971,
-		"name" : "_bool",
-		"id" : 7352,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2985,
-		"name" : "___bytes32",
-		"id" : 7375,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 2982,
-		"name" : "_bool",
-		"id" : 7369,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2991,
-		"name" : "___bytes",
-		"id" : 7392,
-		"isStateVariable" : false,
-		"type" : "bytes"
-	}, {
-		"line" : 2988,
-		"name" : "_bool",
-		"id" : 7386,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 2996,
-		"name" : "___string",
-		"id" : 7409,
-		"isStateVariable" : false,
-		"type" : "string"
-	}, {
-		"line" : 2995,
-		"name" : "_bool",
-		"id" : 7403,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 3001,
-		"name" : "___bool",
-		"id" : 7430,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 3002,
-		"name" : "___uint256",
-		"id" : 7433,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
 		"line" : 3866,
 		"name" : "txCount",
 		"id" : 10561,
@@ -5925,102 +4346,6 @@
 		"id" : 10643,
 		"isStateVariable" : false,
 		"type" : "uint256"
-	}, {
-		"line" : 3886,
-		"name" : "_customer",
-		"id" : 10637,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 3890,
-		"name" : "_customer",
-		"id" : 10655,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 3891,
-		"name" : "_newPendingOwner",
-		"id" : 10669,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 3899,
-		"name" : "_newLimit",
-		"id" : 10690,
-		"isStateVariable" : false,
-		"type" : "uint16"
-	}, {
-		"line" : 3903,
-		"name" : "_newFee",
-		"id" : 10702,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 3908,
-		"name" : "_newStep",
-		"id" : 10714,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 3915,
-		"name" : "total",
-		"id" : 10738,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 3918,
-		"name" : "erc20token",
-		"id" : 10749,
-		"isStateVariable" : false,
-		"type" : "ERC20"
-	}, {
-		"line" : 3920,
-		"name" : "i",
-		"id" : 10755,
-		"isStateVariable" : false,
-		"type" : "uint8"
-	}, {
-		"line" : 3912,
-		"name" : "token",
-		"id" : 10726,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 3912,
-		"name" : "_contributors",
-		"id" : 10729,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 3914,
-		"name" : "_balances",
-		"id" : 10732,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 3940,
-		"name" : "total",
-		"id" : 10823,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 3942,
-		"name" : "i",
-		"id" : 10834,
-		"isStateVariable" : false,
-		"type" : "uint8"
-	}, {
-		"line" : 3933,
-		"name" : "_contributors",
-		"id" : 10814,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 3936,
-		"name" : "_balances",
-		"id" : 10817,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
 	}, {
 		"line" : 3958,
 		"name" : "uintStorage",
@@ -6274,168 +4599,6 @@
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
-		"line" : 4237,
-		"name" : "h",
-		"id" : 11557,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4223,
-		"name" : "_from",
-		"id" : 11519,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4223,
-		"name" : "_to",
-		"id" : 11521,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4224,
-		"name" : "_value",
-		"id" : 11523,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4224,
-		"name" : "_feeSmt",
-		"id" : 11525,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4225,
-		"name" : "_v",
-		"id" : 11527,
-		"isStateVariable" : false,
-		"type" : "uint8"
-	}, {
-		"line" : 4225,
-		"name" : "_r",
-		"id" : 11529,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4226,
-		"name" : "_s",
-		"id" : 11531,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4253,
-		"name" : "nonce",
-		"id" : 11666,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4254,
-		"name" : "hash",
-		"id" : 11672,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4251,
-		"name" : "_from",
-		"id" : 11650,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4251,
-		"name" : "_spender",
-		"id" : 11652,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4251,
-		"name" : "_value",
-		"id" : 11654,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4252,
-		"name" : "_v",
-		"id" : 11656,
-		"isStateVariable" : false,
-		"type" : "uint8"
-	}, {
-		"line" : 4252,
-		"name" : "_r",
-		"id" : 11658,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4252,
-		"name" : "_s",
-		"id" : 11660,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4264,
-		"name" : "_addr",
-		"id" : 11719,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4270,
-		"name" : "_spender",
-		"id" : 11731,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4270,
-		"name" : "_value",
-		"id" : 11733,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4270,
-		"name" : "_extraData",
-		"id" : 11735,
-		"isStateVariable" : false,
-		"type" : "bytes"
-	}, {
-		"line" : 4292,
-		"name" : "_spender",
-		"id" : 11782,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4292,
-		"name" : "_value",
-		"id" : 11784,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4294,
-		"name" : "_extraData",
-		"id" : 11786,
-		"isStateVariable" : false,
-		"type" : "bytes"
-	}, {
-		"line" : 4312,
-		"name" : "to",
-		"id" : 11859,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4314,
-		"name" : "value",
-		"id" : 11865,
-		"isStateVariable" : false,
-		"type" : "uint256"
-	}, {
-		"line" : 4308,
-		"name" : "_owners",
-		"id" : 11823,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 4309,
-		"name" : "_values",
-		"id" : 11826,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
 		"line" : 4323,
 		"name" : "beneficiary",
 		"id" : 11905,
@@ -6574,66 +4737,6 @@
 		"isStateVariable" : false,
 		"type" : "uint"
 	}, {
-		"line" : 4499,
-		"name" : "bidToCheck",
-		"id" : 12235,
-		"isStateVariable" : false,
-		"type" : "Bid"
-	}, {
-		"line" : 4500,
-		"name" : "value",
-		"id" : 12244,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 4500,
-		"name" : "fake",
-		"id" : 12246,
-		"isStateVariable" : false,
-		"type" : "bool"
-	}, {
-		"line" : 4500,
-		"name" : "secret",
-		"id" : 12248,
-		"isStateVariable" : false,
-		"type" : "bytes32"
-	}, {
-		"line" : 4487,
-		"name" : "_values",
-		"id" : 12177,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 4487,
-		"name" : "_fake",
-		"id" : 12180,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 4488,
-		"name" : "_secret",
-		"id" : 12183,
-		"isStateVariable" : false,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 4520,
-		"name" : "bidder",
-		"id" : 12319,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4520,
-		"name" : "value",
-		"id" : 12321,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 4542,
-		"name" : "amount",
-		"id" : 12361,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
 		"line" : 4564,
 		"name" : "owner",
 		"id" : 12420,
@@ -6759,77 +4862,5 @@
 		"id" : 12824,
 		"isStateVariable" : false,
 		"type" : "uint"
-	}, {
-		"line" : 4723,
-		"name" : "userBalances",
-		"id" : 12852,
-		"isStateVariable" : true,
-		"type" : "Mapping"
-	}, {
-		"line" : 4724,
-		"name" : "claimedBonus",
-		"id" : 12856,
-		"isStateVariable" : true,
-		"type" : "Mapping"
-	}, {
-		"line" : 4724,
-		"name" : "rewardsForA",
-		"id" : 12860,
-		"isStateVariable" : true,
-		"type" : "Mapping"
-	}, {
-		"line" : 4729,
-		"name" : "amountToWithdraw",
-		"id" : 12866,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 4728,
-		"name" : "recipient",
-		"id" : 12862,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4731,
-		"name" : "recipient",
-		"id" : 12889,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4747,
-		"name" : "amountToWithdraw",
-		"id" : 12922,
-		"isStateVariable" : false,
-		"type" : "uint"
-	}, {
-		"line" : 4747,
-		"name" : "recipient",
-		"id" : 12918,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4753,
-		"name" : "recipient",
-		"id" : 12945,
-		"isStateVariable" : false,
-		"type" : "address"
-	}, {
-		"line" : 4761,
-		"name" : "payees",
-		"id" : 12980,
-		"isStateVariable" : true,
-		"type" : "ArrayTypeName"
-	}, {
-		"line" : 4764,
-		"name" : "nextPayeeIndex",
-		"id" : 12982,
-		"isStateVariable" : true,
-		"type" : "uint256"
-	}, {
-		"line" : 4765,
-		"name" : "i",
-		"id" : 12986,
-		"isStateVariable" : false,
-		"type" : "uint256"
 	} ]
 }

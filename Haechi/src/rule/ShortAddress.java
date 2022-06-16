@@ -56,7 +56,7 @@ public class ShortAddress implements ValidationRule{
 
     @Override
     public String getComment() {
-        return "Potential vulnerability to Short Address";
+        return "Potential vulnerability to Short Address. check msg.data.length. ";
     }
 
     @Override

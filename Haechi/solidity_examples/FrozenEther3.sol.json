@@ -4,7 +4,7 @@
 		"kind" : "contract",
 		"line" : 3,
 		"name" : "FrozenEther",
-		"id" : 50
+		"id" : 61
 	} ],
 	"functionDefinition" : [ {
 		"visibility" : "public",
@@ -19,10 +19,20 @@
 	}, {
 		"visibility" : "public",
 		"line" : 15,
+		"name" : "comeOverBalance",
+		"id" : 41
+	}, {
+		"visibility" : "public",
+		"line" : 19,
 		"name" : "deposit",
-		"id" : 49
+		"id" : 60
 	} ],
-	"functionCall" : [ ],
+	"functionCall" : [ {
+		"caller" : "require",
+		"line" : 16,
+		"name" : "None",
+		"id" : 38
+	} ],
 	"VariableDeclaration" : [ {
 		"line" : 5,
 		"name" : "balances",
@@ -36,9 +46,9 @@
 		"isStateVariable" : false,
 		"type" : "address"
 	}, {
-		"line" : 16,
+		"line" : 20,
 		"name" : "success",
-		"id" : 36,
+		"id" : 47,
 		"isStateVariable" : false,
 		"type" : "bool"
 	} ]

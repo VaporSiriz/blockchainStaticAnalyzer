@@ -41,11 +41,10 @@ public class ErroneousContructorName implements ValidationRule{
 		 */
         FunctionDefinitionContext functionDefinitionContext = new FunctionDefinitionContext();
         List<FunctionDefinition> functionDefinitionList = functionDefinitionContext.getAllFunctionDefinitions();
-
         for(FunctionDefinition functionDefinition : functionDefinitionList) {
             ContractDefinition cd = (ContractDefinition) functionDefinition.getParentOfNodeType("ContractDefinition");
             if(cd.getName().toLowerCase().equals(functionDefinition.getName().toLowerCase()) &&
-               cd.getName().equals(functionDefinition.getName())) {
+               !cd.getName().equals(functionDefinition.getName())) {
                 characterCounts.add(functionDefinition.getSrc().split(":")[0]);
             }
         }

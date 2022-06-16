@@ -83,7 +83,7 @@ public class Reentrancy implements ValidationRule{
 
 		for(Expression expression : expressions) {
 			String nodeType = expression.getNodeType();
-			String name = expression.getName();
+			String typeOfExpression = expression.getTypeOfExpression();
 			String memberName = expression.getMemberName();
 			if(nodeType.equals("MemberAccess")) {
 				if(memberName.equals("call") || memberName.equals("transfer") || memberName.equals("send")) {

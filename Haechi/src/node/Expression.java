@@ -212,7 +212,7 @@ public class Expression extends AST{
 		return memberName;
 	}
 	
-	public Object getTypeOfExpression() {
+	public String getTypeOfExpression() {
 		return typeOfExpression;
 	}
 }

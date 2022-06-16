@@ -219,6 +219,10 @@ public class ParsingToAST {
 					visitExpression((JSONObject) argument.get(i), functionCall, "functionCallArgument");
 				}
 			}
+			if(node.containsKey("expression")) {
+				JSONObject expression = (JSONObject) node.get("expression");
+				visitExpression(expression, functionCall, "functionCallExpression");
+			}
 		}
 		
 		if(node.get("nodeType").equals("Identifier")) {
