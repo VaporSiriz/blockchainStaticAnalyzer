@@ -78,6 +78,11 @@
 		"name" : "None",
 		"id" : 62
 	}, {
+		"caller" : null,
+		"line" : 16,
+		"name" : "value",
+		"id" : 61
+	}, {
 		"caller" : "require",
 		"line" : 22,
 		"name" : "None",
@@ -113,6 +118,11 @@
 		"name" : "None",
 		"id" : 132
 	}, {
+		"caller" : null,
+		"line" : 28,
+		"name" : "value",
+		"id" : 131
+	}, {
 		"caller" : "EtherStore",
 		"line" : 41,
 		"name" : "None",
@@ -132,6 +142,11 @@
 		"line" : 46,
 		"name" : "None",
 		"id" : 182
+	}, {
+		"caller" : null,
+		"line" : 46,
+		"name" : "value",
+		"id" : 181
 	}, {
 		"caller" : "etherStore",
 		"line" : 49,

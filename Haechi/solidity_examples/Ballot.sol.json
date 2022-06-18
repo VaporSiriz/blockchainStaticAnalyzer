@@ -1,0 +1,125 @@
+======= Haechi/solidity_examples/Ballot.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 2,
+		"name" : "Ballot",
+		"id" : 380
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 22,
+		"name" : "None",
+		"id" : 62
+	}, {
+		"visibility" : "public",
+		"line" : 28,
+		"name" : "createProposal",
+		"id" : 84
+	}, {
+		"visibility" : "public",
+		"line" : 36,
+		"name" : "getProposalsCount",
+		"id" : 93
+	}, {
+		"visibility" : "public",
+		"line" : 41,
+		"name" : "getVoterWeight",
+		"id" : 106
+	}, {
+		"visibility" : "public",
+		"line" : 45,
+		"name" : "giveRightToVote",
+		"id" : 143
+	}, {
+		"visibility" : "public",
+		"line" : 52,
+		"name" : "delegate",
+		"id" : 232
+	} ],
+	"functionCall" : [ {
+		"caller" : "createProposal",
+		"line" : 27,
+		"name" : "None",
+		"id" : 57
+	}, {
+		"caller" : "require",
+		"line" : 32,
+		"name" : "None",
+		"id" : 72
+	}, {
+		"caller" : "proposals",
+		"line" : 33,
+		"name" : "push",
+		"id" : 81
+	}, {
+		"caller" : "Proposal",
+		"line" : 33,
+		"name" : "None",
+		"id" : 80
+	}, {
+		"caller" : "require",
+		"line" : 49,
+		"name" : "None",
+		"id" : 116
+	}, {
+		"caller" : "require",
+		"line" : 49,
+		"name" : "None",
+		"id" : 124
+	}, {
+		"caller" : "require",
+		"line" : 50,
+		"name" : "None",
+		"id" : 133
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 13,
+		"name" : "chairperson",
+		"id" : 17,
+		"isStateVariable" : true,
+		"type" : "address"
+	}, {
+		"line" : 19,
+		"name" : "voters",
+		"id" : 21,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 20,
+		"name" : "proposals",
+		"id" : 24,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 22,
+		"name" : "proposalNames",
+		"id" : 27,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 30,
+		"name" : "proposalName",
+		"id" : 64,
+		"isStateVariable" : false,
+		"type" : "bytes32"
+	}, {
+		"line" : 42,
+		"name" : "voter",
+		"id" : 95,
+		"isStateVariable" : false,
+		"type" : "address"
+	}, {
+		"line" : 46,
+		"name" : "voter",
+		"id" : 108,
+		"isStateVariable" : false,
+		"type" : "address"
+	}, {
+		"line" : 54,
+		"name" : "sender",
+		"id" : 149,
+		"isStateVariable" : false,
+		"type" : "Voter"
+	} ]
+}
